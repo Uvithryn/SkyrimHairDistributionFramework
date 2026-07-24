@@ -123,6 +123,7 @@ main{flex:1;padding:18px 22px 120px;overflow:auto}
 .vanilla-name{font-size:13px}
 .assign select{width:100%}
 .warn-note{font-size:11.5px;color:var(--warn);margin-top:5px}
+.caution-note{font-size:11.5px;color:#d9a441;margin-top:5px}
 .rm{background:transparent;border:1px solid var(--line-soft);color:var(--faint);
   width:28px;height:28px;border-radius:6px;cursor:pointer;font-size:15px;line-height:1}
 .rm:hover{border-color:var(--warn);color:var(--warn)}
@@ -341,7 +342,7 @@ body.browser-only>#browserBackdrop{display:none!important}
       <li><b>Import CSV</b> (top left) to add many at once. Columns: EditorID, Name, Race, Gender, Vanilla Hair ID (EditorID is the only required one). Known EditorIDs pull in bundled data automatically; the rest come in as custom. These CSV files can be generated with the xEdit scripts found on Hair Distribution Framework's Nexus mod page.</li>
     </ul>
     <h4>2 · Assign a hairstyle</h4>
-    <p>Every row starts with the NPC's vanilla hairstyle if one is available, and you can use the dropdown to override it. The list is filtered to styles valid for that NPC's race and gender. The preview image on the right shows you what that hairstyle looks like on the NPC's race type (Human/Elf/Orc/Khajiit/Argonian) and gender. If a modded NPC doesn't have a recognized race, you'll see the human version of the preview. You can resize previews with the <b>Preview size</b> menu at the top.<br>To browse through pictures of the available hairstyles, click on <b>Hairstyle Browser</b>. The hairstyle browser can be filtered based on race type and gender.</p>
+    <p>Every row starts with the NPC's vanilla hairstyle if one is available, and you can use the dropdown to override it. The list is filtered to styles valid for that NPC's race and gender. The preview image on the right shows you what that hairstyle looks like on the NPC's race type (Human/Elf/Orc/Khajiit/Argonian) and gender. If a modded NPC doesn't have a recognized race, you'll see the human version of the preview. You can resize previews with the <b>Preview size</b> menu at the top.<br>To browse through pictures of the available hairstyles, click on <b>Hairstyle Browser</b>. The haistyle browser can be filtered based on race type and gender.</p>
     <h4>3 · Unsupported cases</h4>
     <p>Unrecognized vanilla hairstyles are flagged and written into the output commented out, so they never break your file. If a CSV race isn't recognized, the row opens all hairstyles and shows a small selector so you can set a race yourself.</p>
     <h4>4 · Saving your work</h4>
@@ -409,7 +410,7 @@ const CONFIG = {
   // (e.g. to GitHub Pages).
   IMAGE_BASE: "https://raw.githubusercontent.com/Uvithryn/SkyrimHairDistributionFramework/refs/heads/main/Images/",
   KEYWORD: "Uvi_Wig_Distr_KYWD",           // paired with each NPC before |EditorID
-  SUPPORT_CHILDREN: false,                 // flip to true once child ARMA is validated
+  SUPPORT_CHILDREN: true,                  // children get adult human wigs (test in-game; depends on child mod)
   UNSUPPORTED_HAIRSTYLES: ["Vanilla_KhajiitEarTufts"], // by previewKey; won't work as wigs
 };
 /* ========================================================================== */
@@ -449,7 +450,11 @@ async function loadData(){
 function ingest(npcs, hairstyles, races, previews, requirements){
   state.npcs = npcs;
   state.races = races;
-  state.hairstyles = hairstyles.map((h,i)=>({...h, id:i}));
+  // Drop child-only vanilla hairstyles: children are given adult human wigs
+  // instead (see matchRaceType). Keep styles that merely *also* allow children
+  // (e.g. Bald) — only remove ones valid for HumanChild and nothing else.
+  const childOnly = h => { const v=h.validRaceTypes||[]; return v.length>0 && v.every(t=>t==="HumanChild"); };
+  state.hairstyles = hairstyles.filter(h=>!childOnly(h)).map((h,i)=>({...h, id:i}));
   state.hairById = state.hairstyles;
   state.npcByEid = new Map(npcs.map(n=>[n.editorid, n]));
   state.requirements = requirements || [];
@@ -505,6 +510,8 @@ function raceTypeOf(npc){
   if(npc.raceType) return npc.raceType;
   return state.races[npc.race] || null;
 }
+// Children wear adult human wigs, so match/preview them as Human.
+function matchRaceType(rt){ return rt==="HumanChild" ? "Human" : rt; }
 function getValid(raceType, gender){
   const key=(raceType||"*")+"|"+(gender||"*");
   if(state.validCache.has(key)) return state.validCache.get(key);
@@ -622,6 +629,8 @@ function renderRow(row){
 
   const npc = row.npc;
   const rt = raceTypeOf(npc), g = npc.gender;
+  const mrt = matchRaceType(rt);          // children -> Human for hairstyle/preview matching
+  const isChild = rt==="HumanChild";
   const unsup = rowUnsupported(row);
   if(unsup.bad) el.classList.add("unsupported");
 
@@ -663,7 +672,7 @@ function renderRow(row){
   let populated=false;
   const populate=()=>{
     if(populated) return; populated=true;
-    const list = getValid(rt,g);
+    const list = getValid(mrt,g);
     const byPack={}; for(const h of list){(byPack[h.pack] ??= []).push(h);}
     let html = `<option value="">— None —</option>`;
     for(const pack of Object.keys(byPack).sort(packOrder)){
@@ -688,11 +697,15 @@ function renderRow(row){
     const note=document.createElement("div"); note.className="warn-note";
     note.textContent = "Won't be distributed — "+unsup.reason+". Commented out in the output.";
     assignWrap.appendChild(note);
+  } else if(isChild){
+    const note=document.createElement("div"); note.className="caution-note";
+    note.textContent = "Child NPC — needs a compatible child mod (e.g. RS Children, The Kids Are Alright, Skychild). Test in-game before shipping.";
+    assignWrap.appendChild(note);
   }
   el.appendChild(assignWrap);
 
   // preview (fourth, far right) — previewURL falls back across races/genders
-  const url = assigned ? previewURL(assigned.previewKey, rt, g) : null;
+  const url = assigned ? previewURL(assigned.previewKey, mrt, g) : null;
   el.appendChild(makeThumb(url, assigned));
 
   // remove (last)
@@ -996,7 +1009,7 @@ function buildBrowser(body, bstate){
   const controls=document.createElement("div"); controls.className="browser-controls";
   const rl=document.createElement("label"); rl.textContent="Race";
   const raceSel=document.createElement("select");
-  raceSel.innerHTML=`<option value="">All races</option>`+RACE_TYPES.map(t=>`<option value="${t}">${t}</option>`).join("");
+  raceSel.innerHTML=`<option value="">All races</option>`+RACE_TYPES.filter(t=>t!=="HumanChild").map(t=>`<option value="${t}">${t}</option>`).join("");
   raceSel.value=bstate.race||"";
   const gl=document.createElement("label"); gl.textContent="Gender";
   const genderSel=document.createElement("select");
