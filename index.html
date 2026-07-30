@@ -121,9 +121,49 @@ main{flex:1;padding:18px 22px 120px;overflow:auto}
 .tag.warn{border-color:var(--warn);color:var(--warn)}
 .vanilla-label{font-size:11px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em}
 .vanilla-name{font-size:13px}
+.assign{display:flex;flex-direction:column}
 .assign select{width:100%}
+/* ---- searchable hairstyle combobox ---- */
+.combo{position:relative;width:100%}
+.combo.open{z-index:1000}
+.combo-btn{width:100%;display:flex;align-items:center;gap:8px;justify-content:space-between;
+  background:var(--surface2);border:1px solid var(--line);color:var(--text);
+  border-radius:6px;padding:7px 9px;font-size:13px;font-family:inherit;cursor:pointer;text-align:left}
+.combo-btn:hover{border-color:var(--brass-dim)}
+.combo.open .combo-btn{border-color:var(--brass-dim);outline:2px solid var(--brass-dim);outline-offset:0}
+.combo-val{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.combo-val.ph{color:var(--faint)}
+.combo-caret{color:var(--faint);font-size:11px;flex:0 0 auto}
+.combo-pop{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:1000;
+  background:var(--surface2);border:1px solid var(--line);border-radius:8px;
+  box-shadow:0 14px 34px #0008;display:flex;flex-direction:column;max-height:340px;overflow:hidden}
+.combo.up .combo-pop{top:auto;bottom:calc(100% + 4px)}
+.combo-pop[hidden]{display:none}
+.combo-pop:not(.searching) .combo-search{display:none}
+.combo-search{margin:8px 8px 4px;flex:0 0 auto}
+.combo-list{overflow:auto;padding:6px;outline:none}
+.combo-group{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);
+  padding:8px 6px 3px;position:sticky;top:0;background:var(--surface2)}
+.combo-opt{padding:6px 8px;border-radius:5px;font-size:13px;cursor:pointer;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
+.combo-opt.active{background:var(--surface3)}
+.combo-opt.sel{color:var(--brass)}
+.combo-opt.unsup{color:var(--muted)}
+.combo-opt.none{color:var(--faint)}
+.combo-empty{padding:10px 8px;color:var(--faint);font-size:12px}
 .warn-note{font-size:11.5px;color:var(--warn);margin-top:5px}
 .caution-note{font-size:11.5px;color:#d9a441;margin-top:5px}
+.row-tags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
+.row-tags .tag{margin-left:0}
+.tag.ovr{border-color:#e8c24a;color:#e8c24a}
+.ovr-link{align-self:flex-end;max-width:100%;text-align:right;margin-top:6px;
+  background:none;border:0;padding:0;cursor:pointer;font-family:inherit;
+  font-size:10.5px;letter-spacing:.04em;color:var(--faint);
+  text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--line)}
+.ovr-link:not(.active):hover{color:var(--steel);text-decoration-color:var(--steel)}
+.ovr-link.active{color:#e8c24a;font-family:var(--mono);font-size:11px;
+  overflow-wrap:anywhere;text-decoration:underline;text-decoration-color:#e8c24a}
+.ovr-link.active:hover{color:#f2d25e;text-decoration-color:#f2d25e}
 .rm{background:transparent;border:1px solid var(--line-soft);color:var(--faint);
   width:28px;height:28px;border-radius:6px;cursor:pointer;font-size:15px;line-height:1}
 .rm:hover{border-color:var(--warn);color:var(--warn)}
@@ -330,6 +370,19 @@ body.browser-only>#browserBackdrop{display:none!important}
   </div>
 </dialog>
 
+<dialog id="override">
+  <div class="dlg-h">Override wig spell</div>
+  <div class="dlg-b">
+    <p style="margin:0 0 12px;color:var(--muted)">Don't use this unless you know what you're doing. Enter the ID of the wig spell you want SPID to cast on the NPC. The selected hairstyle's spell will be overridden by this one.</p>
+    <div class="field"><label>Wig spell EditorID</label><input id="ovrInput" type="text" spellcheck="false"></div>
+  </div>
+  <div class="dlg-f">
+    <button class="btn ghost" id="ovrCancel">Cancel</button>
+    <button class="btn ghost" id="ovrClear">Clear override</button>
+    <button class="btn primary" id="ovrSave">Apply override</button>
+  </div>
+</dialog>
+
 <dialog id="help">
   <div class="dlg-h">Instructions</div>
   <div class="dlg-b help">
@@ -448,12 +501,18 @@ async function loadData(){
   }
 }
 function ingest(npcs, hairstyles, races, previews, requirements){
+  state.validCache.clear();   // stale lists if data is ever re-ingested
   state.npcs = npcs;
   state.races = races;
   // Drop child-only vanilla hairstyles: children are given adult human wigs
   // instead (see matchRaceType). Keep styles that merely *also* allow children
   // (e.g. Bald) — only remove ones valid for HumanChild and nothing else.
-  const childOnly = h => { const v=h.validRaceTypes||[]; return v.length>0 && v.every(t=>t==="HumanChild"); };
+  const childOnly = h => {
+    const v = h.validGendersByRace
+      ? Object.keys(h.validGendersByRace).filter(r=>(h.validGendersByRace[r]||[]).length)
+      : (h.validRaceTypes||[]);
+    return v.length>0 && v.every(t=>t==="HumanChild");
+  };
   state.hairstyles = hairstyles.filter(h=>!childOnly(h)).map((h,i)=>({...h, id:i}));
   state.hairById = state.hairstyles;
   state.npcByEid = new Map(npcs.map(n=>[n.editorid, n]));
@@ -512,12 +571,26 @@ function raceTypeOf(npc){
 }
 // Children wear adult human wigs, so match/preview them as Human.
 function matchRaceType(rt){ return rt==="HumanChild" ? "Human" : rt; }
+/* Does a hairstyle allow this race/gender pair? Uses validGendersByRace when the
+   data provides it (it can express asymmetric combos such as male elves +
+   female humans); otherwise falls back to the flat race x gender lists. */
+function hairAllows(h, raceType, gender){
+  const map = h.validGendersByRace;
+  if(map){
+    if(raceType){
+      const gs = map[raceType];
+      return !!gs && (!gender || gs.includes(gender));
+    }
+    if(gender) return Object.values(map).some(gs=>gs.includes(gender));
+    return Object.keys(map).length>0;
+  }
+  return (raceType ? h.validRaceTypes.includes(raceType) : true) &&
+         (gender ? h.validGenders.includes(gender) : true);
+}
 function getValid(raceType, gender){
   const key=(raceType||"*")+"|"+(gender||"*");
   if(state.validCache.has(key)) return state.validCache.get(key);
-  const list=state.hairstyles.filter(h=>
-    (raceType ? h.validRaceTypes.includes(raceType) : true) &&
-    (gender ? h.validGenders.includes(gender) : true));
+  const list=state.hairstyles.filter(h=>hairAllows(h, raceType, gender));
   state.validCache.set(key,list);
   return list;
 }
@@ -553,14 +626,23 @@ function previewURL(previewKey, raceType, gender){
 function hairIsUnsupported(h){
   if(!h) return false;
   if(CONFIG.UNSUPPORTED_HAIRSTYLES.includes(h.previewKey)) return true;
+  if(h.validGendersByRace) return !Object.values(h.validGendersByRace).some(gs=>gs && gs.length);
   if(!h.validRaceTypes.length || !h.validGenders.length) return true;
   return false;
+}
+function hasOverride(row){ return !!(row.overrideSpell && row.overrideSpell.trim()); }
+// The spell SPID will actually cast: a manual override wins over the assigned hairstyle.
+function rowSpell(row){
+  if(hasOverride(row)) return row.overrideSpell.trim();
+  const h = row.assignedId!=null ? state.hairById[row.assignedId] : null;
+  return h ? h.spell : null;
 }
 function npcIsUnsupported(npc){
   return !CONFIG.SUPPORT_CHILDREN && raceTypeOf(npc)==="HumanChild";
 }
 function rowUnsupported(row){
   if(!row.npc) return {bad:false};
+  if(hasOverride(row)) return {bad:false};   // explicit custom spell always distributes
   if(npcIsUnsupported(row.npc)) return {bad:true, reason:"child NPC not supported"};
   const h = row.assignedId!=null ? state.hairById[row.assignedId] : null;
   if(hairIsUnsupported(h)) return {bad:true, reason:"hairstyle not usable as a wig"};
@@ -569,7 +651,7 @@ function rowUnsupported(row){
 
 /* ---------- rows ---------- */
 function makeRow(npc){
-  const row = {uid:rowSeq++, npc:npc||null, assignedId:null};
+  const row = {uid:rowSeq++, npc:npc||null, assignedId:null, overrideSpell:null};
   if(npc){
     const def = npc.defaultPreviewKey ? hairByPreviewKey(npc.defaultPreviewKey) : null;
     row.assignedId = def ? def.id : null;
@@ -603,7 +685,7 @@ function renderReqs(){
   const active=new Set();
   for(const row of state.rows){
     if(!row.npc || row.assignedId==null) continue;
-    if(rowUnsupported(row).bad) continue;
+    if(rowUnsupported(row).bad || hasOverride(row)) continue;   // override uses a custom ESP
     active.add(state.hairById[row.assignedId].pack);
   }
   if(!active.size){ el.hidden=true; el.innerHTML=""; return; }
@@ -622,6 +704,122 @@ function renderReqs(){
   el.hidden=false;
 }
 
+/* Searchable hairstyle dropdown: looks like a normal dropdown; a filter field
+   appears at the top only once you start typing, and narrows the list live. */
+let openCombo = null;   // closes whichever combo is currently open
+function makeHairCombo(row, list, cur){
+  const wrap = document.createElement("div"); wrap.className = "combo";
+  const btn = document.createElement("button"); btn.type = "button"; btn.className = "combo-btn";
+  const val = document.createElement("span"); val.className = "combo-val" + (cur?"":" ph");
+  val.textContent = cur ? dispName(cur.name) : "— None —";
+  const caret = document.createElement("span"); caret.className = "combo-caret"; caret.textContent = "▾";
+  btn.append(val, caret);
+  const pop = document.createElement("div"); pop.className = "combo-pop"; pop.hidden = true;
+  const search = document.createElement("input"); search.className = "combo-search"; search.type = "text";
+  search.placeholder = "Type to filter…";
+  const listEl = document.createElement("div"); listEl.className = "combo-list"; listEl.tabIndex = -1;
+  pop.append(search, listEl); wrap.append(btn, pop);
+
+  let items = [];      // [{el,id}] selectable rows in display order (id null = None)
+  let activeIdx = -1;
+  let searching = false;
+  const commit = id => { row.assignedId = (id==null?null:id); close(); render(); };
+  function setActive(i){
+    if(!items.length){ activeIdx=-1; return; }
+    i = Math.max(0, Math.min(i, items.length-1));
+    if(activeIdx>=0 && items[activeIdx]) items[activeIdx].el.classList.remove("active");
+    activeIdx = i; items[i].el.classList.add("active");
+    items[i].el.scrollIntoView({block:"nearest"});
+  }
+  function draw(q){
+    q = (q||"").trim().toLowerCase();
+    listEl.innerHTML = ""; items = []; activeIdx = -1;
+    if(!q){   // "— None —" only in the unfiltered list
+      const none = document.createElement("div"); none.className = "combo-opt none"; none.textContent = "— None —";
+      none.addEventListener("mousedown", e=>{ e.preventDefault(); commit(null); });
+      listEl.appendChild(none); items.push({el:none, id:null});
+    }
+    const byPack = {};
+    for(const h of list){
+      if(q && !dispName(h.name).toLowerCase().includes(q)) continue;
+      (byPack[h.pack] ??= []).push(h);
+    }
+    let any = false;
+    for(const pack of Object.keys(byPack).sort(packOrder)){
+      const gh = document.createElement("div"); gh.className = "combo-group"; gh.textContent = pack;
+      listEl.appendChild(gh);
+      for(const h of byPack[pack]){
+        any = true;
+        const opt = document.createElement("div");
+        opt.className = "combo-opt" + (cur && h.id===cur.id?" sel":"") + (hairIsUnsupported(h)?" unsup":"");
+        opt.textContent = dispName(h.name) + (hairIsUnsupported(h)?" (unsupported)":"");
+        const idx = items.length;
+        opt.addEventListener("mousedown", e=>{ e.preventDefault(); commit(h.id); });
+        opt.addEventListener("mousemove", ()=>setActive(idx));
+        listEl.appendChild(opt); items.push({el:opt, id:h.id});
+      }
+    }
+    if(!any && q){
+      const no = document.createElement("div"); no.className = "combo-empty"; no.textContent = "No matches";
+      listEl.appendChild(no);
+    }
+    let start = items.findIndex(it=>it.el.classList.contains("sel"));
+    if(start<0) start = 0;
+    setActive(start);
+  }
+  function startSearch(ch){
+    searching = true; pop.classList.add("searching");
+    search.value = ch || ""; draw(search.value); search.focus();
+  }
+  function stopSearch(){
+    searching = false; pop.classList.remove("searching");
+    search.value = ""; draw(""); listEl.focus();
+  }
+  function nav(e){
+    if(e.key==="ArrowDown"){ e.preventDefault(); setActive(activeIdx+1); return true; }
+    if(e.key==="ArrowUp"){ e.preventDefault(); setActive(activeIdx-1); return true; }
+    if(e.key==="Enter"){ e.preventDefault(); if(items[activeIdx]) commit(items[activeIdx].id); return true; }
+    if(e.key==="Escape"){ e.preventDefault(); if(searching) stopSearch(); else { close(); btn.focus(); } return true; }
+    return false;
+  }
+  function onDocDown(e){ if(!wrap.contains(e.target)) close(); }
+  function open(){
+    if(openCombo && openCombo!==close) openCombo();
+    openCombo = close;
+    pop.hidden = false; wrap.classList.add("open");
+    const below = window.innerHeight - btn.getBoundingClientRect().bottom;
+    wrap.classList.toggle("up", below < 300);
+    searching = false; pop.classList.remove("searching"); search.value = "";
+    draw(""); listEl.focus();
+    document.addEventListener("mousedown", onDocDown, true);
+  }
+  function close(){
+    if(pop.hidden) return;
+    pop.hidden = true; wrap.classList.remove("open","up","searching"); searching = false;
+    document.removeEventListener("mousedown", onDocDown, true);
+    if(openCombo===close) openCombo = null;
+  }
+  btn.addEventListener("click", ()=> pop.hidden ? open() : close());
+  listEl.addEventListener("keydown", e=>{
+    if(nav(e)) return;
+    if(e.key.length===1 && /\S/.test(e.key) && !e.ctrlKey && !e.metaKey && !e.altKey){
+      e.preventDefault(); startSearch(e.key);   // reveal filter on first keystroke
+    }
+  });
+  search.addEventListener("input", ()=>{ if(search.value==="") stopSearch(); else draw(search.value); });
+  search.addEventListener("keydown", nav);
+  return wrap;
+}
+
+let overrideRow = null;
+function openOverrideDialog(row){
+  overrideRow = row;
+  const inp = $("#ovrInput"); inp.value = row.overrideSpell || "";
+  $("#ovrClear").style.display = hasOverride(row) ? "" : "none";
+  $("#override").showModal();
+  setTimeout(()=>{ inp.focus(); inp.select(); }, 0);
+}
+
 function renderRow(row){
   const el = document.createElement("div");
   el.className = "row";
@@ -638,11 +836,15 @@ function renderRow(row){
 
   // npc info (first)
   const info = document.createElement("div"); info.className="npc";
-  info.innerHTML = `<div class="name">${esc(npc.name||npc.editorid)}`+
-    (npc.custom?`<span class="tag custom">custom</span>`:"")+
-    (unsup.bad?`<span class="tag warn">unsupported</span>`:"")+`</div>`+
+  const rowTags = [
+    npc.custom ? `<span class="tag custom">custom</span>` : "",
+    unsup.bad ? `<span class="tag warn">unsupported</span>` : "",
+    hasOverride(row) ? `<span class="tag ovr">override</span>` : ""
+  ].join("");
+  info.innerHTML = `<div class="name">${esc(npc.name||npc.editorid)}</div>`+
     `<div class="eid">${esc(npc.editorid)}</div>`+
-    `<div class="meta">${esc(npc.race||"?")} · ${esc(g||"?")}${rt?` · ${esc(rt)}`:""}</div>`;
+    `<div class="meta">${esc(npc.race||"?")} · ${esc(g||"?")}${rt?` · ${esc(rt)}`:""}</div>`+
+    (rowTags ? `<div class="row-tags">${rowTags}</div>` : "");
   // inline race selector when race type is unknown (e.g. unrecognized CSV race)
   if(!rt){
     const box=document.createElement("div"); box.className="setrace";
@@ -663,36 +865,10 @@ function renderRow(row){
     `<div class="vanilla-name">${esc(dispName(npc.defaultHairstyleName)||"—")}</div>`;
   el.appendChild(van);
 
-  // assigned select (third)
+  // assigned hairstyle (third) — searchable combobox
   const assignWrap = document.createElement("div"); assignWrap.className="assign";
-  const sel = document.createElement("select");
   const cur = assigned;
-  sel.innerHTML = `<option value="">— None —</option>`+
-    (cur?`<option value="${cur.id}" selected>${esc(dispName(cur.name))}</option>`:"");
-  let populated=false;
-  const populate=()=>{
-    if(populated) return; populated=true;
-    const list = getValid(mrt,g);
-    const byPack={}; for(const h of list){(byPack[h.pack] ??= []).push(h);}
-    let html = `<option value="">— None —</option>`;
-    for(const pack of Object.keys(byPack).sort(packOrder)){
-      html += `<optgroup label="${esc(pack)}">`;
-      for(const h of byPack[pack]){
-        const sfx = hairIsUnsupported(h)?" (unsupported)":"";
-        html += `<option value="${h.id}" ${cur&&h.id===cur.id?"selected":""}>${esc(dispName(h.name))}${sfx}</option>`;
-      }
-      html += `</optgroup>`;
-    }
-    sel.innerHTML = html;
-    if(cur) sel.value = String(cur.id);
-  };
-  sel.addEventListener("mousedown", populate, {once:true});
-  sel.addEventListener("focus", populate, {once:true});
-  sel.addEventListener("change", ()=>{
-    row.assignedId = sel.value==="" ? null : Number(sel.value);
-    render();
-  });
-  assignWrap.appendChild(sel);
+  assignWrap.appendChild(makeHairCombo(row, getValid(mrt,g), cur));
   if(unsup.bad){
     const note=document.createElement("div"); note.className="warn-note";
     note.textContent = "Won't be distributed — "+unsup.reason+". Commented out in the output.";
@@ -702,6 +878,13 @@ function renderRow(row){
     note.textContent = "Child NPC — needs a compatible child mod (e.g. RS Children, The Kids Are Alright, Skychild). Test in-game before shipping.";
     assignWrap.appendChild(note);
   }
+  const ovr = document.createElement("button");
+  ovr.type = "button";
+  ovr.className = "ovr-link" + (hasOverride(row) ? " active" : "");
+  ovr.textContent = hasOverride(row) ? ("override → " + row.overrideSpell.trim()) : "override";
+  ovr.title = "Cast a custom wig spell on this NPC instead of the selected hairstyle's";
+  ovr.addEventListener("click", ()=>openOverrideDialog(row));
+  assignWrap.appendChild(ovr);
   el.appendChild(assignWrap);
 
   // preview (fourth, far right) — previewURL falls back across races/genders
@@ -810,9 +993,9 @@ function renderPicker(row){
 
 function updateSummary(){
   const withNpc = state.rows.filter(r=>r.npc);
-  const assigned = withNpc.filter(r=>r.assignedId!=null && !rowUnsupported(r).bad);
+  const assigned = withNpc.filter(r=>!rowUnsupported(r).bad && rowSpell(r));
   const unsup = withNpc.filter(r=>rowUnsupported(r).bad);
-  const unassigned = withNpc.filter(r=>r.assignedId==null && !rowUnsupported(r).bad);
+  const unassigned = withNpc.filter(r=>!rowUnsupported(r).bad && !rowSpell(r));
   $("#summary").innerHTML =
     `<b>${withNpc.length}</b> NPC${withNpc.length===1?"":"s"} · `+
     `<b>${assigned.length}</b> will distribute`+
@@ -827,6 +1010,7 @@ function buildOutput(){
   for(const row of state.rows){
     if(!row.npc) continue;
     const npc=row.npc, eid=npc.editorid;
+    const ov = hasOverride(row) ? row.overrideSpell.trim() : null;
     const h = row.assignedId!=null ? state.hairById[row.assignedId] : null;
     const unsup = rowUnsupported(row);
     if(unsup.bad){
@@ -839,10 +1023,11 @@ function buildOutput(){
       }
       continue;
     }
-    if(!h){ continue; } // unassigned: skip silently
-    lines.push(`;${npc.name||eid}`);
+    const spell = ov || (h ? h.spell : null);
+    if(!spell){ continue; } // unassigned and no override: skip silently
+    lines.push(`;${npc.name||eid}${ov?" — custom spell override":""}`);
     lines.push(`Keyword = ${CONFIG.KEYWORD}|${eid}`);
-    lines.push(`Spell = ${h.spell}|${eid}`);
+    lines.push(`Spell = ${spell}|${eid}`);
     lines.push("");
     active++;
   }
@@ -931,7 +1116,7 @@ function saveProject(){
     const proj={ version:1, projectName:state.projectName, settings:CONFIG,
       rows: state.rows.filter(r=>r.npc).map(r=>{
         const h=r.assignedId!=null?state.hairById[r.assignedId]:null;
-        return { npc:r.npc, assignedPreviewKey:h?h.previewKey:null };
+        return { npc:r.npc, assignedPreviewKey:h?h.previewKey:null, overrideSpell:r.overrideSpell||null };
       })};
     const fn = "HDF-Save-"+safeName(state.projectName)+".json";
     download(JSON.stringify(proj,null,2), fn, "application/json") &&
@@ -945,6 +1130,7 @@ function loadProject(obj){
     const row=makeRow(r.npc);
     if(r.assignedPreviewKey){ const h=hairByPreviewKey(r.assignedPreviewKey); row.assignedId=h?h.id:null; }
     else row.assignedId=null;
+    row.overrideSpell = r.overrideSpell || null;
     return row;
   });
   render(); toast("Project loaded ("+state.rows.length+" rows)");
@@ -963,7 +1149,7 @@ function autosave(){
   try{
     const data=state.rows.filter(r=>r.npc).map(r=>{
       const h=r.assignedId!=null?state.hairById[r.assignedId]:null;
-      return {npc:r.npc, assignedPreviewKey:h?h.previewKey:null};
+      return {npc:r.npc, assignedPreviewKey:h?h.previewKey:null, overrideSpell:r.overrideSpell||null};
     });
     localStorage.setItem("wigdist:autosave", JSON.stringify({projectName:state.projectName, rows:data}));
   }catch(e){ state.autosaveOK=false; }
@@ -980,7 +1166,7 @@ function restoreAutosave(){
     if(!data.length) return false;
     state.rows=data.map(r=>{const row=makeRow(r.npc);
       if(r.assignedPreviewKey){const h=hairByPreviewKey(r.assignedPreviewKey);row.assignedId=h?h.id:null;}
-      else row.assignedId=null; return row;});
+      else row.assignedId=null; row.overrideSpell=r.overrideSpell||null; return row;});
     return true;
   }catch(e){ state.autosaveOK=false; return false; }
 }
@@ -1108,6 +1294,11 @@ function initUI(){
   const help=$("#help");
   $("#helpBtn").onclick=()=>help.showModal();
   $("#helpClose").onclick=()=>help.close();
+  const ovrDlg=$("#override");
+  $("#ovrCancel").onclick=()=>ovrDlg.close();
+  $("#ovrClear").onclick=()=>{ if(overrideRow) overrideRow.overrideSpell=null; ovrDlg.close(); render(); };
+  $("#ovrSave").onclick=()=>{ if(overrideRow){ const v=$("#ovrInput").value.trim(); overrideRow.overrideSpell=v||null; } ovrDlg.close(); render(); };
+  $("#ovrInput").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); $("#ovrSave").click(); } });
   $("#npCancel").onclick=()=>np.close();
   $("#npSaveFirst").onclick=()=>{ saveProject(); np.close(); newProject(); };
   $("#npWipe").onclick=()=>{ np.close(); newProject(); };
