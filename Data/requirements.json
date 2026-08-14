@@ -1,93 +1,142 @@
 [
   {
-    "pack": "Vanilla Hair Remake",
-    "parts": [
-      {
-        "text": "Vanilla Hair Remake",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63979"
-      },
-      {
-        "text": " (Wig file)"
-      }
-    ]
+    "id": "VHR",
+    "text": "Vanilla Hair Remake (Main file)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63979"
   },
   {
-    "pack": "Koralina's Collection 1",
-    "parts": [
-      {
-        "text": "Koralina's Hair Collection 1",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/114769"
-      },
-      {
-        "text": " (Wig file)"
-      }
-    ]
+    "id": "VHRWU",
+    "text": "Vanilla Hair Remake Wigs Unlocked",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/187429"
   },
   {
-    "pack": "Koralina's Collection 2",
-    "parts": [
-      {
-        "text": "Koralina's Hair Collection 2",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/172939"
-      },
-      {
-        "text": " (Wig file)"
-      }
-    ]
+    "id": "Dint02",
+    "text": "Dint Hair Pack 02",
+    "url": "https://www.patreon.com/dint999/posts/hairpack02-hdt-1-29917266"
   },
   {
-    "pack": "KS Hairdos - HDT SMP",
-    "parts": [
-      {
-        "text": "KS Hairdos SMP",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/31300"
-      },
-      {
-        "text": " (Wigs installed in FOMOD)"
-      }
-    ]
+    "id": "Mod_SMP_Hair",
+    "text": "Modular SMP Hairstyles",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/93608"
   },
   {
-    "pack": "Modular SMP Hair",
-    "parts": [
-      {
-        "text": "Modular SMP Wigs",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/180029"
-      }
-    ]
+    "id": "Mod_SMP_Wig",
+    "text": "Modular SMP Wigs",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/180029"
   },
   {
-    "pack": "Valkyr SMP Hairstyles 1",
-    "parts": [
-      {
-        "text": "Valkyr SMP Hairstyles 1",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63181"
-      }
-    ]
+    "id": "Kora1",
+    "text": "Koralina's Hair Collection 1 (Wig file)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/114769"
   },
   {
-    "pack": "Valkyr SMP Hairstyles 2",
-    "parts": [
-      {
-        "text": "Valkyr SMP Hairstyles 2",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/64259"
-      }
-    ]
+    "id": "Kora2",
+    "text": "Koralina's Hair Collection 2 (Wig file)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/172939"
   },
   {
-    "pack": "Xing HDT-SMP Wigs",
-    "parts": [
-      {
-        "text": "Xing HDT-SMP Hair and Wigs Unisex",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/56583"
-      },
-      {
-        "text": " and "
-      },
-      {
-        "text": "Misc Improvements",
-        "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184585"
-      }
-    ]
+    "id": "Fuse_Aldo",
+    "text": "Fuse Hair Collection - Aldo",
+    "url": "https://www.patreon.com/posts/68250938?collection=209996"
+  },
+  {
+    "id": "Fuse_Alucard",
+    "text": "Fuse Hair Collection - Alucard",
+    "url": "https://www.patreon.com/posts/98291872?collection=209996"
+  },
+  {
+    "id": "Fuse_Amber",
+    "text": "Fuse Hair Collection - Amber",
+    "url": "https://www.patreon.com/posts/76570894?collection=209996"
+  },
+  {
+    "id": "Fuse_BraidedHair",
+    "text": "Fuse Hair Collection - Braided Hairstyles",
+    "url": "https://www.patreon.com/posts/64262256?collection=209996"
+  },
+  {
+    "id": "Fuse_Dreadlocks",
+    "text": "Fuse Hair Collection - Dreadlocks",
+    "url": "https://www.patreon.com/posts/62876423?collection=209996"
+  },
+  {
+    "id": "Fuse_Hilda",
+    "text": "Fuse Hair Collection - Hilda",
+    "url": "https://www.patreon.com/posts/86395571?collection=209996"
+  },
+  {
+    "id": "Fuse_King",
+    "text": "Fuse Hair Collection - King",
+    "url": "https://www.patreon.com/posts/89043767?collection=209996"
+  },
+  {
+    "id": "Fuse_Lagertha",
+    "text": "Fuse Hair Collection - Lagertha",
+    "url": "https://www.patreon.com/posts/72123559?collection=209996"
+  },
+  {
+    "id": "Fuse_Marco",
+    "text": "Fuse Hair Collection - Marco",
+    "url": "https://www.patreon.com/posts/65302074?collection=209996"
+  },
+  {
+    "id": "Fuse_P",
+    "text": "Fuse Hair Collection - P",
+    "url": "https://www.patreon.com/posts/73058791?collection=209996"
+  },
+  {
+    "id": "Fuse_Siren",
+    "text": "Fuse Hair Collection - Siren",
+    "url": "https://www.patreon.com/posts/75589695?collection=209996"
+  },
+  {
+    "id": "Fuse_Tauriel",
+    "text": "Fuse Hair Collection - Tauriel",
+    "url": "https://www.patreon.com/posts/62190804?collection=209996"
+  },
+  {
+    "id": "Fuse_Yen",
+    "text": "Fuse Hair Collection - Yen",
+    "url": "https://www.patreon.com/posts/71131410?collection=209996"
+  },
+  {
+    "id": "Fuse_Collection_Khajiit",
+    "text": "Fuse Hair Collection - For Khajiit (Wigs installed in FOMOD)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/183885"
+  },
+  {
+    "id": "Fuse_Valkyr1",
+    "text": "Valkyr SMP Hairstyles 1",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/63181"
+  },
+  {
+    "id": "Fuse_Valkyr2",
+    "text": "Valkyr SMP Hairstyles 2",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/64259"
+  },
+  {
+    "id": "Fuse_Valkyr_Khajiit",
+    "text": "Valkyr SMP Hairstyles - For Khajiit (Wigs installed in FOMOD)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/174832"
+  },
+  {
+    "id": "KS_SMP",
+    "text": "KS Hairdos SMP (Wigs installed in FOMOD)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/31300"
+  },
+  {
+    "id": "KS_SMP_Khajiit",
+    "text": "KS Hairdos SMP - For Khajiit (Wigs installed in FOMOD)",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/170525"
+  },
+  {
+    "id": "Xing",
+    "text": "Xing HDT-SMP Hair and Wigs Unisex",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/56583"
+  },
+  {
+    "id": "Xing_Misc",
+    "text": "Misc Improvements",
+    "url": "https://www.nexusmods.com/skyrimspecialedition/mods/184585"
   }
 ]
