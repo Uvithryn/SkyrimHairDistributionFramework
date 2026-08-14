@@ -19,7 +19,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -103,7 +103,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -463,7 +463,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -991,7 +991,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1219,7 +1219,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1291,7 +1291,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1423,7 +1423,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1675,7 +1675,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1711,7 +1711,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1795,7 +1795,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1819,7 +1819,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -1843,7 +1843,7 @@
     "raceType": "Khajiit",
     "gender": "Female",
     "vanillaHair": "HairKhajiitFemale10",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -2023,7 +2023,7 @@
     "raceType": "Orc",
     "gender": "Female",
     "vanillaHair": "HairFemaleOrc07",
-    "defaultPreviewKey": "Vanilla_RoninStackedBunsHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninStackedBunsHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Stacked Buns Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninStackedBunsHalf-up"
   },
@@ -2047,7 +2047,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -2371,7 +2371,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -2407,7 +2407,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -2719,7 +2719,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -3367,7 +3367,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -3583,7 +3583,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -4051,7 +4051,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -4135,7 +4135,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -4327,7 +4327,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -4639,7 +4639,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -4915,7 +4915,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -5215,7 +5215,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -5803,7 +5803,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -6007,7 +6007,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -6115,7 +6115,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -6319,7 +6319,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -6559,7 +6559,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -7135,7 +7135,7 @@
     "raceType": "Orc",
     "gender": "Female",
     "vanillaHair": "HairFemaleOrc05",
-    "defaultPreviewKey": "Vanilla_RoninPinnedBunHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPinnedBunHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Pinned Bun Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPinnedBunHalf-up"
   },
@@ -7531,7 +7531,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -7687,7 +7687,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -7723,7 +7723,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -8935,7 +8935,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -9223,7 +9223,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -9631,7 +9631,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -10207,7 +10207,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -10339,7 +10339,7 @@
     "raceType": "Khajiit",
     "gender": "Male",
     "vanillaHair": "HairKhajiitMale02",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -10351,7 +10351,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -10387,7 +10387,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -10651,7 +10651,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -11215,7 +11215,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -11515,7 +11515,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -11995,7 +11995,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -12007,7 +12007,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -12655,7 +12655,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -12835,7 +12835,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -13015,7 +13015,7 @@
     "raceType": "Orc",
     "gender": "Female",
     "vanillaHair": "HairFemaleOrc07",
-    "defaultPreviewKey": "Vanilla_RoninStackedBunsHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninStackedBunsHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Stacked Buns Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninStackedBunsHalf-up"
   },
@@ -13063,7 +13063,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -13339,7 +13339,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -13963,7 +13963,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -15343,7 +15343,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -15487,7 +15487,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -16507,7 +16507,7 @@
     "raceType": "Orc",
     "gender": "Female",
     "vanillaHair": "HairFemaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -16519,7 +16519,7 @@
     "raceType": "Khajiit",
     "gender": "Female",
     "vanillaHair": "HairKhajiitFemale10",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -16531,7 +16531,7 @@
     "raceType": "Orc",
     "gender": "Female",
     "vanillaHair": "HairFemaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -16999,7 +16999,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -17107,7 +17107,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -17371,7 +17371,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -17815,7 +17815,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -17863,7 +17863,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -17935,7 +17935,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -18055,7 +18055,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -18091,7 +18091,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -18307,7 +18307,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -18847,7 +18847,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -18955,7 +18955,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -19951,7 +19951,7 @@
     "raceType": "Khajiit",
     "gender": "Male",
     "vanillaHair": "HairKhajiitMale02",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -21451,7 +21451,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -22831,7 +22831,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -23179,7 +23179,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23383,7 +23383,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23539,7 +23539,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23671,7 +23671,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23719,7 +23719,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23779,7 +23779,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23923,7 +23923,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -23995,7 +23995,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -24151,7 +24151,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -24331,7 +24331,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -24487,7 +24487,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -24523,7 +24523,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -24535,7 +24535,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -24931,7 +24931,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -25783,7 +25783,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -26179,7 +26179,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -26779,7 +26779,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -29083,7 +29083,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -29335,7 +29335,7 @@
     "raceType": "Khajiit",
     "gender": "Male",
     "vanillaHair": "HairKhajiitMale02",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -29611,7 +29611,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -30319,7 +30319,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -30427,7 +30427,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -30595,7 +30595,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -30679,7 +30679,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -30739,7 +30739,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -30799,7 +30799,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -31111,7 +31111,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -31123,7 +31123,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -31243,7 +31243,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc02",
-    "defaultPreviewKey": "Vanilla_RoninTop-knot",
+    "defaultPreviewKey": "Vanilla_RoninTop_knot",
     "defaultHairstyleName": "Vanilla - Ronin Top-knot",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninTop-knot"
   },
@@ -31411,7 +31411,7 @@
     "raceType": "Orc",
     "gender": "Male",
     "vanillaHair": "HairMaleOrc01",
-    "defaultPreviewKey": "Vanilla_RoninPonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
   },
@@ -31867,7 +31867,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord09",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-upBangs",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_upBangs",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up Bangs",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs"
   },
@@ -32083,7 +32083,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32119,7 +32119,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32371,7 +32371,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32431,7 +32431,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32551,7 +32551,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32875,7 +32875,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32887,7 +32887,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -32899,7 +32899,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -33199,7 +33199,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -33223,7 +33223,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -34231,7 +34231,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -34303,7 +34303,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -34723,7 +34723,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -34747,7 +34747,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -35059,7 +35059,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -35587,7 +35587,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -35899,7 +35899,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -36079,7 +36079,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -36943,7 +36943,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37087,7 +37087,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37207,7 +37207,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37303,7 +37303,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37375,7 +37375,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37567,7 +37567,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37783,7 +37783,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -37915,7 +37915,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -38047,7 +38047,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -38299,7 +38299,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -38359,7 +38359,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -38731,7 +38731,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -38971,7 +38971,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39067,7 +39067,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39103,7 +39103,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39115,7 +39115,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39199,7 +39199,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39295,7 +39295,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39391,7 +39391,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39643,7 +39643,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39667,7 +39667,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -39787,7 +39787,7 @@
     "raceType": "Elf",
     "gender": "Male",
     "vanillaHair": "HairMaleElf03",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -40087,7 +40087,7 @@
     "raceType": "Elf",
     "gender": "Female",
     "vanillaHair": "HairFemaleElf04",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -40123,7 +40123,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -40315,7 +40315,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -40855,7 +40855,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -40867,7 +40867,7 @@
     "raceType": "Human",
     "gender": "Female",
     "vanillaHair": "HairFemaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },
@@ -41659,7 +41659,7 @@
     "raceType": "Human",
     "gender": "Male",
     "vanillaHair": "HairMaleNord05",
-    "defaultPreviewKey": "Vanilla_PonytailHalf-up",
+    "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up"
   },

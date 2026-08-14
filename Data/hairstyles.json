@@ -1911,7 +1911,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ponytail Half-up",
     "spell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up",
-    "previewKey": "Vanilla_PonytailHalf-up",
+    "previewKey": "Vanilla_PonytailHalf_up",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -1961,7 +1961,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ponytail Half-up Bangs",
     "spell": "Uvi_Wig_Spell_VHRU_PonytailHalf-upBangs",
-    "previewKey": "Vanilla_PonytailHalf-upBangs",
+    "previewKey": "Vanilla_PonytailHalf_upBangs",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -2120,7 +2120,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ronin Pinned Bun Half-up",
     "spell": "Uvi_Wig_Spell_VHRU_RoninPinnedBunHalf-up",
-    "previewKey": "Vanilla_RoninPinnedBunHalf-up",
+    "previewKey": "Vanilla_RoninPinnedBunHalf_up",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -2233,7 +2233,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ronin Ponytail Half-up",
     "spell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
-    "previewKey": "Vanilla_RoninPonytailHalf-up",
+    "previewKey": "Vanilla_RoninPonytailHalf_up",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -2418,7 +2418,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ronin Stacked Buns Half-up",
     "spell": "Uvi_Wig_Spell_VHRU_RoninStackedBunsHalf-up",
-    "previewKey": "Vanilla_RoninStackedBunsHalf-up",
+    "previewKey": "Vanilla_RoninStackedBunsHalf_up",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -2462,7 +2462,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ronin Top-knot",
     "spell": "Uvi_Wig_Spell_VHRU_RoninTop-knot",
-    "previewKey": "Vanilla_RoninTop-knot",
+    "previewKey": "Vanilla_RoninTop_knot",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -2502,7 +2502,7 @@
     "mod": "Vanilla",
     "name": "Vanilla - Ronin Top-knot Half-up",
     "spell": "Uvi_Wig_Spell_VHRU_RoninTop-knotHalf-up",
-    "previewKey": "Vanilla_RoninTop-knotHalf-up",
+    "previewKey": "Vanilla_RoninTop_knotHalf_up",
     "validRaceTypes": [
       "Elf",
       "Human",
@@ -17968,6 +17968,43 @@
     "editorIDs": [],
     "pack": "Xing HDT-SMP Wigs",
     "displayName": "Xing - HG Wing109"
+  },
+  {
+    "mod": "Xing HDT-SMP Wigs",
+    "name": "Xing - HG Wing109_2",
+    "spell": "Uvi_Wig_Spell_X_Dint_HG_Wing109_2",
+    "previewKey": "Xing_HGWing109_2",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Xing",
+      "Xing_Misc"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Xing HDT-SMP Wigs",
+    "displayName": "Xing - HG Wing109_2"
   },
   {
     "mod": "Xing HDT-SMP Wigs",
