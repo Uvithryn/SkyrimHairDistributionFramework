@@ -1,0 +1,30 @@
+SMP Hairstyle Preview -- sanitize & manifest report
+generated: 2026-08-18T19:19:26+00:00
+mode: APPLIED (files renamed, manifest written)
+
+SUMMARY
+  images in manifest : 3297
+  mismatched files   : 0
+  renames needed     : 0
+  name collisions    : 0
+  skipped (junk/non-image): 0
+
+  by mod:
+    DintBDORHair: 273
+    DintBDORHairAddon: 57
+    DintHairPack02: 183
+    FuseHairstyles: 106
+    FuseValkyr1: 48
+    FuseValkyr2: 18
+    KSHairdos-HDTSMP: 391
+    KoralinasCollection1: 15
+    KoralinasCollection2: 24
+    ModularSMPHair: 1034
+    Vanilla: 572
+    XingHDT-SMPWigs: 576
+  by race:  Argonian=25, Elf=1007, Human=1017, Khajiit=229, Orc=1019
+  by gender:Female=2042, Male=1255
+
+RENAMES (0)
+
+MISMATCHED FILES (0) -- fix folder or filename so they agree

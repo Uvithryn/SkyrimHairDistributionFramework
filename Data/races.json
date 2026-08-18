@@ -1,66 +1,386 @@
-{
-  "Argonian": "Argonian",
-  "ArgonianVampire": "Argonian",
-  "Breton": "Human",
-  "BretonChild": "HumanChild",
-  "BretonChildVampire": "HumanChild",
-  "BretonVampire": "Human",
-  "DA13Afflicted": "Human",
-  "DarkElf": "Elf",
-  "DarkElfVampire": "Elf",
-  "Elder": "Human",
-  "ElderVampire": "Human",
-  "HighElf": "Elf",
-  "HighElfVampire": "Elf",
-  "Imperial": "Human",
-  "ImperialChild": "HumanChild",
-  "ImperialVampire": "Human",
-  "Khajiit": "Khajiit",
-  "KhajiitVampire": "Khajiit",
-  "Nord": "Human",
-  "NordAstrid": "Human",
-  "NordChild": "HumanChild",
-  "NordVampire": "Human",
-  "Orc": "Orc",
-  "OrcVampire": "Orc",
-  "Redguard": "Human",
-  "RedguardChild": "HumanChild",
-  "RedguardVampire": "Human",
-  "WoodElf": "Elf",
-  "WoodElfVampire": "Elf",
-  "SnowElf": "Elf",
-  "DLC1Nord": "Human",
-  "DLC2Miraak": "Human",
-  "00DZB_BretonRace": "COTR",
-  "00DZB_BretonRaceVampire": "COTR",
-  "00DZI_ImperialRace": "COTR",
-  "00DZI_ImperialRaceVampire": "COTR",
-  "00DZN_NordRace": "COTR",
-  "00DZN_NordRaceVampire": "COTR",
-  "00DZR_RedguardRace": "COTR",
-  "00DZR_RedguardRaceVampire": "COTR",
-  "00DZD_DarkElfRace": "COTR",
-  "00DZD_DarkElfRaceVampire": "COTR",
-  "00DZH_HighElfRace": "COTR",
-  "00DZH_HighElfRaceVampire": "COTR",
-  "00DZW_WoodElfRace": "COTR",
-  "00DZW_WoodElfRaceVampire": "COTR",
-  "00DZO_OrcRace": "COTR",
-  "00DZO_OrcRaceVampire": "COTR",
-  "00UBE_BretonRace": "UBE",
-  "00UBE_BretonRaceVampire": "UBE",
-  "00UBE_ImperialRace": "UBE",
-  "00UBE_ImperialRaceVampire": "UBE",
-  "00UBE_NordRace": "UBE",
-  "00UBE_NordRaceVampire": "UBE",
-  "00UBE_RedguardRace": "UBE",
-  "00UBE_RedguardRaceVampire": "UBE",
-  "00UBE_DarkElfRace": "UBE",
-  "00UBE_DarkElfRaceVampire": "UBE",
-  "00UBE_HighElfRace": "UBE",
-  "00UBE_HighElfRaceVampire": "UBE",
-  "00UBE_WoodElfRace": "UBE",
-  "00UBE_WoodElfRaceVampire": "UBE",
-  "00UBE_OrcRace": "UBE",
-  "00UBE_OrcRaceVampire": "UBE"
-}
+[
+  {
+    "editorid": "ArgonianRace",
+    "name": "Argonian",
+    "group": "Vanilla - Main",
+    "type": "Argonian"
+  },
+  {
+    "editorid": "BretonRace",
+    "name": "Breton",
+    "group": "Vanilla - Main",
+    "type": "Human"
+  },
+  {
+    "editorid": "DarkElfRace",
+    "name": "Dark Elf",
+    "group": "Vanilla - Main",
+    "type": "Elf"
+  },
+  {
+    "editorid": "ElderRace",
+    "name": "Elder",
+    "group": "Vanilla - Main",
+    "type": "Human"
+  },
+  {
+    "editorid": "HighElfRace",
+    "name": "High Elf",
+    "group": "Vanilla - Main",
+    "type": "Elf"
+  },
+  {
+    "editorid": "ImperialRace",
+    "name": "Imperial",
+    "group": "Vanilla - Main",
+    "type": "Human"
+  },
+  {
+    "editorid": "KhajiitRace",
+    "name": "Khajiit",
+    "group": "Vanilla - Main",
+    "type": "Khajiit"
+  },
+  {
+    "editorid": "NordRace",
+    "name": "Nord",
+    "group": "Vanilla - Main",
+    "type": "Human"
+  },
+  {
+    "editorid": "OrcRace",
+    "name": "Orc",
+    "group": "Vanilla - Main",
+    "type": "Orc"
+  },
+  {
+    "editorid": "RedguardRace",
+    "name": "Redguard",
+    "group": "Vanilla - Main",
+    "type": "Human"
+  },
+  {
+    "editorid": "WoodElfRace",
+    "name": "Wood Elf",
+    "group": "Vanilla - Main",
+    "type": "Elf"
+  },
+  {
+    "editorid": "ArgonianRaceVampire",
+    "name": "Argonian Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Argonian"
+  },
+  {
+    "editorid": "BretonRaceVampire",
+    "name": "Breton Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Human"
+  },
+  {
+    "editorid": "DarkElfRaceVampire",
+    "name": "Dark Elf Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Elf"
+  },
+  {
+    "editorid": "ElderRaceVampire",
+    "name": "Elder Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Human"
+  },
+  {
+    "editorid": "HighElfRaceVampire",
+    "name": "High Elf Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Elf"
+  },
+  {
+    "editorid": "ImperialRaceVampire",
+    "name": "Imperial Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Human"
+  },
+  {
+    "editorid": "KhajiitRaceVampire",
+    "name": "Khajiit Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Khajiit"
+  },
+  {
+    "editorid": "NordRaceVampire",
+    "name": "Nord Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Human"
+  },
+  {
+    "editorid": "OrcRaceVampire",
+    "name": "Orc Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Orc"
+  },
+  {
+    "editorid": "RedguardRaceVampire",
+    "name": "Redguard Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Human"
+  },
+  {
+    "editorid": "WoodElfRaceVampire",
+    "name": "Wood Elf Vampire",
+    "group": "Vanilla - Vampire",
+    "type": "Elf"
+  },
+  {
+    "editorid": "BretonRaceChild",
+    "name": "Breton Child",
+    "group": "Vanilla - Children",
+    "type": "HumanChild"
+  },
+  {
+    "editorid": "BretonRaceChildVampire",
+    "name": "Breton Child Vampire",
+    "group": "Vanilla - Children",
+    "type": "HumanChild"
+  },
+  {
+    "editorid": "ImperialRaceChild",
+    "name": "Imperial Child",
+    "group": "Vanilla - Children",
+    "type": "HumanChild"
+  },
+  {
+    "editorid": "NordRaceChild",
+    "name": "Nord Child",
+    "group": "Vanilla - Children",
+    "type": "HumanChild"
+  },
+  {
+    "editorid": "RedguardRaceChild",
+    "name": "Redguard Child",
+    "group": "Vanilla - Children",
+    "type": "HumanChild"
+  },
+  {
+    "editorid": "DA13AfflictedRace",
+    "name": "Breton (Afflicted)",
+    "group": "Vanilla - Other",
+    "type": "Human"
+  },
+  {
+    "editorid": "DLC2MiraakRace",
+    "name": "Miraak Race",
+    "group": "Vanilla - Other",
+    "type": "Human"
+  },
+  {
+    "editorid": "NordRaceAstrid",
+    "name": "Nord (Astrid)",
+    "group": "Vanilla - Other",
+    "type": "Human"
+  },
+  {
+    "editorid": "DLC1NordRace",
+    "name": "Nord (DLC1)",
+    "group": "Vanilla - Other",
+    "type": "Human"
+  },
+  {
+    "editorid": "SnowElfRace",
+    "name": "Snow Elf",
+    "group": "Vanilla - Main",
+    "type": "Elf"
+  },
+  {
+    "editorid": "00DZB_BretonRace",
+    "name": "COTR Breton",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZB_BretonRaceVampire",
+    "name": "COTR Breton Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZD_DarkElfRace",
+    "name": "COTR Dark Elf",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZD_DarkElfRaceVampire",
+    "name": "COTR Dark Elf Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZH_HighElfRace",
+    "name": "COTR High Elf",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZH_HighElfRaceVampire",
+    "name": "COTR High Elf Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZI_ImperialRace",
+    "name": "COTR Imperial",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZI_ImperialRaceVampire",
+    "name": "COTR Imperial Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZN_NordRace",
+    "name": "COTR Nord",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZN_NordRaceVampire",
+    "name": "COTR Nord Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZO_OrcRace",
+    "name": "COTR Orc",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZO_OrcRaceVampire",
+    "name": "COTR Orc Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZR_RedguardRace",
+    "name": "COTR Redguard",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZR_RedguardRaceVampire",
+    "name": "COTR Redguard Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZW_WoodElfRace",
+    "name": "COTR Wood Elf",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00DZW_WoodElfRaceVampire",
+    "name": "COTR Wood Elf Vampire",
+    "group": "Modded",
+    "type": "COTR"
+  },
+  {
+    "editorid": "00UBE_BretonRace",
+    "name": "UBE Breton",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_BretonRaceVampire",
+    "name": "UBE Breton Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_DarkElfRace",
+    "name": "UBE Dark Elf",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_DarkElfRaceVampire",
+    "name": "UBE Dark Elf Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_HighElfRace",
+    "name": "UBE High Elf",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_HighElfRaceVampire",
+    "name": "UBE High Elf Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_ImperialRace",
+    "name": "UBE Imperial",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_ImperialRaceVampire",
+    "name": "UBE Imperial Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_NordRace",
+    "name": "UBE Nord",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_NordRaceVampire",
+    "name": "UBE Nord Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_OrcRace",
+    "name": "UBE Orc",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_OrcRaceVampire",
+    "name": "UBE Orc Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_RedguardRace",
+    "name": "UBE Redguard",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_RedguardRaceVampire",
+    "name": "UBE Redguard Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_WoodElfRace",
+    "name": "UBE Wood Elf",
+    "group": "Modded",
+    "type": "UBE"
+  },
+  {
+    "editorid": "00UBE_WoodElfRaceVampire",
+    "name": "UBE Wood Elf Vampire",
+    "group": "Modded",
+    "type": "UBE"
+  }
+]

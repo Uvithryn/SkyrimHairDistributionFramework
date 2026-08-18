@@ -518,13 +518,32 @@ def run_export(xlsx, previews, outdir, report):
     wb = openpyxl.load_workbook(args.xlsx, data_only=True)
 
     # ---- Race map (first two columns) ----
-    ws = load_sheet(wb, "Race Default Hairstyles")
-    race_map = {}
+    # ---- Races (Race Group | Race EditorID | Race Name | Race Type) ----
+    # Sheet order is preserved: it drives both the group headings and the race
+    # order in the tool's race dropdown.
+    ws = load_sheet(wb, "Races")
+    race_list = []          # ordered, as written to races.json
+    race_map = {}           # EditorID -> race type, for resolving NPCs
+    dupe_races = []
     for r in range(2, ws.max_row + 1):
-        race = ws.cell(r, 1).value
-        rtype = ws.cell(r, 2).value
-        if race:
-            race_map[str(race).strip()] = (str(rtype).strip() if rtype else None)
+        group = ws.cell(r, 1).value
+        eid = ws.cell(r, 2).value
+        name = ws.cell(r, 3).value
+        rtype = ws.cell(r, 4).value
+        if not eid:
+            continue
+        eid = str(eid).strip()
+        if eid in race_map:
+            dupe_races.append(eid)
+            continue
+        rtype = str(rtype).strip() if rtype else None
+        race_map[eid] = rtype
+        race_list.append({
+            "editorid": eid,
+            "name": str(name).strip() if name else eid,
+            "group": str(group).strip() if group else "",
+            "type": rtype,
+        })
 
     # ---- Hairstyles ----
     ws = load_sheet(wb, "Hairstyles")
@@ -644,7 +663,7 @@ def run_export(xlsx, previews, outdir, report):
                           if g not in KNOWN_GENDERS})
 
     # ---- Write JSON ----
-    (outdir / "races.json").write_text(json.dumps(race_map, indent=2, ensure_ascii=True), encoding="utf-8")
+    (outdir / "races.json").write_text(json.dumps(race_list, indent=2, ensure_ascii=True), encoding="utf-8")
     (outdir / "hairstyles.json").write_text(json.dumps(hairstyles, indent=2, ensure_ascii=True), encoding="utf-8")
     (outdir / "npcs.json").write_text(json.dumps(npcs, indent=2, ensure_ascii=True), encoding="utf-8")
     requirements, req_problems = read_requirements(wb)
@@ -725,6 +744,14 @@ def run_export(xlsx, previews, outdir, report):
     for name, bad in bad_cond_entries:
         lines.append(f"   {name}: {bad!r}")
     lines.append("")
+    groups_seen = []
+    for rec in race_list:
+        if rec["group"] not in groups_seen:
+            groups_seen.append(rec["group"])
+    lines.append(f"Race groups (dropdown order): {groups_seen}")
+    lines.append(f"Duplicate race EditorIDs ({len(dupe_races)}): {sorted(set(dupe_races))}")
+    no_name = [r["editorid"] for r in race_list if r["name"] == r["editorid"]]
+    lines.append(f"Races with no display name ({len(no_name)}): {no_name}")
     bad_map_types = sorted({t for t in race_map.values()
                             if t and t not in KNOWN_RACE_TYPES})
     lines.append(f"Unknown race types on the race map ({len(bad_map_types)}): {bad_map_types}")
