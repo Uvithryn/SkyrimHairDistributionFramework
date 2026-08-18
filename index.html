@@ -34,14 +34,12 @@ header{
 }
 .head-text{min-width:0}
 .head-link{
-  flex:0 0 auto; display:block; text-align:right; text-decoration:none;
-  border:1px solid var(--line); border-radius:var(--radius); padding:9px 13px;
-  background:var(--surface); transition:border-color .15s, background .15s;
+  flex:0 0 auto; display:inline-block; white-space:nowrap; text-decoration:none;
+  border:1px solid var(--line); border-radius:var(--radius); padding:8px 13px;
+  background:var(--surface); font-size:12.5px; color:var(--brass);
+  transition:border-color .15s, background .15s, color .15s;
 }
-.head-link:hover{border-color:var(--brass-dim); background:var(--surface2)}
-.head-link .hl-top{display:block; font-size:12.5px; color:#f2ead6; font-weight:500}
-.head-link .hl-sub{display:block; font-size:11px; color:var(--brass); margin-top:2px}
-@media (max-width:640px){ .head-link{text-align:left} }
+.head-link:hover{border-color:var(--brass-dim); background:var(--surface2); color:#f2ead6}
 .eyebrow{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--brass-dim);font-weight:600}
 h1{
   font-family:Cinzel,Georgia,serif; font-weight:600; letter-spacing:.06em;
@@ -332,10 +330,8 @@ body.browser-only>#browserBackdrop{display:none!important}
     <h1>SPID File Generator</h1>
     <p class="tagline">Easily create SPID files to be used with Hairstyle Distribution Framework.</p>
   </div>
-  <a class="head-link" data-link="framework" target="_blank" rel="noopener">
-    <span class="hl-top">Hairstyle Distribution Framework</span>
-    <span class="hl-sub">View on Nexus Mods &#8599;</span>
-  </a>
+  <a class="head-link" data-link="framework" target="_blank" rel="noopener"
+     title="Hairstyle Distribution Framework on Nexus Mods">View on Nexus Mods &#8599;</a>
 </header>
 
 <div id="banner" class="banner sample">Loading&hellip;</div>
