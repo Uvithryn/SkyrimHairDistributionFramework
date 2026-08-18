@@ -4320,6 +4320,3545 @@
     "displayName": "Vanilla - Widow's Peak Windswept"
   },
   {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Alany",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Alany",
+    "previewKey": "DintBDOR_Alany",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Alany"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Alisterra",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Alisterra",
+    "previewKey": "DintBDOR_Alisterra",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Alisterra"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ampharry",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ampharry",
+    "previewKey": "DintBDOR_Ampharry",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ampharry"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Amprelie",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Amprelie",
+    "previewKey": "DintBDOR_Amprelie",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Amprelie"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ampy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ampy",
+    "previewKey": "DintBDOR_Ampy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ampy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Annabelle",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Annabelle",
+    "previewKey": "DintBDOR_Annabelle",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Annabelle"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - AnnyJ",
+    "spell": "Uvi_Wig_Spell_DintBDOR_AnnyJ",
+    "previewKey": "DintBDOR_AnnyJ",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - AnnyJ"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Apprelia",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Apprelia",
+    "previewKey": "DintBDOR_Apprelia",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Apprelia"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ayren",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ayren",
+    "previewKey": "DintBDOR_Ayren",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ayren"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Bearma",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Bearma",
+    "previewKey": "DintBDOR_Bearma",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Bearma"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Bellafy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Bellafy",
+    "previewKey": "DintBDOR_Bellafy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Bellafy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Bewffy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Bewffy",
+    "previewKey": "DintBDOR_Bewffy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Bewffy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Branzhette",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Branzhette",
+    "previewKey": "DintBDOR_Branzhette",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Branzhette"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Debbie",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Debbie",
+    "previewKey": "DintBDOR_Debbie",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Debbie"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Debbry",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Debbry",
+    "previewKey": "DintBDOR_Debbry",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Debbry"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ebra",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ebra",
+    "previewKey": "DintBDOR_Ebra",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ebra"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Eilener",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Eilener",
+    "previewKey": "DintBDOR_Eilener",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Eilener"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ellaia",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ellaia",
+    "previewKey": "DintBDOR_Ellaia",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ellaia"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ella'jane",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ellajane",
+    "previewKey": "DintBDOR_Ellajane",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ella'jane"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ellamedji",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ellamedji",
+    "previewKey": "DintBDOR_Ellamedji",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ellamedji"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Emmerin",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Emmerin",
+    "previewKey": "DintBDOR_Emmerin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Emmerin"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Evalen",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Evalen",
+    "previewKey": "DintBDOR_Evalen",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Evalen"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Fliex",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Fliex",
+    "previewKey": "DintBDOR_Fliex",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Fliex"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Fullmewei",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Fullmewei",
+    "previewKey": "DintBDOR_Fullmewei",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Fullmewei"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Grendfelhna",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Grendfelhna",
+    "previewKey": "DintBDOR_Grendfelhna",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Grendfelhna"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Groony",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Groony",
+    "previewKey": "DintBDOR_Groony",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Groony"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Hemi",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Hemi",
+    "previewKey": "DintBDOR_Hemi",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Hemi"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Homny",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Homny",
+    "previewKey": "DintBDOR_Homny",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Homny"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Innira",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Innira",
+    "previewKey": "DintBDOR_Innira",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Innira"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Janny",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Janny",
+    "previewKey": "DintBDOR_Janny",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Janny"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Kami",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Kami",
+    "previewKey": "DintBDOR_Kami",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Kami"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Kao",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Kao",
+    "previewKey": "DintBDOR_Kao",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Kao"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Kara",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Kara",
+    "previewKey": "DintBDOR_Kara",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Kara"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Karamella",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Karamella",
+    "previewKey": "DintBDOR_Karamella",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Karamella"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Kayris",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Kayris",
+    "previewKey": "DintBDOR_Kayris",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Kayris"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Khyon",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Khyon",
+    "previewKey": "DintBDOR_Khyon",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Khyon"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Klary",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Klary",
+    "previewKey": "DintBDOR_Klary",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Klary"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Lambretta",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Lambretta",
+    "previewKey": "DintBDOR_Lambretta",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Lambretta"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Lankra",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Lankra",
+    "previewKey": "DintBDOR_Lankra",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Lankra"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Leesie",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Leesie",
+    "previewKey": "DintBDOR_Leesie",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Leesie"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Leona",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Leona",
+    "previewKey": "DintBDOR_Leona",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Leona"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Lexar",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Lexar",
+    "previewKey": "DintBDOR_Lexar",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Lexar"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Limn",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Limn",
+    "previewKey": "DintBDOR_Limn",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Limn"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Luanda",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Luanda",
+    "previewKey": "DintBDOR_Luanda",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Luanda"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ma'arin",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Maarin",
+    "previewKey": "DintBDOR_Maarin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ma'arin"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Magdalena",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Magdalena",
+    "previewKey": "DintBDOR_Magdalena",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Magdalena"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Magnifeta",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Magnifeta",
+    "previewKey": "DintBDOR_Magnifeta",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Magnifeta"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Magnolia",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Magnolia",
+    "previewKey": "DintBDOR_Magnolia",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Magnolia"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Marianne",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Marianne",
+    "previewKey": "DintBDOR_Marianne",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Marianne"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Maverna",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Maverna",
+    "previewKey": "DintBDOR_Maverna",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Maverna"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - May",
+    "spell": "Uvi_Wig_Spell_DintBDOR_May",
+    "previewKey": "DintBDOR_May",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - May"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Meyvet",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Meyvet",
+    "previewKey": "DintBDOR_Meyvet",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Meyvet"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Millay",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Millay",
+    "previewKey": "DintBDOR_Millay",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Millay"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Mivileya",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Mivileya",
+    "previewKey": "DintBDOR_Mivileya",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Mivileya"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Mo'wol",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Mowol",
+    "previewKey": "DintBDOR_Mowol",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Mo'wol"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Myriad",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Myriad",
+    "previewKey": "DintBDOR_Myriad",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Myriad"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Naniri",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Naniri",
+    "previewKey": "DintBDOR_Naniri",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Naniri"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Nerane",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Nerane",
+    "previewKey": "DintBDOR_Nerane",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Nerane"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Nerra",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Nerra",
+    "previewKey": "DintBDOR_Nerra",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Nerra"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Norren",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Norren",
+    "previewKey": "DintBDOR_Norren",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Norren"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Nyx",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Nyx",
+    "previewKey": "DintBDOR_Nyx",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Nyx"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ollivfiera",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ollivfiera",
+    "previewKey": "DintBDOR_Ollivfiera",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ollivfiera"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Palnm",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Palnm",
+    "previewKey": "DintBDOR_Palnm",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Palnm"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Paramella",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Paramella",
+    "previewKey": "DintBDOR_Paramella",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Paramella"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Pimpy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Pimpy",
+    "previewKey": "DintBDOR_Pimpy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Pimpy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Plennie",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Plennie",
+    "previewKey": "DintBDOR_Plennie",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Plennie"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Rhine",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Rhine",
+    "previewKey": "DintBDOR_Rhine",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Rhine"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Rosally",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Rosally",
+    "previewKey": "DintBDOR_Rosally",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Rosally"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Roxy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Roxy",
+    "previewKey": "DintBDOR_Roxy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Roxy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Saphira",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Saphira",
+    "previewKey": "DintBDOR_Saphira",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Saphira"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Sharwin",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Sharwin",
+    "previewKey": "DintBDOR_Sharwin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Sharwin"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Shelvey",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Shelvey",
+    "previewKey": "DintBDOR_Shelvey",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Shelvey"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Shounoby",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Shounoby",
+    "previewKey": "DintBDOR_Shounoby",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Shounoby"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ska'ady",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Skaady",
+    "previewKey": "DintBDOR_Skaady",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ska'ady"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Smeare",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Smeare",
+    "previewKey": "DintBDOR_Smeare",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Smeare"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Smyx",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Smyx",
+    "previewKey": "DintBDOR_Smyx",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Smyx"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Stacy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Stacy",
+    "previewKey": "DintBDOR_Stacy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Stacy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Stafy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Stafy",
+    "previewKey": "DintBDOR_Stafy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Stafy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Stenshi",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Stenshi",
+    "previewKey": "DintBDOR_Stenshi",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Stenshi"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Tira",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Tira",
+    "previewKey": "DintBDOR_Tira",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Tira"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Tumerlin",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Tumerlin",
+    "previewKey": "DintBDOR_Tumerlin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Tumerlin"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Velina",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Velina",
+    "previewKey": "DintBDOR_Velina",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Velina"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Vex",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Vex",
+    "previewKey": "DintBDOR_Vex",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Vex"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Vienne",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Vienne",
+    "previewKey": "DintBDOR_Vienne",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Vienne"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Wavey",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Wavey",
+    "previewKey": "DintBDOR_Wavey",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Wavey"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Yaommi",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Yaommi",
+    "previewKey": "DintBDOR_Yaommi",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Yaommi"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Yarra",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Yarra",
+    "previewKey": "DintBDOR_Yarra",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Yarra"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Yummy",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Yummy",
+    "previewKey": "DintBDOR_Yummy",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Yummy"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Zetrin",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Zetrin",
+    "previewKey": "DintBDOR_Zetrin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Zetrin"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Zohya",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Zohya",
+    "previewKey": "DintBDOR_Zohya",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Zohya"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Zubs",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Zubs",
+    "previewKey": "DintBDOR_Zubs",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Zubs"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Amelia",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Amelia",
+    "previewKey": "DintBDORAddon_Amelia",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Amelia"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Asuna",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Asuna",
+    "previewKey": "DintBDORAddon_Asuna",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Asuna"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Ellena",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Ellena",
+    "previewKey": "DintBDORAddon_Ellena",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Ellena"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Hanna",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Hanna",
+    "previewKey": "DintBDORAddon_Hanna",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Hanna"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Hime",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Hime",
+    "previewKey": "DintBDORAddon_Hime",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Hime"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Illya",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Illya",
+    "previewKey": "DintBDORAddon_Illya",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Illya"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Jack",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Jack",
+    "previewKey": "DintBDORAddon_Jack",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Jack"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Karin",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Karin",
+    "previewKey": "DintBDORAddon_Karin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Karin"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Lin",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Lin",
+    "previewKey": "DintBDORAddon_Lin",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Lin"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Liz",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Liz",
+    "previewKey": "DintBDORAddon_Liz",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Liz"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Marseille",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Marseille",
+    "previewKey": "DintBDORAddon_Marseille",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Marseille"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Nami",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Nami",
+    "previewKey": "DintBDORAddon_Nami",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Nami"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Penny",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Penny",
+    "previewKey": "DintBDORAddon_Penny",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Penny"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Ran",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Ran",
+    "previewKey": "DintBDORAddon_Ran",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Ran"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Reina",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Reina",
+    "previewKey": "DintBDORAddon_Reina",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Reina"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Riki",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Riki",
+    "previewKey": "DintBDORAddon_Riki",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Riki"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Rio",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Rio",
+    "previewKey": "DintBDORAddon_Rio",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Rio"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Toki",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Toki",
+    "previewKey": "DintBDORAddon_Toki",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Toki"
+  },
+  {
+    "mod": "Dint BDOR Hair Addon",
+    "name": "Dint BDOR Addon - Yuna",
+    "spell": "Uvi_Wig_Spell_DintBDORadd_Yuna",
+    "previewKey": "DintBDORAddon_Yuna",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR",
+      "Dint_BDOR_Addon"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair Addon",
+    "displayName": "Dint BDOR Addon - Yuna"
+  },
+  {
     "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 1",
     "spell": "Uvi_Wig_Spell_Dint02_01",

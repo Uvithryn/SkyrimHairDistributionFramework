@@ -1,11 +1,13 @@
 {
   "meta": {
-    "generated": "2026-08-14T23:42:40+00:00",
+    "generated": "2026-08-18T13:53:55+00:00",
     "root_folder_note": "paths are relative to the images root and exclude its folder name; compose URLs as <base>/<your images folder>/<file>",
     "url_base": null,
     "counts": {
-      "total_images": 2967,
+      "total_images": 3297,
       "by_mod": {
+        "DintBDORHair": 273,
+        "DintBDORHairAddon": 57,
         "DintHairPack02": 183,
         "FuseHairstyles": 106,
         "FuseValkyr1": 48,
@@ -19,13 +21,13 @@
       },
       "by_race": {
         "Argonian": 25,
-        "Elf": 897,
-        "Human": 907,
+        "Elf": 1007,
+        "Human": 1017,
         "Khajiit": 229,
-        "Orc": 909
+        "Orc": 1019
       },
       "by_gender": {
-        "Female": 1712,
+        "Female": 2042,
         "Male": 1255
       },
       "mismatches": 0,
@@ -33,6 +35,2646 @@
     }
   },
   "images": [
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Alany",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Alany_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Alisterra",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Alisterra_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ampharry",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ampharry_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Amprelie",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Amprelie_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ampy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ampy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Annabelle",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Annabelle_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_AnnyJ",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_AnnyJ_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Apprelia",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Apprelia_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ayren",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ayren_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bearma",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Bearma_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bellafy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Bellafy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bewffy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Bewffy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Branzhette",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Branzhette_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Debbie",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Debbie_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Debbry",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Debbry_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ebra",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ebra_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Eilener",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Eilener_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellaia",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ellaia_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellajane",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ellajane_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellamedji",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ellamedji_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Emmerin",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Emmerin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Evalen",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Evalen_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Fliex",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Fliex_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Fullmewei",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Fullmewei_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Grendfelhna",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Grendfelhna_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Groony",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Groony_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Hemi",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Hemi_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Homny",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Homny_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Innira",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Innira_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Janny",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Janny_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kami",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Kami_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kao",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Kao_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kara",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Kara_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Karamella",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Karamella_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kayris",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Kayris_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Khyon",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Khyon_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Klary",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Klary_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lambretta",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Lambretta_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lankra",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Lankra_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Leesie",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Leesie_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Leona",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Leona_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lexar",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Lexar_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Limn",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Limn_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Luanda",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Luanda_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Maarin",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Maarin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magdalena",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Magdalena_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magnifeta",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Magnifeta_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magnolia",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Magnolia_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Marianne",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Marianne_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Maverna",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Maverna_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_May",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_May_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Meyvet",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Meyvet_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Millay",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Millay_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Mivileya",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Mivileya_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Mowol",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Mowol_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Myriad",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Myriad_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Naniri",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Naniri_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nerane",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Nerane_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nerra",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Nerra_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Norren",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Norren_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nyx",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Nyx_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ollivfiera",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Ollivfiera_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Palnm",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Palnm_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Paramella",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Paramella_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Pimpy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Pimpy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Plennie",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Plennie_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Rhine",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Rhine_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Rosally",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Rosally_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Roxy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Roxy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Saphira",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Saphira_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Sharwin",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Sharwin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Shelvey",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Shelvey_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Shounoby",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Shounoby_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Skaady",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Skaady_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Smeare",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Smeare_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Smyx",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Smyx_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stacy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Stacy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stafy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Stafy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stenshi",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Stenshi_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Tira",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Tira_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Tumerlin",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Tumerlin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Velina",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Velina_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Vex",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Vex_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Vienne",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Vienne_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Wavey",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Wavey_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yaommi",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Yaommi_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yarra",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Yarra_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yummy",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Yummy_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zetrin",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Zetrin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zohya",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Zohya_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zubs",
+      "file": "DintBDORHair/Elf/Female/DintBDOR_Zubs_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Alany",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Alany_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Alisterra",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Alisterra_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ampharry",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ampharry_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Amprelie",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Amprelie_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ampy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ampy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Annabelle",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Annabelle_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_AnnyJ",
+      "file": "DintBDORHair/Human/Female/DintBDOR_AnnyJ_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Apprelia",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Apprelia_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ayren",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ayren_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bearma",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Bearma_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bellafy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Bellafy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bewffy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Bewffy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Branzhette",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Branzhette_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Debbie",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Debbie_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Debbry",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Debbry_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ebra",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ebra_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Eilener",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Eilener_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellaia",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ellaia_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellajane",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ellajane_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellamedji",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ellamedji_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Emmerin",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Emmerin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Evalen",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Evalen_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Fliex",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Fliex_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Fullmewei",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Fullmewei_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Grendfelhna",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Grendfelhna_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Groony",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Groony_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Hemi",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Hemi_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Homny",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Homny_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Innira",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Innira_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Janny",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Janny_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kami",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Kami_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kao",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Kao_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kara",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Kara_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Karamella",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Karamella_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kayris",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Kayris_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Khyon",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Khyon_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Klary",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Klary_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lambretta",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Lambretta_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lankra",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Lankra_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Leesie",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Leesie_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Leona",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Leona_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lexar",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Lexar_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Limn",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Limn_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Luanda",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Luanda_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Maarin",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Maarin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magdalena",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Magdalena_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magnifeta",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Magnifeta_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magnolia",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Magnolia_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Marianne",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Marianne_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Maverna",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Maverna_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_May",
+      "file": "DintBDORHair/Human/Female/DintBDOR_May_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Meyvet",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Meyvet_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Millay",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Millay_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Mivileya",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Mivileya_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Mowol",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Mowol_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Myriad",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Myriad_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Naniri",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Naniri_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nerane",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Nerane_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nerra",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Nerra_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Norren",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Norren_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nyx",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Nyx_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ollivfiera",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Ollivfiera_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Palnm",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Palnm_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Paramella",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Paramella_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Pimpy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Pimpy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Plennie",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Plennie_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Rhine",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Rhine_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Rosally",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Rosally_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Roxy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Roxy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Saphira",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Saphira_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Sharwin",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Sharwin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Shelvey",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Shelvey_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Shounoby",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Shounoby_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Skaady",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Skaady_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Smeare",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Smeare_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Smyx",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Smyx_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stacy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Stacy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stafy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Stafy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stenshi",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Stenshi_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Tira",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Tira_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Tumerlin",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Tumerlin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Velina",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Velina_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Vex",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Vex_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Vienne",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Vienne_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Wavey",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Wavey_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yaommi",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Yaommi_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yarra",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Yarra_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yummy",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Yummy_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zetrin",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Zetrin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zohya",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Zohya_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zubs",
+      "file": "DintBDORHair/Human/Female/DintBDOR_Zubs_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Alany",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Alany_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Alisterra",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Alisterra_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ampharry",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ampharry_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Amprelie",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Amprelie_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ampy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ampy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Annabelle",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Annabelle_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_AnnyJ",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_AnnyJ_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Apprelia",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Apprelia_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ayren",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ayren_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bearma",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Bearma_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bellafy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Bellafy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Bewffy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Bewffy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Branzhette",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Branzhette_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Debbie",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Debbie_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Debbry",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Debbry_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ebra",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ebra_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Eilener",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Eilener_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellaia",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ellaia_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellajane",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ellajane_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ellamedji",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ellamedji_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Emmerin",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Emmerin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Evalen",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Evalen_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Fliex",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Fliex_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Fullmewei",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Fullmewei_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Grendfelhna",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Grendfelhna_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Groony",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Groony_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Hemi",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Hemi_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Homny",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Homny_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Innira",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Innira_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Janny",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Janny_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kami",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Kami_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kao",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Kao_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kara",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Kara_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Karamella",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Karamella_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Kayris",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Kayris_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Khyon",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Khyon_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Klary",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Klary_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lambretta",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Lambretta_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lankra",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Lankra_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Leesie",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Leesie_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Leona",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Leona_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Lexar",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Lexar_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Limn",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Limn_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Luanda",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Luanda_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Maarin",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Maarin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magdalena",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Magdalena_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magnifeta",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Magnifeta_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Magnolia",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Magnolia_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Marianne",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Marianne_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Maverna",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Maverna_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_May",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_May_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Meyvet",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Meyvet_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Millay",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Millay_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Mivileya",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Mivileya_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Mowol",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Mowol_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Myriad",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Myriad_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Naniri",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Naniri_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nerane",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Nerane_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nerra",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Nerra_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Norren",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Norren_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Nyx",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Nyx_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Ollivfiera",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Ollivfiera_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Palnm",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Palnm_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Paramella",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Paramella_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Pimpy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Pimpy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Plennie",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Plennie_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Rhine",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Rhine_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Rosally",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Rosally_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Roxy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Roxy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Saphira",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Saphira_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Sharwin",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Sharwin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Shelvey",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Shelvey_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Shounoby",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Shounoby_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Skaady",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Skaady_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Smeare",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Smeare_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Smyx",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Smyx_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stacy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Stacy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stafy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Stafy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Stenshi",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Stenshi_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Tira",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Tira_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Tumerlin",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Tumerlin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Velina",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Velina_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Vex",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Vex_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Vienne",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Vienne_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Wavey",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Wavey_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yaommi",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Yaommi_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yarra",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Yarra_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Yummy",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Yummy_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zetrin",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Zetrin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zohya",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Zohya_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHair",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDOR_Zubs",
+      "file": "DintBDORHair/Orc/Female/DintBDOR_Zubs_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Amelia",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Amelia_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Asuna",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Asuna_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Ellena",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Ellena_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Hanna",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Hanna_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Hime",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Hime_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Illya",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Illya_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Jack",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Jack_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Karin",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Karin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Lin",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Lin_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Liz",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Liz_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Marseille",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Marseille_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Nami",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Nami_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Penny",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Penny_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Ran",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Ran_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Reina",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Reina_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Riki",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Riki_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Rio",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Rio_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Toki",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Toki_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Elf",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Yuna",
+      "file": "DintBDORHairAddon/Elf/Female/DintBDORAddon_Yuna_Elf_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Amelia",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Amelia_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Asuna",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Asuna_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Ellena",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Ellena_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Hanna",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Hanna_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Hime",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Hime_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Illya",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Illya_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Jack",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Jack_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Karin",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Karin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Lin",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Lin_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Liz",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Liz_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Marseille",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Marseille_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Nami",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Nami_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Penny",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Penny_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Ran",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Ran_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Reina",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Reina_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Riki",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Riki_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Rio",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Rio_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Toki",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Toki_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Human",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Yuna",
+      "file": "DintBDORHairAddon/Human/Female/DintBDORAddon_Yuna_Human_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Amelia",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Amelia_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Asuna",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Asuna_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Ellena",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Ellena_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Hanna",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Hanna_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Hime",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Hime_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Illya",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Illya_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Jack",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Jack_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Karin",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Karin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Lin",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Lin_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Liz",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Liz_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Marseille",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Marseille_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Nami",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Nami_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Penny",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Penny_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Ran",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Ran_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Reina",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Reina_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Riki",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Riki_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Rio",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Rio_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Toki",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Toki_Orc_Female.jpg",
+      "mismatch": false
+    },
+    {
+      "mod": "DintBDORHairAddon",
+      "race": "Orc",
+      "gender": "Female",
+      "hairstyle": "DintBDORAddon_Yuna",
+      "file": "DintBDORHairAddon/Orc/Female/DintBDORAddon_Yuna_Orc_Female.jpg",
+      "mismatch": false
+    },
     {
       "mod": "DintHairPack02",
       "race": "Elf",

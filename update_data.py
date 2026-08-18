@@ -331,7 +331,8 @@ def run_sanitize(root, manifest, report, url_base=None, apply=True):
 # PART 2 -- spreadsheet export
 # (was export_data.py)
 # ===========================================================================
-KNOWN_RACE_TYPES = {"Argonian", "Elf", "Human", "HumanChild", "Khajiit", "Orc"}
+KNOWN_RACE_TYPES = {"Argonian", "Elf", "Human", "HumanChild", "Khajiit", "Orc",
+                    "COTR", "UBE"}
 BRACKETS = "()[]{}"
 
 # --- Display config (edit here, not in the HTML) ---------------------------
@@ -724,6 +725,9 @@ def run_export(xlsx, previews, outdir, report):
     for name, bad in bad_cond_entries:
         lines.append(f"   {name}: {bad!r}")
     lines.append("")
+    bad_map_types = sorted({t for t in race_map.values()
+                            if t and t not in KNOWN_RACE_TYPES})
+    lines.append(f"Unknown race types on the race map ({len(bad_map_types)}): {bad_map_types}")
     lines.append(f"Unknown gender values ({len(bad_genders)}): {bad_genders}")
     lines.append(f"Unknown valid-race-type values ({len(bad_race_types)}): {bad_race_types}")
     lines.append(f"NPC races missing from race map ({len(npc_race_missing)}): {sorted(npc_race_missing)}")
