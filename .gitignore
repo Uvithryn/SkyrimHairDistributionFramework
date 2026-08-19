@@ -1,0 +1,10 @@
+# Generated logs
+*_report.txt
+
+# Python leftovers
+__pycache__/
+*.pyc
+
+# Windows junk
+Thumbs.db
+desktop.ini

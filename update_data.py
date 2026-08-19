@@ -31,6 +31,8 @@ DATA_DIR      = "Data"          # JSON output folder -- must match DATA_DIR in
 # unless you want absolute URLs baked into previews.json.
 IMAGE_URL_BASE = None
 
+# Reports are written to a temp folder while running and only saved next to this
+# script if you ask for them at the end, so the repo stays clean.
 PREVIEW_REPORT = "preview_report.txt"
 EXPORT_REPORT  = "export_report.txt"
 
@@ -44,7 +46,9 @@ SAMPLE_PREVIEWS_PER_MOD = 6   # preview records kept per mod/race/gender
 import json
 import os
 import re
+import shutil
 import sys
+import tempfile
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -819,14 +823,69 @@ def rebuild_sample(data_dir, manifest_path, index_path):
 # Orchestration
 # ===========================================================================
 
+# ===========================================================================
+# Report handling: keep logs out of the repo unless they're asked for
+# ===========================================================================
+
+# Lines that mean something is actually wrong and worth reading the log over.
+PROBLEM_MARKERS = [
+    "collision", "Malformed", "NOT defined", "no display name",
+    "Duplicate race", "isn't valid for", "empty/None valid race",
+    "NO requirement at all", "missing from race map", "Unknown gender",
+    "Unknown valid-race-type", "Unknown race types", "mismatch", "PROBLEM",
+]
+# Lines that are just worth knowing about (e.g. screenshots not taken yet).
+NOTE_MARKERS = ["NO preview image", "NO hairstyle row"]
+
+
+def scan_report(text):
+    """Return (problems, notes) as lists of 'headline (count)' strings."""
+    problems, notes = [], []
+    for line in (text or "").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith(("   ", "\t")) or line.startswith("   "):
+            continue
+        count = None
+        m = re.search(r"\((\d+)\)", stripped)
+        if m:
+            count = int(m.group(1))
+        else:
+            m2 = re.search(r":\s*\[(.*)\]\s*$", stripped)      # e.g. "Unknown gender values (0): []"
+            if m2:
+                count = 0 if not m2.group(1).strip() else 1
+        if count is None or count == 0:
+            continue
+        headline = stripped.split(" -- ")[0].rstrip(":")
+        if any(k.lower() in stripped.lower() for k in PROBLEM_MARKERS):
+            problems.append(headline)
+        elif any(k.lower() in stripped.lower() for k in NOTE_MARKERS):
+            notes.append(headline)
+    return problems, notes
+
+
+def ask_save_reports(problems):
+    """Enter saves nothing; y then Enter writes the logs."""
+    if not sys.stdin or not sys.stdin.isatty():
+        return False                     # non-interactive run: never leave files behind
+    hint = "RECOMMENDED - something needs attention" if problems else "not needed"
+    try:
+        answer = input(f"\nWrite reports to disk? [y/N] ({hint}): ")
+    except (EOFError, KeyboardInterrupt):
+        print()
+        return False
+    return answer.strip().lower().startswith("y")
+
+
 def main():
     xlsx = rel(XLSX)
     images = rel(IMAGES_ROOT)
     manifest = rel(MANIFEST)
     data_dir = rel(DATA_DIR)
     index_html = rel(INDEX_HTML)
-    preview_report = rel(PREVIEW_REPORT)
-    export_report = rel(EXPORT_REPORT)
+    # Reports are written here first; they only reach the repo folder if asked for.
+    tmpdir = Path(tempfile.mkdtemp(prefix="hdf_reports_"))
+    preview_report = tmpdir / PREVIEW_REPORT
+    export_report = tmpdir / EXPORT_REPORT
 
     if not xlsx.exists():
         sys.exit(f"ERROR: spreadsheet not found: {xlsx}")
@@ -872,9 +931,41 @@ def main():
     print("Done.")
     print(f"  manifest : {manifest}")
     print(f"  data     : {data_dir}")
-    print(f"  reports  : {preview_report.name}, {export_report.name}")
-    print("Check the export report for missing previews and orphaned images "
-          "before committing.")
+
+    # ---- what, if anything, needs attention -------------------------------
+    texts = []
+    for rp in (preview_report, export_report):
+        if rp.exists():
+            texts.append(rp.read_text(encoding="utf-8", errors="replace"))
+    problems, notes = scan_report("\n".join(texts))
+    if problems:
+        print()
+        print("  SOMETHING NEEDS ATTENTION:")
+        for line in problems:
+            print(f"    - {line}")
+    if notes:
+        print()
+        print("  Worth knowing:")
+        for line in notes:
+            print(f"    - {line}")
+    if not problems and not notes:
+        print("  No problems found.")
+
+    # ---- offer the logs ---------------------------------------------------
+    saved = []
+    if ask_save_reports(problems):
+        for rp in (preview_report, export_report):
+            if rp.exists():
+                dest = rel(rp.name)
+                dest.write_text(rp.read_text(encoding="utf-8", errors="replace"),
+                                encoding="utf-8")
+                saved.append(dest)
+    shutil.rmtree(tmpdir, ignore_errors=True)
+    if saved:
+        print("\nReports written:")
+        for d in saved:
+            print(f"  {d}")
+        print("(These are ignored by git if you add *_report.txt to .gitignore.)")
     return 0
 
 

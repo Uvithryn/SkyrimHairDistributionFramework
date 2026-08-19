@@ -840,18 +840,43 @@ function rowUnsupported(row){
    assignedPreviewKey === null means "the user chose None"; a MISSING field means
    the row was written by an older version, in which case we fall back to the
    NPC's own default rather than wiping the assignment. */
+/* Custom NPCs keep only what was typed or imported -- never anything derived.
+   raceType comes from race, and the vanilla hairstyle comes from vanillaHair,
+   so both are worked out again on load against the current data. */
+function slimNPC(npc){
+  const out = { editorid: npc.editorid, name: npc.name,
+                race: npc.race || "", gender: npc.gender || "",
+                vanillaHair: npc.vanillaHair || "", custom: true };
+  if(npc.formid) out.formid = npc.formid;     // from the CSV, useful for testing
+  return out;
+}
+function rehydrateNPC(saved){
+  if(!saved) return null;
+  const npc = customNPC({editorid:saved.editorid, name:saved.name, race:saved.race,
+                         gender:saved.gender, vanillaHair:saved.vanillaHair});
+  if(saved.formid) npc.formid = saved.formid;
+  if(saved.race && npc.raceType==null && saved.raceType) npc.raceType = saved.raceType;  // older saves
+  return npc;
+}
 function savedRow(r){
   const h = r.assignedId!=null ? state.hairById[r.assignedId] : null;
-  // Only IDs are stored. The wig spell EditorID identifies the hairstyle and the
-  // NPC's own vanillaHair EditorID identifies its original hair, so renaming a
-  // hairstyle or rebuilding the data can never orphan a saved project.
-  return { npc:r.npc,
-           assignedSpell: h ? h.spell : null,
-           overrideSpell: r.overrideSpell || null };
+  // Everything stored is an ID: the NPC, the wig spell, the override spell.
+  const out = { assignedSpell: h ? h.spell : null,
+                overrideSpell: r.overrideSpell || null };
+  // Bundled NPCs are stored as an EditorID only, so their details are re-read
+  // from the current data every time. Storing a copy would freeze whatever the
+  // data said on the day it was saved and resurrect it after a rebuild.
+  if(r.npc && !r.npc.custom && state.npcByEid.has(r.npc.editorid)) out.eid = r.npc.editorid;
+  else if(r.npc) out.npc = slimNPC(r.npc);   // custom NPCs only exist in the project
+  return out;
 }
 /* Returns {row, recovered, lost} so the caller can report anything that moved. */
 function rowFromSaved(r){
-  const row = makeRow(r.npc);          // starts on the NPC's default
+  // Prefer the live record over any stored copy, so corrections to the data
+  // (renamed hairstyles, fixed vanilla hair, new races) are picked up.
+  const eid = r.eid || (r.npc && r.npc.editorid);
+  const npc = (eid && state.npcByEid.get(eid)) || rehydrateNPC(r.npc) || null;
+  const row = makeRow(npc);            // starts on the NPC's current default
   let recovered=false, lost=null;
   const hasField = ("assignedSpell" in r) || ("assignedPreviewKey" in r);
   if(!hasField) return {row, recovered, lost};   // very old save: keep the default
@@ -862,8 +887,15 @@ function rowFromSaved(r){
     let h = hairBySpellId(r.assignedSpell);
     if(!h && r.assignedPreviewKey){ h = hairByPreviewKey(r.assignedPreviewKey); recovered=!!h; }
     if(!h && r.assignedName){ h = state.hairstyles.find(x=>x.name===r.assignedName); recovered=!!h; }
-    row.assignedId = h ? h.id : null;
-    if(!h) lost = r.assignedSpell || r.assignedName || r.assignedPreviewKey;
+    if(h){ row.assignedId = h.id; }
+    else {
+      // The saved hairstyle is gone from the data. Fall back to this NPC's
+      // current vanilla hairstyle rather than dropping the row to nothing,
+      // and report it so the change is never silent.
+      const def = defaultHairFor(npc);
+      row.assignedId = def ? def.id : null;
+      lost = r.assignedSpell || r.assignedName || r.assignedPreviewKey;
+    }
   }
   row.overrideSpell = r.overrideSpell || null;
   return {row, recovered, lost};
@@ -880,7 +912,7 @@ function rowsFromSaved(data){
     // Never fail silently: say what moved and what couldn't be matched.
     const bits=[];
     if(recovered) bits.push(recovered+" hairstyle"+(recovered===1?"":"s")+" re-matched after a data update");
-    if(lost.length) bits.push(lost.length+" hairstyle"+(lost.length===1?"":"s")+" no longer in the data");
+    if(lost.length) bits.push(lost.length+" hairstyle"+(lost.length===1?"":"s")+" reset to the NPC's vanilla hair (the saved one is no longer in the data)");
     setTimeout(()=>toast(bits.join("; ")), 300);
     if(lost.length) console.warn("Hairstyles that could not be restored:", lost);
   }
@@ -1538,7 +1570,10 @@ function requireProjectName(action){
 /* ---------- project save / load ---------- */
 function saveProject(){
   requireProjectName(()=>{
-    const proj={ version:2, projectName:state.projectName, settings:CONFIG,
+    // Nothing derived and no settings snapshot: the project is just the NPCs,
+    // the wig spell chosen for each, and which mods are filtered out. Everything
+    // else is looked up in the current data when the file is loaded.
+    const proj={ version:3, projectName:state.projectName,
       hiddenPacks:[...state.hiddenPacks],
       rows: state.rows.filter(r=>r.npc).map(r=>savedRow(r))};
     const fn = "HDF-Save-"+safeName(state.projectName)+".json";
