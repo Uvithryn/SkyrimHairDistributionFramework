@@ -147,6 +147,7 @@ main{flex:1;padding:18px 22px 120px;overflow:auto}
 .tag.custom{border-color:var(--steel);color:var(--steel)}
 .tag.warn{border-color:var(--warn);color:var(--warn)}
 .vanilla-label{font-size:11px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em}
+.vanilla-id{font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-top:2px}
 .vanilla-name{font-size:13px}
 .assign{display:flex;flex-direction:column}
 .assign select{width:100%}
@@ -546,9 +547,9 @@ const CONFIG = {
 
 const state = {
   npcs: [], hairstyles: [], races: {}, previewIndex: {},
-  npcByEid: new Map(), hairById: [], validCache: new Map(), npcsSorted: [],
+  npcByEid: new Map(), hairById: [], validCache: new Map(), npcsSorted: [], hairBySpell: new Map(),
   requirements: [], reqById: new Map(), packOrder: new Map(), nameToDisplay: new Map(),
-  rows: [], live: false, settings: {}, autosaveOK: true, previewSize: "medium", projectName: "",
+  rows: [], undoStack: [], live: false, settings: {}, autosaveOK: true, previewSize: "medium", projectName: "",
   hiddenPacks: new Set(),   // packs the user has unchecked in Hairstyle Filters
   browser: { race:"", gender:"", size:"medium", scrollTop:0 },
 };
@@ -561,6 +562,8 @@ async function tryFetchJSON(url){
   return r.json();
 }
 async function loadData(){
+  // Data files reference each other by key, so a cached npcs.json paired with a
+  // fresh hairstyles.json breaks every lookup. Always fetch them together.
   try{
     const [npcs, hairstyles, races, previews, requirements] = await Promise.all([
       tryFetchJSON(CONFIG.DATA_DIR+"npcs.json"),
@@ -625,10 +628,12 @@ function ingest(npcs, hairstyles, races, previews, requirements){
   }
   state.previewIndex = idx;
   // map each in-game hair record -> hairstyle, so a supplied Vanilla Hair ID resolves
+  state.hairBySpell = new Map();
   state.hairByEditorId = new Map();
   state.baldStyle = null;
   for(const h of state.hairstyles){
     for(const eid of (h.editorIDs||[])) if(!state.hairByEditorId.has(eid)) state.hairByEditorId.set(eid, h);
+    if(h.spell && !state.hairBySpell.has(h.spell)) state.hairBySpell.set(h.spell, h);
     if(/bald$/i.test(h.name) || /bald$/i.test(h.previewKey)) state.baldStyle = h;
   }
 }
@@ -765,7 +770,27 @@ function raceOptionsHTML(sel){
 function dispName(name){ return state.nameToDisplay.get(name) || name; }
 function packOrderIdx(pack){ const i=state.packOrder.get(pack); return i==null?999:i; }
 function packOrder(a,b){ return packOrderIdx(a)-packOrderIdx(b) || a.localeCompare(b); }
-function hairByPreviewKey(k){ return state.hairstyles.find(h=>h.previewKey===k) || null; }
+// Preview keys have been spelled two ways across data versions ("Half-up" vs
+// "Half_up"). Compare them loosely so an older key still finds its hairstyle.
+function normKey(k){ return String(k||"").replace(/-/g,"_").toLowerCase(); }
+function hairByPreviewKey(k){
+  if(!k) return null;
+  return state.hairstyles.find(h=>h.previewKey===k)
+      || state.hairstyles.find(h=>normKey(h.previewKey)===normKey(k))
+      || null;
+}
+// The NPC's own vanilla hair record is the most durable link to a hairstyle:
+// it never changes when hairstyles are renamed or re-keyed.
+function hairBySpellId(spell){ return (spell && state.hairBySpell.get(spell)) || null; }
+/* An NPC's vanilla hairstyle is looked up from its hair record EditorID -- that
+   ID comes from the game and never changes, unlike preview keys or names, so
+   this keeps working across data rebuilds. The stored key is only a fallback. */
+function defaultHairFor(npc){
+  if(!npc) return null;
+  return resolveVanilla(npc.vanillaHair)
+      || (npc.defaultPreviewKey ? hairByPreviewKey(npc.defaultPreviewKey) : null)
+      || null;
+}
 const PREVIEW_RACE_ORDER = ["Human","Elf","Orc","Khajiit","Argonian"];
 function previewURL(previewKey, raceType, gender){
   const idx = state.previewIndex?.[previewKey];
@@ -808,11 +833,65 @@ function rowUnsupported(row){
   return {bad:false};
 }
 
+/* ---------- saving rows ---------- */
+/* A saved row records the hairstyle three ways. previewKey is the primary link,
+   but names and spells survive a data rebuild that renumbers or re-keys things,
+   so an assignment can still be recovered instead of silently vanishing.
+   assignedPreviewKey === null means "the user chose None"; a MISSING field means
+   the row was written by an older version, in which case we fall back to the
+   NPC's own default rather than wiping the assignment. */
+function savedRow(r){
+  const h = r.assignedId!=null ? state.hairById[r.assignedId] : null;
+  // Only IDs are stored. The wig spell EditorID identifies the hairstyle and the
+  // NPC's own vanillaHair EditorID identifies its original hair, so renaming a
+  // hairstyle or rebuilding the data can never orphan a saved project.
+  return { npc:r.npc,
+           assignedSpell: h ? h.spell : null,
+           overrideSpell: r.overrideSpell || null };
+}
+/* Returns {row, recovered, lost} so the caller can report anything that moved. */
+function rowFromSaved(r){
+  const row = makeRow(r.npc);          // starts on the NPC's default
+  let recovered=false, lost=null;
+  const hasField = ("assignedSpell" in r) || ("assignedPreviewKey" in r);
+  if(!hasField) return {row, recovered, lost};   // very old save: keep the default
+  if(r.assignedSpell==null && r.assignedPreviewKey==null && !r.assignedName){
+    row.assignedId=null;               // the user really did pick None
+  } else {
+    // Spell ID first; the older key/name fields are read for backward compatibility.
+    let h = hairBySpellId(r.assignedSpell);
+    if(!h && r.assignedPreviewKey){ h = hairByPreviewKey(r.assignedPreviewKey); recovered=!!h; }
+    if(!h && r.assignedName){ h = state.hairstyles.find(x=>x.name===r.assignedName); recovered=!!h; }
+    row.assignedId = h ? h.id : null;
+    if(!h) lost = r.assignedSpell || r.assignedName || r.assignedPreviewKey;
+  }
+  row.overrideSpell = r.overrideSpell || null;
+  return {row, recovered, lost};
+}
+function rowsFromSaved(data){
+  const rows=[], lost=[]; let recovered=0;
+  for(const r of data){
+    const res=rowFromSaved(r);
+    rows.push(res.row);
+    if(res.recovered) recovered++;
+    if(res.lost) lost.push(res.lost);
+  }
+  if(lost.length || recovered){
+    // Never fail silently: say what moved and what couldn't be matched.
+    const bits=[];
+    if(recovered) bits.push(recovered+" hairstyle"+(recovered===1?"":"s")+" re-matched after a data update");
+    if(lost.length) bits.push(lost.length+" hairstyle"+(lost.length===1?"":"s")+" no longer in the data");
+    setTimeout(()=>toast(bits.join("; ")), 300);
+    if(lost.length) console.warn("Hairstyles that could not be restored:", lost);
+  }
+  return rows;
+}
+
 /* ---------- rows ---------- */
 function makeRow(npc){
   const row = {uid:rowSeq++, npc:npc||null, assignedId:null, overrideSpell:null};
   if(npc){
-    const def = npc.defaultPreviewKey ? hairByPreviewKey(npc.defaultPreviewKey) : null;
+    const def = defaultHairFor(npc);
     row.assignedId = def ? def.id : null;
   }
   return row;
@@ -821,9 +900,28 @@ function addRows(n, npc){
   for(let i=0;i<n;i++) state.rows.push(makeRow(npc));
   render();
 }
+/* Deleting a row is one click, so every deletion is remembered and can be taken
+   back with Ctrl+Z (Cmd+Z on a Mac). The whole row is kept, so the NPC comes
+   back with its hairstyle, override and position intact. */
+const UNDO_LIMIT = 50;
 function removeRow(uid){
-  state.rows = state.rows.filter(r=>r.uid!==uid);
+  const idx = state.rows.findIndex(r=>r.uid===uid);
+  if(idx<0) return;
+  const [row] = state.rows.splice(idx,1);
+  state.undoStack.push({row, index:idx});
+  if(state.undoStack.length>UNDO_LIMIT) state.undoStack.shift();
+  const who = row.npc ? (row.npc.name || row.npc.editorid) : "empty row";
   render();
+  toast("Removed "+who+" — press Ctrl+Z to undo");
+}
+function undoRemove(){
+  const last = state.undoStack.pop();
+  if(!last){ toast("Nothing to undo"); return; }
+  const at = Math.min(last.index, state.rows.length);
+  state.rows.splice(at, 0, last.row);
+  const who = last.row.npc ? (last.row.npc.name || last.row.npc.editorid) : "empty row";
+  render();
+  toast("Restored "+who);
 }
 
 /* ---------- rendering ---------- */
@@ -1100,7 +1198,8 @@ function renderRow(row){
   // vanilla (second)
   const van = document.createElement("div"); van.className="vanilla";
   van.innerHTML = `<div class="vanilla-label">Vanilla Hairstyle</div>`+
-    `<div class="vanilla-name">${esc(dispName(npc.defaultHairstyleName)||"—")}</div>`;
+    `<div class="vanilla-name">${esc(dispName((defaultHairFor(npc)||{}).name || npc.defaultHairstyleName) || "—")}</div>`+
+    (npc.vanillaHair ? `<div class="vanilla-id">${esc(npc.vanillaHair)}</div>` : "");
   el.appendChild(van);
 
   // assigned hairstyle (third) — searchable combobox
@@ -1196,7 +1295,7 @@ function renderPicker(row){
 
   function choose(n){
     row.npc=n;
-    const def=n.defaultPreviewKey?hairByPreviewKey(n.defaultPreviewKey):null;
+    const def=defaultHairFor(n);
     row.assignedId=def?def.id:null;
     closePop(); render();
   }
@@ -1441,10 +1540,7 @@ function saveProject(){
   requireProjectName(()=>{
     const proj={ version:2, projectName:state.projectName, settings:CONFIG,
       hiddenPacks:[...state.hiddenPacks],
-      rows: state.rows.filter(r=>r.npc).map(r=>{
-        const h=r.assignedId!=null?state.hairById[r.assignedId]:null;
-        return { npc:r.npc, assignedPreviewKey:h?h.previewKey:null, overrideSpell:r.overrideSpell||null };
-      })};
+      rows: state.rows.filter(r=>r.npc).map(r=>savedRow(r))};
     const fn = "HDF-Save-"+safeName(state.projectName)+".json";
     download(JSON.stringify(proj,null,2), fn, "application/json") &&
       toast("Saved "+fn+" ("+proj.rows.length+" NPCs)");
@@ -1457,13 +1553,7 @@ function loadProject(obj){
     state.hiddenPacks = new Set(obj.hiddenPacks);
     state.validCache.clear();
   }
-  state.rows = obj.rows.map(r=>{
-    const row=makeRow(r.npc);
-    if(r.assignedPreviewKey){ const h=hairByPreviewKey(r.assignedPreviewKey); row.assignedId=h?h.id:null; }
-    else row.assignedId=null;
-    row.overrideSpell = r.overrideSpell || null;
-    return row;
-  });
+  state.rows = rowsFromSaved(obj.rows);   // reports anything it had to re-match
   render(); toast("Project loaded ("+state.rows.length+" rows)");
 }
 function newProject(){
@@ -1478,10 +1568,7 @@ function newProject(){
 function autosave(){
   if(!state.autosaveOK) return;
   try{
-    const data=state.rows.filter(r=>r.npc).map(r=>{
-      const h=r.assignedId!=null?state.hairById[r.assignedId]:null;
-      return {npc:r.npc, assignedPreviewKey:h?h.previewKey:null, overrideSpell:r.overrideSpell||null};
-    });
+    const data=state.rows.filter(r=>r.npc).map(r=>savedRow(r));
     localStorage.setItem("wigdist:autosave", JSON.stringify({projectName:state.projectName,
       hiddenPacks:[...state.hiddenPacks], rows:data}));
   }catch(e){ state.autosaveOK=false; }
@@ -1502,9 +1589,7 @@ function restoreAutosave(){
       state.validCache.clear();
     }
     if(!data.length) return false;
-    state.rows=data.map(r=>{const row=makeRow(r.npc);
-      if(r.assignedPreviewKey){const h=hairByPreviewKey(r.assignedPreviewKey);row.assignedId=h?h.id:null;}
-      else row.assignedId=null; row.overrideSpell=r.overrideSpell||null; return row;});
+    state.rows=rowsFromSaved(data);
     return true;
   }catch(e){ state.autosaveOK=false; return false; }
 }
@@ -1662,6 +1747,15 @@ function initUI(){
   $("#browserBackdrop").onclick=closeBrowserDrawer;
   $("#browserNewTab").onclick=openBrowserTab;
   document.addEventListener("keydown",e=>{ if(e.key==="Escape" && $("#browserDrawer").classList.contains("open")) closeBrowserDrawer(); });
+  document.addEventListener("keydown", e=>{
+    if(!(e.ctrlKey||e.metaKey) || e.shiftKey || e.altKey) return;
+    if((e.key||"").toLowerCase()!=="z") return;
+    // Leave text editing alone: Ctrl+Z inside a field should undo typing.
+    const t=e.target, tag=(t&&t.tagName||"").toLowerCase();
+    if(tag==="input" || tag==="textarea" || tag==="select" || (t&&t.isContentEditable)) return;
+    e.preventDefault();
+    undoRemove();
+  });
 }
 
 (async function(){
