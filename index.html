@@ -107,12 +107,12 @@ main{flex:1;padding:18px 22px 120px;overflow:auto}
 .rows.psize-xl{--thumb:320px}
 .row{
   display:grid;
-  grid-template-columns:minmax(190px,1.3fr) minmax(150px,1fr) minmax(230px,1.6fr) var(--thumbw) 34px;
+  grid-template-columns:16px minmax(190px,1.3fr) minmax(150px,1fr) minmax(230px,1.6fr) var(--thumbw) 34px;
   gap:14px;align-items:center;
   background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius);
   padding:10px 12px;
 }
-.rows.psize-none .row{grid-template-columns:minmax(190px,1.3fr) minmax(150px,1fr) minmax(230px,1.6fr) 34px}
+.rows.psize-none .row{grid-template-columns:16px minmax(190px,1.3fr) minmax(150px,1fr) minmax(230px,1.6fr) 34px}
 .rows.psize-none .thumb{display:none}
 .row.unsupported{border-color:#4a3a24;background:linear-gradient(0deg,var(--warn-bg),var(--surface))}
 /* Assigned hairstyle belongs to a mod the author has filtered out. Muted brick
@@ -126,6 +126,15 @@ main{flex:1;padding:18px 22px 120px;overflow:auto}
 .combo.none-selected .combo-btn:hover{border-color:#b0574c}
 .combo.none-selected .combo-val,.combo.none-selected .combo-val.ph{color:#d2796d}
 .combo.none-selected .combo-caret{color:#b0574c}
+.sort-row{display:grid;grid-template-columns:74px 1fr 110px;gap:9px;align-items:center;margin-bottom:9px}
+.sort-row label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);font-weight:600}
+.drag-handle{cursor:grab;color:var(--faint);font-size:13px;line-height:1;user-select:none;
+  text-align:center;padding:2px 0;border-radius:4px}
+.drag-handle:hover{color:var(--brass);background:var(--surface2)}
+.drag-handle:active{cursor:grabbing}
+.row.dragging{opacity:.45}
+.row.drop-above{box-shadow:inset 0 3px 0 var(--brass)}
+.row.drop-below{box-shadow:inset 0 -3px 0 var(--brass)}
 .check-list{display:flex;flex-direction:column;gap:2px;max-height:48vh;overflow:auto}
 .check-row{display:flex;align-items:center;gap:9px;padding:7px 8px;border-radius:6px;cursor:pointer;font-size:13.5px}
 .check-row:hover{background:var(--surface2)}
@@ -283,7 +292,7 @@ dialog#help{max-width:640px}
   padding:9px 16px;border-radius:8px;font-weight:600;font-size:13px;opacity:0;transition:opacity .2s;z-index:60;pointer-events:none}
 .toast.show{opacity:1}
 @media (max-width:760px){
-  .row,.rows.psize-none .row{grid-template-columns:1fr 34px;grid-auto-rows:auto}
+  .row,.rows.psize-none .row{grid-template-columns:16px 1fr 34px;grid-auto-rows:auto}
   .row>.thumb{grid-column:1}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -354,6 +363,7 @@ body.browser-only>#browserBackdrop{display:none!important}
   <div class="group">
     <button class="btn ghost" id="helpBtn">Instructions</button>
     <button class="btn" id="importBtn">Import CSV</button>
+    <button class="btn" id="sortBtn">Sort</button>
     <input type="file" id="csvFile" accept=".csv,text/csv" hidden>
   </div>
   <div class="spacer"></div>
@@ -412,6 +422,19 @@ body.browser-only>#browserBackdrop{display:none!important}
   <div class="dlg-f">
     <button class="btn ghost" id="npNameCancel">Cancel</button>
     <button class="btn primary" id="npNameOk">Save name &amp; continue</button>
+  </div>
+</dialog>
+
+<dialog id="sort">
+  <div class="dlg-h">Sort NPCs</div>
+  <div class="dlg-b">
+    <p style="margin:0 0 12px;color:var(--muted)">Rows are sorted by the first field, and ties are broken by the ones below it. You can also drag any row by its handle to place it manually. Ctrl+Z undoes either.</p>
+    <div id="sortList"></div>
+  </div>
+  <div class="dlg-f">
+    <button class="btn ghost" id="sortCancel">Cancel</button>
+    <button class="btn ghost" id="sortReset">Name, then EditorID</button>
+    <button class="btn primary" id="sortGo">Sort</button>
   </div>
 </dialog>
 
@@ -549,7 +572,7 @@ const state = {
   npcs: [], hairstyles: [], races: {}, previewIndex: {},
   npcByEid: new Map(), hairById: [], validCache: new Map(), npcsSorted: [], hairBySpell: new Map(),
   requirements: [], reqById: new Map(), packOrder: new Map(), nameToDisplay: new Map(),
-  rows: [], undoStack: [], live: false, settings: {}, autosaveOK: true, previewSize: "medium", projectName: "",
+  rows: [], undoStack: [], sortCriteria: null, live: false, settings: {}, autosaveOK: true, previewSize: "medium", projectName: "",
   hiddenPacks: new Set(),   // packs the user has unchecked in Hairstyle Filters
   browser: { race:"", gender:"", size:"medium", scrollTop:0 },
 };
@@ -936,24 +959,94 @@ function addRows(n, npc){
    back with Ctrl+Z (Cmd+Z on a Mac). The whole row is kept, so the NPC comes
    back with its hairstyle, override and position intact. */
 const UNDO_LIMIT = 50;
+function pushUndo(entry){
+  state.undoStack.push(entry);
+  if(state.undoStack.length>UNDO_LIMIT) state.undoStack.shift();
+}
+/* Snapshot the current order before sorting or dragging, so Ctrl+Z puts it back. */
+function pushOrderUndo(){ pushUndo({type:"order", rows:state.rows.slice()}); }
 function removeRow(uid){
   const idx = state.rows.findIndex(r=>r.uid===uid);
   if(idx<0) return;
   const [row] = state.rows.splice(idx,1);
-  state.undoStack.push({row, index:idx});
-  if(state.undoStack.length>UNDO_LIMIT) state.undoStack.shift();
+  pushUndo({type:"delete", row, index:idx});
   const who = row.npc ? (row.npc.name || row.npc.editorid) : "empty row";
   render();
   toast("Removed "+who+" — press Ctrl+Z to undo");
 }
-function undoRemove(){
+function undoLast(){
   const last = state.undoStack.pop();
   if(!last){ toast("Nothing to undo"); return; }
+  if(last.type==="order"){
+    state.rows = last.rows;            // reordering undoes quietly, no toast
+    render();
+    return;
+  }
   const at = Math.min(last.index, state.rows.length);
   state.rows.splice(at, 0, last.row);
   const who = last.row.npc ? (last.row.npc.name || last.row.npc.editorid) : "empty row";
   render();
   toast("Restored "+who);
+}
+
+/* ---------- sorting ---------- */
+/* Fields you can sort on. Empty rows always sink to the bottom. */
+const SORT_FIELDS = {
+  name:      {label:"NPC name",      get:n=>n.name || n.editorid || ""},
+  editorid:  {label:"EditorID",      get:n=>n.editorid || ""},
+  race:      {label:"Race",          get:n=>raceDisplay(n.race) || ""},
+  racetype:  {label:"Race type",     get:n=>raceTypeOf(n) || ""},
+  gender:    {label:"Gender",        get:n=>n.gender || ""},
+  formid:    {label:"FormID",        get:n=>n.formid || ""},
+};
+const SORT_DEFAULT = [{field:"name", dir:"asc"}, {field:"editorid", dir:"asc"}, {field:"", dir:"asc"}];
+function hairNameOf(row){
+  const h = row.assignedId!=null ? state.hairById[row.assignedId] : null;
+  return h ? dispName(h.name) : "";
+}
+function sortRows(criteria){
+  const cmp = (a,b)=>{
+    if(!a.npc || !b.npc) return (a.npc?0:1)-(b.npc?0:1);     // empty rows last
+    for(const c of criteria){
+      if(!c.field) continue;
+      let av, bv;
+      if(c.field==="hairstyle"){ av=hairNameOf(a); bv=hairNameOf(b); }
+      else { const f=SORT_FIELDS[c.field]; if(!f) continue; av=f.get(a.npc); bv=f.get(b.npc); }
+      const d = String(av).localeCompare(String(bv), undefined, {numeric:true, sensitivity:"base"});
+      if(d) return c.dir==="desc" ? -d : d;
+    }
+    return 0;
+  };
+  pushOrderUndo();
+  state.rows = state.rows.slice().sort(cmp);
+  render();
+  toast("Sorted");
+}
+function sortSelectHTML(sel, allowNone){
+  const opts = Object.keys(SORT_FIELDS).map(k=>
+    `<option value="${k}"${sel===k?" selected":""}>${esc(SORT_FIELDS[k].label)}</option>`).join("")
+    + `<option value="hairstyle"${sel==="hairstyle"?" selected":""}>Assigned hairstyle</option>`;
+  return (allowNone?`<option value=""${sel?"":" selected"}>— none —</option>`:"")+opts;
+}
+function openSortDialog(){
+  const host=$("#sortList"); host.innerHTML="";
+  const current = state.sortCriteria || SORT_DEFAULT;
+  ["Sort by","Then by","Then by"].forEach((label,i)=>{
+    const c = current[i] || {field:"", dir:"asc"};
+    const rowEl=document.createElement("div"); rowEl.className="sort-row";
+    rowEl.innerHTML = `<label>${label}</label>`+
+      `<select data-k="field">${sortSelectHTML(c.field, i>0)}</select>`+
+      `<select data-k="dir"><option value="asc"${c.dir!=="desc"?" selected":""}>A → Z</option>`+
+      `<option value="desc"${c.dir==="desc"?" selected":""}>Z → A</option></select>`;
+    host.appendChild(rowEl);
+  });
+  $("#sort").showModal();
+}
+function readSortDialog(){
+  return [...$("#sortList").querySelectorAll(".sort-row")].map(r=>({
+    field: r.querySelector('[data-k="field"]').value,
+    dir:   r.querySelector('[data-k="dir"]').value,
+  }));
 }
 
 /* ---------- rendering ---------- */
@@ -1185,10 +1278,68 @@ function setAllFilters(on){
   applyFilterCheckboxes();
 }
 
+/* Drag handle. Only the handle starts a drag, so the controls in the row keep
+   working normally. */
+function dragHandle(row, el){
+  const h=document.createElement("div");
+  h.className="drag-handle"; h.textContent="⠿"; h.title="Drag to reorder";
+  h.draggable=true;
+  h.addEventListener("dragstart", e=>{
+    dragUid=row.uid; el.classList.add("dragging");
+    e.dataTransfer.effectAllowed="move";
+    try{ e.dataTransfer.setData("text/plain", String(row.uid)); }catch(_){}
+    if(e.dataTransfer.setDragImage) e.dataTransfer.setDragImage(el, 20, 20);
+  });
+  h.addEventListener("dragend", ()=>{ dragUid=null; clearDropMarks(); render(); });
+  return h;
+}
+function clearDropMarks(){
+  document.querySelectorAll(".row.drop-above,.row.drop-below,.row.dragging")
+    .forEach(r=>r.classList.remove("drop-above","drop-below","dragging"));
+}
+/* Rows accept a drop anywhere on them; which half decides above vs below. */
+function makeDropTarget(el, row){
+  el.addEventListener("dragover", e=>{
+    if(dragUid==null || dragUid===row.uid) return;
+    e.preventDefault();
+    e.dataTransfer.dropEffect="move";
+    const r=el.getBoundingClientRect();
+    const below = e.clientY > r.top + r.height/2;
+    el.classList.toggle("drop-below", below);
+    el.classList.toggle("drop-above", !below);
+  });
+  el.addEventListener("dragleave", ()=>el.classList.remove("drop-above","drop-below"));
+  el.addEventListener("drop", e=>{
+    if(dragUid==null || dragUid===row.uid) return;
+    e.preventDefault();
+    const r=el.getBoundingClientRect();
+    const below = e.clientY > r.top + r.height/2;
+    moveRow(dragUid, row.uid, below);
+  });
+}
+let dragUid = null;
+function moveRow(fromUid, toUid, after){
+  const from = state.rows.findIndex(r=>r.uid===fromUid);
+  if(from<0) return;
+  pushOrderUndo();                       // quiet undo, no toast
+  const [moved] = state.rows.splice(from,1);
+  let to = state.rows.findIndex(r=>r.uid===toUid);
+  if(to<0){ state.rows.splice(from,0,moved); state.undoStack.pop(); return; }
+  state.rows.splice(after ? to+1 : to, 0, moved);
+  dragUid=null;
+  render();
+}
+
 function renderRow(row){
   const el = document.createElement("div");
   el.className = "row";
-  if(!row.npc){ el.appendChild(renderPicker(row)); return wrapEmptyRow(el, row); }
+  makeDropTarget(el, row);
+  if(!row.npc){
+    el.appendChild(dragHandle(row, el));
+    el.appendChild(renderPicker(row));
+    return wrapEmptyRow(el, row);
+  }
+  el.appendChild(dragHandle(row, el));
 
   const npc = row.npc;
   const rt = raceTypeOf(npc), g = npc.gender;
@@ -1290,7 +1441,7 @@ function renderRow(row){
 function wrapEmptyRow(el, row){
   const rm=document.createElement("button"); rm.className="rm"; rm.textContent="×";
   rm.title="Remove"; rm.onclick=()=>removeRow(row.uid);
-  el.style.gridTemplateColumns="1fr 34px";
+  el.style.gridTemplateColumns="16px 1fr 34px";
   el.appendChild(rm);
   return el;
 }
@@ -1758,6 +1909,10 @@ function initUI(){
   $("#helpBtn").onclick=()=>help.showModal();
   $("#helpClose").onclick=()=>help.close();
   const ovrDlg=$("#override");  $("#filtersBtn").onclick=openFiltersDialog;
+  $("#sortBtn").onclick=openSortDialog;
+  $("#sortCancel").onclick=()=>$("#sort").close();
+  $("#sortReset").onclick=()=>{ state.sortCriteria=SORT_DEFAULT.map(c=>({...c})); openSortDialog(); };
+  $("#sortGo").onclick=()=>{ state.sortCriteria=readSortDialog(); $("#sort").close(); sortRows(state.sortCriteria); };
   $("#fltDone").onclick=()=>$("#filters").close();
   $("#fltAll").onclick=()=>setAllFilters(true);
   $("#fltNone").onclick=()=>setAllFilters(false);  $("#ovrCancel").onclick=()=>ovrDlg.close();
@@ -1789,7 +1944,7 @@ function initUI(){
     const t=e.target, tag=(t&&t.tagName||"").toLowerCase();
     if(tag==="input" || tag==="textarea" || tag==="select" || (t&&t.isContentEditable)) return;
     e.preventDefault();
-    undoRemove();
+    undoLast();
   });
 }
 
