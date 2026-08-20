@@ -133,6 +133,7 @@ main{flex:1;padding:18px 22px 120px;overflow:auto}
 .drag-handle:hover{color:var(--brass);background:var(--surface2)}
 .drag-handle:active{cursor:grabbing}
 .row.dragging{opacity:.45}
+.btn.drop-file{border-color:var(--brass);background:var(--surface3);color:#f2ead6}
 .row.drop-above{box-shadow:inset 0 3px 0 var(--brass)}
 .row.drop-below{box-shadow:inset 0 -3px 0 var(--brass)}
 .check-list{display:flex;flex-direction:column;gap:2px;max-height:48vh;overflow:auto}
@@ -353,7 +354,7 @@ body.browser-only>#browserBackdrop{display:none!important}
   <div class="group">
     <button class="btn ghost" id="newBtn">New project</button>
     <button class="btn ghost" id="saveBtn">Save project</button>
-    <button class="btn ghost" id="loadBtn">Load project</button>
+    <button class="btn ghost" id="loadBtn" title="Click to choose a saved project, or drop one here">Load project</button>
     <input type="file" id="projFile" accept=".json,application/json" hidden>
   </div>
 </div>
@@ -362,7 +363,7 @@ body.browser-only>#browserBackdrop{display:none!important}
 <div class="toolbar">
   <div class="group">
     <button class="btn ghost" id="helpBtn">Instructions</button>
-    <button class="btn" id="importBtn">Import CSV</button>
+    <button class="btn" id="importBtn" title="Click to choose a CSV, or drop one here">Import CSV</button>
     <button class="btn" id="sortBtn">Sort</button>
     <input type="file" id="csvFile" accept=".csv,text/csv" hidden>
   </div>
@@ -1869,6 +1870,49 @@ function initBrowserPage(){
   buildBrowser($("#browserPageBody"), pstate);
 }
 
+/* ---------- file input, from a dialog or dropped on a button ---------- */
+function readCSVFile(f){
+  if(!f) return;
+  const rd=new FileReader();
+  rd.onload=()=>importCSV(rd.result);
+  rd.onerror=()=>toast("Couldn't read "+f.name);
+  rd.readAsText(f);
+}
+function readProjectFile(f){
+  if(!f) return;
+  const rd=new FileReader();
+  rd.onload=()=>{ try{ loadProject(JSON.parse(rd.result)); }
+                  catch(x){ toast("Couldn't read "+f.name+" — is it a saved project?"); } };
+  rd.onerror=()=>toast("Couldn't read "+f.name);
+  rd.readAsText(f);
+}
+/* Let a button accept a dropped file as well as a click. */
+function makeFileDropTarget(btn, exts, handler){
+  if(!btn) return;
+  const wanted = f => exts.some(x => (f.name||"").toLowerCase().endsWith(x));
+  const isFileDrag = e => {
+    const t=e.dataTransfer && e.dataTransfer.types;
+    return dragUid==null && t && [...t].includes("Files");   // ignore row drags
+  };
+  btn.addEventListener("dragover", e=>{
+    if(!isFileDrag(e)) return;
+    e.preventDefault(); e.stopPropagation();
+    e.dataTransfer.dropEffect="copy";
+    btn.classList.add("drop-file");
+  });
+  btn.addEventListener("dragleave", ()=>btn.classList.remove("drop-file"));
+  btn.addEventListener("drop", e=>{
+    if(!isFileDrag(e)) return;
+    e.preventDefault(); e.stopPropagation();
+    btn.classList.remove("drop-file");
+    const files=[...(e.dataTransfer.files||[])];
+    if(!files.length) return;
+    const f = files.find(wanted) || files[0];
+    if(!wanted(f)){ toast("Expected a "+exts.join(" or ")+" file"); return; }
+    handler(f);
+  });
+}
+
 /* ---------- wire up ---------- */
 function initUI(){
   // Outbound links all come from CONFIG.LINKS so there's one place to edit them.
@@ -1899,9 +1943,14 @@ function initUI(){
     const a=pendingAction; pendingAction=null; if(a) a();
   };
   $("#importBtn").onclick=()=>$("#csvFile").click();
-  $("#csvFile").onchange=e=>{const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
-    rd.onload=()=>importCSV(rd.result); rd.readAsText(f); e.target.value=""; };
+  $("#csvFile").onchange=e=>{ readCSVFile(e.target.files[0]); e.target.value=""; };
   $("#saveBtn").onclick=saveProject;
+  makeFileDropTarget($("#importBtn"), [".csv"], readCSVFile);
+  makeFileDropTarget($("#loadBtn"), [".json"], readProjectFile);
+  // Dropping a file anywhere else shouldn't make the browser navigate to it.
+  ["dragover","drop"].forEach(t=>document.addEventListener(t, e=>{
+    if(dragUid==null && e.dataTransfer && [...(e.dataTransfer.types||[])].includes("Files")) e.preventDefault();
+  }));
   $("#loadBtn").onclick=()=>$("#projFile").click();
   const np=$("#newproj");
   $("#newBtn").onclick=()=>np.showModal();
@@ -1922,9 +1971,7 @@ function initUI(){
   $("#npCancel").onclick=()=>np.close();
   $("#npSaveFirst").onclick=()=>{ saveProject(); np.close(); newProject(); };
   $("#npWipe").onclick=()=>{ np.close(); newProject(); };
-  $("#projFile").onchange=e=>{const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
-    rd.onload=()=>{try{loadProject(JSON.parse(rd.result));}catch(x){toast("Couldn't read file");}};
-    rd.readAsText(f); e.target.value=""; };
+  $("#projFile").onchange=e=>{ readProjectFile(e.target.files[0]); e.target.value=""; };
   $("#copyBtn").onclick=async()=>{ try{await navigator.clipboard.writeText($("#output").value); toast("Copied");}
     catch(x){ $("#output").select(); document.execCommand("copy"); toast("Copied"); } };
   $("#downloadBtn").onclick=()=>requireProjectName(()=>{
