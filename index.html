@@ -17,7 +17,10 @@
   --radius:7px; --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
 }
 *{box-sizing:border-box}
-html,body{margin:0;height:100%}
+/* The page itself scrolls. Giving body a fixed height:100% used to cap the
+   sticky toolbar's container at one screen, so it unstuck once you scrolled
+   past that; min-height lets body grow with the list instead. */
+html,body{margin:0;min-height:100%}
 body{
   background:var(--bg); color:var(--text);
   font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
@@ -95,7 +98,7 @@ label.mini{font-size:12px;color:var(--muted)}
 
 /* ---- layout ---- */
 .wrap{display:flex;gap:0;min-height:0}
-main{flex:1;padding:18px 22px 120px;overflow:auto}
+main{flex:1;padding:18px 22px 120px}   /* no inner scroller: one page scrollbar */
 .summary{color:var(--muted);font-size:12.5px;margin:0 0 12px}
 .summary b{color:var(--text)}
 
@@ -423,6 +426,18 @@ body.browser-only>#browserBackdrop{display:none!important}
   <div class="dlg-f">
     <button class="btn ghost" id="npNameCancel">Cancel</button>
     <button class="btn primary" id="npNameOk">Save name &amp; continue</button>
+  </div>
+</dialog>
+
+<dialog id="loadconfirm">
+  <div class="dlg-h">Replace your current list?</div>
+  <div class="dlg-b">
+    <p style="margin:0;color:var(--muted)" id="lcBody"></p>
+  </div>
+  <div class="dlg-f">
+    <button class="btn ghost" id="lcCancel">Cancel</button>
+    <button class="btn" id="lcSaveFirst">Download save first</button>
+    <button class="btn primary" id="lcGo">Overwrite and continue</button>
   </div>
 </dialog>
 
@@ -1870,6 +1885,25 @@ function initBrowserPage(){
   buildBrowser($("#browserPageBody"), pstate);
 }
 
+/* Loading a project throws away whatever is on screen, so confirm first when
+   there's something to lose. The check runs before the file dialog opens and
+   before a dropped file is read, so nothing is touched until you say yes. */
+let pendingLoad = null;
+function confirmReplace(action){
+  const n = state.rows.filter(r=>r.npc).length;
+  if(!n){ action(); return; }               // nothing to lose
+  pendingLoad = action;
+  $("#lcBody").textContent =
+    "Your list has "+n+" NPC"+(n===1?"":"s")+" in it. Loading a project replaces "+
+    (n===1?"it":"them")+" entirely, and anything you haven't saved will be lost.";
+  $("#loadconfirm").showModal();
+}
+function runPendingLoad(){
+  const action = pendingLoad; pendingLoad = null;
+  $("#loadconfirm").close();
+  if(action) action();
+}
+
 /* ---------- file input, from a dialog or dropped on a button ---------- */
 function readCSVFile(f){
   if(!f) return;
@@ -1946,12 +1980,12 @@ function initUI(){
   $("#csvFile").onchange=e=>{ readCSVFile(e.target.files[0]); e.target.value=""; };
   $("#saveBtn").onclick=saveProject;
   makeFileDropTarget($("#importBtn"), [".csv"], readCSVFile);
-  makeFileDropTarget($("#loadBtn"), [".json"], readProjectFile);
+  makeFileDropTarget($("#loadBtn"), [".json"], f=>confirmReplace(()=>readProjectFile(f)));
   // Dropping a file anywhere else shouldn't make the browser navigate to it.
   ["dragover","drop"].forEach(t=>document.addEventListener(t, e=>{
     if(dragUid==null && e.dataTransfer && [...(e.dataTransfer.types||[])].includes("Files")) e.preventDefault();
   }));
-  $("#loadBtn").onclick=()=>$("#projFile").click();
+  $("#loadBtn").onclick=()=>confirmReplace(()=>$("#projFile").click());
   const np=$("#newproj");
   $("#newBtn").onclick=()=>np.showModal();
   const help=$("#help");
@@ -1968,6 +2002,9 @@ function initUI(){
   $("#ovrClear").onclick=()=>{ if(overrideRow) overrideRow.overrideSpell=null; ovrDlg.close(); render(); };
   $("#ovrSave").onclick=()=>{ if(overrideRow){ const v=$("#ovrInput").value.trim(); overrideRow.overrideSpell=v||null; } ovrDlg.close(); render(); };
   $("#ovrInput").addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); $("#ovrSave").click(); } });
+  $("#lcCancel").onclick=()=>{ pendingLoad=null; $("#loadconfirm").close(); };
+  $("#lcSaveFirst").onclick=()=>{ saveProject(); runPendingLoad(); };
+  $("#lcGo").onclick=runPendingLoad;
   $("#npCancel").onclick=()=>np.close();
   $("#npSaveFirst").onclick=()=>{ saveProject(); np.close(); newProject(); };
   $("#npWipe").onclick=()=>{ np.close(); newProject(); };
