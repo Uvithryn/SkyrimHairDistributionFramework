@@ -1,15 +1,12 @@
 [
   {
     "mod": "Vanilla",
-    "name": "Vanilla - Bald",
-    "spell": "Uvi_Wig_Spell_VHRU_BaldCap",
-    "previewKey": "Vanilla_Bald",
+    "name": "Vanilla - Afro Large",
+    "spell": "Uvi_Wig_Spell_VHRU_AfroLarge",
+    "previewKey": "Vanilla_AfroLarge",
     "validRaceTypes": [
-      "Argonian",
       "Elf",
       "Human",
-      "HumanChild",
-      "Khajiit",
       "Orc"
     ],
     "validGenders": [
@@ -17,29 +14,17 @@
       "Male"
     ],
     "validGendersByRace": {
-      "Argonian": [
-        "Male",
-        "Female"
+      "Human": [
+        "Female",
+        "Male"
       ],
       "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "HumanChild": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
+        "Female",
+        "Male"
       ],
       "Orc": [
-        "Male",
-        "Female"
+        "Female",
+        "Male"
       ]
     },
     "requirements": [
@@ -48,16 +33,49 @@
     ],
     "condRequirements": {},
     "editorIDs": [
-      "HairArgonianFemale00",
-      "HairArgonianMale00",
-      "HairKhajiit00",
-      "HairKhajiitMale10",
-      "KhajiitFemaleEarTufts",
-      "KhajiitMaleEarTufts",
-      "NoHair"
+      "HairMaleRedguard4"
     ],
     "pack": "Vanilla",
-    "displayName": "Vanilla - Bald"
+    "displayName": "Vanilla - Afro Large"
+  },
+  {
+    "mod": "Vanilla",
+    "name": "Vanilla - Afro Small",
+    "spell": "Uvi_Wig_Spell_VHRU_AfroSmall",
+    "previewKey": "Vanilla_AfroSmall",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Human": [
+        "Female",
+        "Male"
+      ],
+      "Elf": [
+        "Female",
+        "Male"
+      ],
+      "Orc": [
+        "Female",
+        "Male"
+      ]
+    },
+    "requirements": [
+      "VHR",
+      "VHRWU"
+    ],
+    "condRequirements": {},
+    "editorIDs": [
+      "HairMaleRedguard3"
+    ],
+    "pack": "Vanilla",
+    "displayName": "Vanilla - Afro Small"
   },
   {
     "mod": "Vanilla",
@@ -442,12 +460,15 @@
   },
   {
     "mod": "Vanilla",
-    "name": "Vanilla - Afro Large",
-    "spell": "Uvi_Wig_Spell_VHRU_AfroLarge",
-    "previewKey": "Vanilla_AfroLarge",
+    "name": "Vanilla - Bald",
+    "spell": "Uvi_Wig_Spell_VHRU_BaldCap",
+    "previewKey": "Vanilla_Bald",
     "validRaceTypes": [
+      "Argonian",
       "Elf",
       "Human",
+      "HumanChild",
+      "Khajiit",
       "Orc"
     ],
     "validGenders": [
@@ -455,17 +476,29 @@
       "Male"
     ],
     "validGendersByRace": {
-      "Human": [
-        "Female",
-        "Male"
+      "Argonian": [
+        "Male",
+        "Female"
       ],
       "Elf": [
-        "Female",
-        "Male"
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "HumanChild": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
       ],
       "Orc": [
-        "Female",
-        "Male"
+        "Male",
+        "Female"
       ]
     },
     "requirements": [
@@ -474,49 +507,16 @@
     ],
     "condRequirements": {},
     "editorIDs": [
-      "HairMaleRedguard4"
+      "HairArgonianFemale00",
+      "HairArgonianMale00",
+      "HairKhajiit00",
+      "HairKhajiitMale10",
+      "KhajiitFemaleEarTufts",
+      "KhajiitMaleEarTufts",
+      "NoHair"
     ],
     "pack": "Vanilla",
-    "displayName": "Vanilla - Afro Large"
-  },
-  {
-    "mod": "Vanilla",
-    "name": "Vanilla - Afro Small",
-    "spell": "Uvi_Wig_Spell_VHRU_AfroSmall",
-    "previewKey": "Vanilla_AfroSmall",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Human": [
-        "Female",
-        "Male"
-      ],
-      "Elf": [
-        "Female",
-        "Male"
-      ],
-      "Orc": [
-        "Female",
-        "Male"
-      ]
-    },
-    "requirements": [
-      "VHR",
-      "VHRWU"
-    ],
-    "condRequirements": {},
-    "editorIDs": [
-      "HairMaleRedguard3"
-    ],
-    "pack": "Vanilla",
-    "displayName": "Vanilla - Afro Small"
+    "displayName": "Vanilla - Bald"
   },
   {
     "mod": "Vanilla",
@@ -1317,6 +1317,50 @@
   },
   {
     "mod": "Vanilla",
+    "name": "Vanilla - Mohawk French Braids",
+    "spell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
+    "previewKey": "Vanilla_MohawkFrenchBraids",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Human": [
+        "Female",
+        "Male"
+      ],
+      "Elf": [
+        "Female",
+        "Male"
+      ],
+      "Orc": [
+        "Female",
+        "Male"
+      ],
+      "Khajiit": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "VHR",
+      "VHRWU"
+    ],
+    "condRequirements": {},
+    "editorIDs": [
+      "HairMaleNord16",
+      "HairFemaleNord16"
+    ],
+    "pack": "Vanilla",
+    "displayName": "Vanilla - Mohawk French Braids"
+  },
+  {
+    "mod": "Vanilla",
     "name": "Vanilla - Mohawk Long",
     "spell": "Uvi_Wig_Spell_VHRU_MohawkLong",
     "previewKey": "Vanilla_MohawkLong",
@@ -1752,50 +1796,6 @@
     ],
     "pack": "Vanilla",
     "displayName": "Vanilla - Mohawk Short"
-  },
-  {
-    "mod": "Vanilla",
-    "name": "Vanilla - Mohawk French Braids",
-    "spell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
-    "previewKey": "Vanilla_MohawkFrenchBraids",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Human": [
-        "Female",
-        "Male"
-      ],
-      "Elf": [
-        "Female",
-        "Male"
-      ],
-      "Orc": [
-        "Female",
-        "Male"
-      ],
-      "Khajiit": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "VHR",
-      "VHRWU"
-    ],
-    "condRequirements": {},
-    "editorIDs": [
-      "HairMaleNord16",
-      "HairFemaleNord16"
-    ],
-    "pack": "Vanilla",
-    "displayName": "Vanilla - Mohawk French Braids"
   },
   {
     "mod": "Vanilla",
@@ -3311,45 +3311,6 @@
   },
   {
     "mod": "Vanilla",
-    "name": "Vanilla - Sidecut Short",
-    "spell": "Uvi_Wig_Spell_VHRU_SidecutShort",
-    "previewKey": "Vanilla_SidecutShort",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Human": [
-        "Female"
-      ],
-      "Elf": [
-        "Female",
-        "Male"
-      ],
-      "Orc": [
-        "Female",
-        "Male"
-      ]
-    },
-    "requirements": [
-      "VHR",
-      "VHRWU"
-    ],
-    "condRequirements": {},
-    "editorIDs": [
-      "HairMaleDarkElf04",
-      "HairFemaleDarkElf08"
-    ],
-    "pack": "Vanilla",
-    "displayName": "Vanilla - Sidecut Short"
-  },
-  {
-    "mod": "Vanilla",
     "name": "Vanilla - Sidecut Long",
     "spell": "Uvi_Wig_Spell_VHRU_SidecutLong",
     "previewKey": "Vanilla_SidecutLong",
@@ -3386,6 +3347,45 @@
     ],
     "pack": "Vanilla",
     "displayName": "Vanilla - Sidecut Long"
+  },
+  {
+    "mod": "Vanilla",
+    "name": "Vanilla - Sidecut Short",
+    "spell": "Uvi_Wig_Spell_VHRU_SidecutShort",
+    "previewKey": "Vanilla_SidecutShort",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Human": [
+        "Female"
+      ],
+      "Elf": [
+        "Female",
+        "Male"
+      ],
+      "Orc": [
+        "Female",
+        "Male"
+      ]
+    },
+    "requirements": [
+      "VHR",
+      "VHRWU"
+    ],
+    "condRequirements": {},
+    "editorIDs": [
+      "HairMaleDarkElf04",
+      "HairFemaleDarkElf08"
+    ],
+    "pack": "Vanilla",
+    "displayName": "Vanilla - Sidecut Short"
   },
   {
     "mod": "Vanilla",
@@ -3595,6 +3595,122 @@
   },
   {
     "mod": "Vanilla",
+    "name": "Vanilla - Straight Behind Ears",
+    "spell": "Uvi_Wig_Spell_VHRU_StraightBehindEars",
+    "previewKey": "Vanilla_StraightBehindEars",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Human": [
+        "Female",
+        "Male"
+      ],
+      "Elf": [
+        "Female"
+      ],
+      "Orc": [
+        "Female",
+        "Male"
+      ]
+    },
+    "requirements": [
+      "VHR",
+      "VHRWU"
+    ],
+    "condRequirements": {},
+    "editorIDs": [
+      "HairFemaleNord20",
+      "HairFemaleElf10"
+    ],
+    "pack": "Vanilla",
+    "displayName": "Vanilla - Straight Behind Ears"
+  },
+  {
+    "mod": "Vanilla",
+    "name": "Vanilla - Straight Behind Left Ear",
+    "spell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
+    "previewKey": "Vanilla_StraightBehindLeftEar",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Human": [
+        "Female",
+        "Male"
+      ],
+      "Elf": [
+        "Female",
+        "Male"
+      ],
+      "Orc": [
+        "Female",
+        "Male"
+      ]
+    },
+    "requirements": [
+      "VHR",
+      "VHRWU"
+    ],
+    "condRequirements": {},
+    "editorIDs": [
+      "HairFemaleNord15",
+      "HairMaleNord15"
+    ],
+    "pack": "Vanilla",
+    "displayName": "Vanilla - Straight Behind Left Ear"
+  },
+  {
+    "mod": "Vanilla",
+    "name": "Vanilla - Straight Behind Right Ear",
+    "spell": "Uvi_Wig_Spell_VHRU_StraightBehindRightEar",
+    "previewKey": "Vanilla_StraightBehindRightEar",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Human": [
+        "Female"
+      ],
+      "Elf": [
+        "Female",
+        "Male"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "VHR",
+      "VHRWU"
+    ],
+    "condRequirements": {},
+    "editorIDs": [
+      "HairFemaleDarkElf05"
+    ],
+    "pack": "Vanilla",
+    "displayName": "Vanilla - Straight Behind Right Ear"
+  },
+  {
+    "mod": "Vanilla",
     "name": "Vanilla - Straight Long",
     "spell": "Uvi_Wig_Spell_VHRU_StraightLong",
     "previewKey": "Vanilla_StraightLong",
@@ -3766,122 +3882,6 @@
     ],
     "pack": "Vanilla",
     "displayName": "Vanilla - Straight Medium"
-  },
-  {
-    "mod": "Vanilla",
-    "name": "Vanilla - Straight Behind Ears",
-    "spell": "Uvi_Wig_Spell_VHRU_StraightBehindEars",
-    "previewKey": "Vanilla_StraightBehindEars",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Human": [
-        "Female",
-        "Male"
-      ],
-      "Elf": [
-        "Female"
-      ],
-      "Orc": [
-        "Female",
-        "Male"
-      ]
-    },
-    "requirements": [
-      "VHR",
-      "VHRWU"
-    ],
-    "condRequirements": {},
-    "editorIDs": [
-      "HairFemaleNord20",
-      "HairFemaleElf10"
-    ],
-    "pack": "Vanilla",
-    "displayName": "Vanilla - Straight Behind Ears"
-  },
-  {
-    "mod": "Vanilla",
-    "name": "Vanilla - Straight Behind Left Ear",
-    "spell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
-    "previewKey": "Vanilla_StraightBehindLeftEar",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Human": [
-        "Female",
-        "Male"
-      ],
-      "Elf": [
-        "Female",
-        "Male"
-      ],
-      "Orc": [
-        "Female",
-        "Male"
-      ]
-    },
-    "requirements": [
-      "VHR",
-      "VHRWU"
-    ],
-    "condRequirements": {},
-    "editorIDs": [
-      "HairFemaleNord15",
-      "HairMaleNord15"
-    ],
-    "pack": "Vanilla",
-    "displayName": "Vanilla - Straight Behind Left Ear"
-  },
-  {
-    "mod": "Vanilla",
-    "name": "Vanilla - Straight Behind Right Ear",
-    "spell": "Uvi_Wig_Spell_VHRU_StraightBehindRightEar",
-    "previewKey": "Vanilla_StraightBehindRightEar",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Human": [
-        "Female"
-      ],
-      "Elf": [
-        "Female",
-        "Male"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "VHR",
-      "VHRWU"
-    ],
-    "condRequirements": {},
-    "editorIDs": [
-      "HairFemaleDarkElf05"
-    ],
-    "pack": "Vanilla",
-    "displayName": "Vanilla - Straight Behind Right Ear"
   },
   {
     "mod": "Vanilla",
@@ -4865,38 +4865,6 @@
   },
   {
     "mod": "Dint BDOR Hair",
-    "name": "Dint BDOR - Ellaia",
-    "spell": "Uvi_Wig_Spell_DintBDOR_Ellaia",
-    "previewKey": "DintBDOR_Ellaia",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint_BDOR"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint BDOR Hair",
-    "displayName": "Dint BDOR - Ellaia"
-  },
-  {
-    "mod": "Dint BDOR Hair",
     "name": "Dint BDOR - Ella'jane",
     "spell": "Uvi_Wig_Spell_DintBDOR_Ellajane",
     "previewKey": "DintBDOR_Ellajane",
@@ -4926,6 +4894,38 @@
     "editorIDs": [],
     "pack": "Dint BDOR Hair",
     "displayName": "Dint BDOR - Ella'jane"
+  },
+  {
+    "mod": "Dint BDOR Hair",
+    "name": "Dint BDOR - Ellaia",
+    "spell": "Uvi_Wig_Spell_DintBDOR_Ellaia",
+    "previewKey": "DintBDOR_Ellaia",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint_BDOR"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint BDOR Hair",
+    "displayName": "Dint BDOR - Ellaia"
   },
   {
     "mod": "Dint BDOR Hair",
@@ -7892,314 +7892,6 @@
   },
   {
     "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 2",
-    "spell": "Uvi_Wig_Spell_Dint02_02",
-    "previewKey": "DintHairPack02_2",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 2"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 3",
-    "spell": "Uvi_Wig_Spell_Dint02_03",
-    "previewKey": "DintHairPack02_3",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 3"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 3 Long",
-    "spell": "Uvi_Wig_Spell_Dint02_03Long",
-    "previewKey": "DintHairPack02_3Long",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 3 Long"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 4",
-    "spell": "Uvi_Wig_Spell_Dint02_04",
-    "previewKey": "DintHairPack02_4",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 4"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 5",
-    "spell": "Uvi_Wig_Spell_Dint02_05",
-    "previewKey": "DintHairPack02_5",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 5"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 6",
-    "spell": "Uvi_Wig_Spell_Dint02_06",
-    "previewKey": "DintHairPack02_6",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 6"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 7",
-    "spell": "Uvi_Wig_Spell_Dint02_07",
-    "previewKey": "DintHairPack02_7",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 7"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 8",
-    "spell": "Uvi_Wig_Spell_Dint02_08",
-    "previewKey": "DintHairPack02_8",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 8"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 9",
-    "spell": "Uvi_Wig_Spell_Dint02_09",
-    "previewKey": "DintHairPack02_9",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 9"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 10",
     "spell": "Uvi_Wig_Spell_Dint02_10",
     "previewKey": "DintHairPack02_10",
@@ -8616,6 +8308,38 @@
   },
   {
     "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 2",
+    "spell": "Uvi_Wig_Spell_Dint02_02",
+    "previewKey": "DintHairPack02_2",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 2"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 20",
     "spell": "Uvi_Wig_Spell_Dint02_20",
     "previewKey": "DintHairPack02_20",
@@ -8968,6 +8692,74 @@
   },
   {
     "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 3",
+    "spell": "Uvi_Wig_Spell_Dint02_03",
+    "previewKey": "DintHairPack02_3",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 3"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 3 Long",
+    "spell": "Uvi_Wig_Spell_Dint02_03Long",
+    "previewKey": "DintHairPack02_3Long",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 3 Long"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 30",
     "spell": "Uvi_Wig_Spell_Dint02_30",
     "previewKey": "DintHairPack02_30",
@@ -9165,6 +8957,214 @@
     "editorIDs": [],
     "pack": "Dint Hair Pack 02",
     "displayName": "Dint Hair Pack 02 - 35"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 4",
+    "spell": "Uvi_Wig_Spell_Dint02_04",
+    "previewKey": "DintHairPack02_4",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 4"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 5",
+    "spell": "Uvi_Wig_Spell_Dint02_05",
+    "previewKey": "DintHairPack02_5",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 5"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 6",
+    "spell": "Uvi_Wig_Spell_Dint02_06",
+    "previewKey": "DintHairPack02_6",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 6"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 7",
+    "spell": "Uvi_Wig_Spell_Dint02_07",
+    "previewKey": "DintHairPack02_7",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 7"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 8",
+    "spell": "Uvi_Wig_Spell_Dint02_08",
+    "previewKey": "DintHairPack02_8",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 8"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 9",
+    "spell": "Uvi_Wig_Spell_Dint02_09",
+    "previewKey": "DintHairPack02_9",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 9"
   },
   {
     "mod": "Fuse Hairstyles",
@@ -9618,6 +9618,42 @@
   },
   {
     "mod": "Fuse Hairstyles",
+    "name": "Fuse Hairstyles - Shar",
+    "spell": "Uvi_Wig_Spell_Fuse_Shar",
+    "previewKey": "FuseHairstyles_Shar",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Fuse_BraidedHair"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Fuse Hairstyles",
+    "displayName": "Fuse Hairstyles - Shar"
+  },
+  {
+    "mod": "Fuse Hairstyles",
     "name": "Fuse Hairstyles - Siren",
     "spell": "Uvi_Wig_Spell_Fuse_Siren",
     "previewKey": "FuseHairstyles_Siren",
@@ -9660,42 +9696,6 @@
     "editorIDs": [],
     "pack": "Fuse Hairstyles",
     "displayName": "Fuse Hairstyles - Siren"
-  },
-  {
-    "mod": "Fuse Hairstyles",
-    "name": "Fuse Hairstyles - Shar",
-    "spell": "Uvi_Wig_Spell_Fuse_Shar",
-    "previewKey": "FuseHairstyles_Shar",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Fuse_BraidedHair"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Fuse Hairstyles",
-    "displayName": "Fuse Hairstyles - Shar"
   },
   {
     "mod": "Fuse Hairstyles",
@@ -10155,6 +10155,54 @@
     "editorIDs": [],
     "pack": "Fuse Valkyr 2",
     "displayName": "Fuse Valkyr 2 - Ghost"
+  },
+  {
+    "mod": "jg1 Forest Cat",
+    "name": "jg1 - Forest Cat",
+    "spell": "Uvi_Wig_Spell_jg1_ForestCat",
+    "previewKey": "jg1_ForestCat",
+    "validRaceTypes": [
+      "Khajiit"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Khajiit": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "jg1_Forest_Cat"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "jg1 Forest Cat",
+    "displayName": "jg1 - Forest Cat"
+  },
+  {
+    "mod": "jg1 Lion's Mane",
+    "name": "jg1 - Lion's Mane",
+    "spell": "Uvi_Wig_Spell_jg1_LionsMane",
+    "previewKey": "jg1_LionsMane",
+    "validRaceTypes": [
+      "Khajiit"
+    ],
+    "validGenders": [
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Khajiit": [
+        "Male"
+      ]
+    },
+    "requirements": [
+      "jg1_Lion_Mane"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "jg1 Lion's Mane",
+    "displayName": "jg1 - Lion's Mane"
   },
   {
     "mod": "Koralina's Collection 1",
@@ -14326,248 +14374,6 @@
   },
   {
     "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Dove",
-    "spell": "Uvi_Wig_Spell_Evg_Dove",
-    "previewKey": "ModularSMPHair_Dove",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Dove"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Eventually",
-    "spell": "Uvi_Wig_Spell_Evg_Eventually",
-    "previewKey": "ModularSMPHair_Eventually",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Eventually"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Intensity",
-    "spell": "Uvi_Wig_Spell_Evg_Intensity",
-    "previewKey": "ModularSMPHair_Intensity",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Intensity"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Oracle",
-    "spell": "Uvi_Wig_Spell_Evg_Oracle",
-    "previewKey": "ModularSMPHair_Oracle",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Oracle"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Rogueish",
-    "spell": "Uvi_Wig_Spell_Evg_Rogueish",
-    "previewKey": "ModularSMPHair_Rogueish",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Rogueish"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Scryer",
-    "spell": "Uvi_Wig_Spell_Evg_Scryer",
-    "previewKey": "ModularSMPHair_Scryer",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Scryer"
-  },
-  {
-    "mod": "Modular SMP Hair",
     "name": "Modular SMP Hair - A",
     "spell": "Uvi_Wig_Spell_Evg_A",
     "previewKey": "ModularSMPHair_A",
@@ -16623,6 +16429,43 @@
   },
   {
     "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Dove",
+    "spell": "Uvi_Wig_Spell_Evg_Dove",
+    "previewKey": "ModularSMPHair_Dove",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Dove"
+  },
+  {
+    "mod": "Modular SMP Hair",
     "name": "Modular SMP Hair - E",
     "spell": "Uvi_Wig_Spell_Evg_E",
     "previewKey": "ModularSMPHair_E",
@@ -17106,6 +16949,48 @@
     "editorIDs": [],
     "pack": "Modular SMP Hair",
     "displayName": "Modular SMP Hair - EM2"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Eventually",
+    "spell": "Uvi_Wig_Spell_Evg_Eventually",
+    "previewKey": "ModularSMPHair_Eventually",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Eventually"
   },
   {
     "mod": "Modular SMP Hair",
@@ -19053,6 +18938,48 @@
   },
   {
     "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Intensity",
+    "spell": "Uvi_Wig_Spell_Evg_Intensity",
+    "previewKey": "ModularSMPHair_Intensity",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Intensity"
+  },
+  {
+    "mod": "Modular SMP Hair",
     "name": "Modular SMP Hair - J",
     "spell": "Uvi_Wig_Spell_Evg_J",
     "previewKey": "ModularSMPHair_J",
@@ -20582,6 +20509,127 @@
     "editorIDs": [],
     "pack": "Modular SMP Hair",
     "displayName": "Modular SMP Hair - MM2"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Oracle",
+    "spell": "Uvi_Wig_Spell_Evg_Oracle",
+    "previewKey": "ModularSMPHair_Oracle",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Oracle"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Rogueish",
+    "spell": "Uvi_Wig_Spell_Evg_Rogueish",
+    "previewKey": "ModularSMPHair_Rogueish",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Rogueish"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Scryer",
+    "spell": "Uvi_Wig_Spell_Evg_Scryer",
+    "previewKey": "ModularSMPHair_Scryer",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Scryer"
   },
   {
     "mod": "Xing HDT-SMP Wigs",
@@ -22694,43 +22742,6 @@
   },
   {
     "mod": "Xing HDT-SMP Wigs",
-    "name": "Xing - SG Haircoolsims89",
-    "spell": "Uvi_Wig_Spell_X_Dint_SG_haircoolsims89",
-    "previewKey": "Xing_SGHaircoolsims89",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Xing",
-      "Xing_Misc"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Xing HDT-SMP Wigs",
-    "displayName": "Xing - SG Haircoolsims89"
-  },
-  {
-    "mod": "Xing HDT-SMP Wigs",
     "name": "Xing - KS Heartquake",
     "spell": "Uvi_Wig_Spell_X_Dint_KS_Heartquake",
     "previewKey": "Xing_KSHeartquake",
@@ -23098,6 +23109,43 @@
     "editorIDs": [],
     "pack": "Xing HDT-SMP Wigs",
     "displayName": "Xing - KS Shepherd"
+  },
+  {
+    "mod": "Xing HDT-SMP Wigs",
+    "name": "Xing - KS Shieldbrother",
+    "spell": "Uvi_Wig_Spell_X_Dint_KS_Shieldbrother",
+    "previewKey": "Xing_KSShieldbrother",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Xing",
+      "Xing_Misc"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Xing HDT-SMP Wigs",
+    "displayName": "Xing - KS Shieldbrother"
   },
   {
     "mod": "Xing HDT-SMP Wigs",
@@ -23878,6 +23926,43 @@
   },
   {
     "mod": "Xing HDT-SMP Wigs",
+    "name": "Xing - SG Haircoolsims89",
+    "spell": "Uvi_Wig_Spell_X_Dint_SG_haircoolsims89",
+    "previewKey": "Xing_SGHaircoolsims89",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Xing",
+      "Xing_Misc"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Xing HDT-SMP Wigs",
+    "displayName": "Xing - SG Haircoolsims89"
+  },
+  {
+    "mod": "Xing HDT-SMP Wigs",
     "name": "Xing - SG hairpg4385",
     "spell": "Uvi_Wig_Spell_X_Dint_SG_hairpg4385",
     "previewKey": "Xing_SGhairpg4385",
@@ -24097,42 +24182,5 @@
     "editorIDs": [],
     "pack": "Xing HDT-SMP Wigs",
     "displayName": "Xing - SG Wildsoul"
-  },
-  {
-    "mod": "Xing HDT-SMP Wigs",
-    "name": "Xing - KS Shieldbrother",
-    "spell": "Uvi_Wig_Spell_X_Dint_KS_Shieldbrother",
-    "previewKey": "Xing_KSShieldbrother",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Xing",
-      "Xing_Misc"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Xing HDT-SMP Wigs",
-    "displayName": "Xing - KS Shieldbrother"
   }
 ]
