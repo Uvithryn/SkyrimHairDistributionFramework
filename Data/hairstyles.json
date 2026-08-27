@@ -7892,6 +7892,314 @@
   },
   {
     "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 2",
+    "spell": "Uvi_Wig_Spell_Dint02_02",
+    "previewKey": "DintHairPack02_2",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 2"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 3",
+    "spell": "Uvi_Wig_Spell_Dint02_03",
+    "previewKey": "DintHairPack02_3",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 3"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 3 Long",
+    "spell": "Uvi_Wig_Spell_Dint02_03Long",
+    "previewKey": "DintHairPack02_3Long",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 3 Long"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 4",
+    "spell": "Uvi_Wig_Spell_Dint02_04",
+    "previewKey": "DintHairPack02_4",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 4"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 5",
+    "spell": "Uvi_Wig_Spell_Dint02_05",
+    "previewKey": "DintHairPack02_5",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 5"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 6",
+    "spell": "Uvi_Wig_Spell_Dint02_06",
+    "previewKey": "DintHairPack02_6",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 6"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 7",
+    "spell": "Uvi_Wig_Spell_Dint02_07",
+    "previewKey": "DintHairPack02_7",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 7"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 8",
+    "spell": "Uvi_Wig_Spell_Dint02_08",
+    "previewKey": "DintHairPack02_8",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 8"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
+    "name": "Dint Hair Pack 02 - 9",
+    "spell": "Uvi_Wig_Spell_Dint02_09",
+    "previewKey": "DintHairPack02_9",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Female"
+      ],
+      "Human": [
+        "Female"
+      ],
+      "Orc": [
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Dint02"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Dint Hair Pack 02",
+    "displayName": "Dint Hair Pack 02 - 9"
+  },
+  {
+    "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 10",
     "spell": "Uvi_Wig_Spell_Dint02_10",
     "previewKey": "DintHairPack02_10",
@@ -8308,38 +8616,6 @@
   },
   {
     "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 2",
-    "spell": "Uvi_Wig_Spell_Dint02_02",
-    "previewKey": "DintHairPack02_2",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 2"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 20",
     "spell": "Uvi_Wig_Spell_Dint02_20",
     "previewKey": "DintHairPack02_20",
@@ -8692,74 +8968,6 @@
   },
   {
     "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 3",
-    "spell": "Uvi_Wig_Spell_Dint02_03",
-    "previewKey": "DintHairPack02_3",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 3"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 3 Long",
-    "spell": "Uvi_Wig_Spell_Dint02_03Long",
-    "previewKey": "DintHairPack02_3Long",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 3 Long"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
     "name": "Dint Hair Pack 02 - 30",
     "spell": "Uvi_Wig_Spell_Dint02_30",
     "previewKey": "DintHairPack02_30",
@@ -8957,214 +9165,6 @@
     "editorIDs": [],
     "pack": "Dint Hair Pack 02",
     "displayName": "Dint Hair Pack 02 - 35"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 4",
-    "spell": "Uvi_Wig_Spell_Dint02_04",
-    "previewKey": "DintHairPack02_4",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 4"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 5",
-    "spell": "Uvi_Wig_Spell_Dint02_05",
-    "previewKey": "DintHairPack02_5",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 5"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 6",
-    "spell": "Uvi_Wig_Spell_Dint02_06",
-    "previewKey": "DintHairPack02_6",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 6"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 7",
-    "spell": "Uvi_Wig_Spell_Dint02_07",
-    "previewKey": "DintHairPack02_7",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 7"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 8",
-    "spell": "Uvi_Wig_Spell_Dint02_08",
-    "previewKey": "DintHairPack02_8",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 8"
-  },
-  {
-    "mod": "Dint Hair Pack 02",
-    "name": "Dint Hair Pack 02 - 9",
-    "spell": "Uvi_Wig_Spell_Dint02_09",
-    "previewKey": "DintHairPack02_9",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Female"
-      ],
-      "Human": [
-        "Female"
-      ],
-      "Orc": [
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Dint02"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Dint Hair Pack 02",
-    "displayName": "Dint Hair Pack 02 - 9"
   },
   {
     "mod": "Fuse Hairstyles",
