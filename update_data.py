@@ -623,30 +623,64 @@ def run_export(xlsx, previews, outdir, report):
 
     # ---- NPCs ----
     ws = load_sheet(wb, "NPC List")
+    # Read by header name, not position: the NPC List column order now mirrors
+    # the xEdit CSV export and may be rearranged again.
+    hdr = {}
+    for c in range(1, ws.max_column + 1):
+        h = ws.cell(1, c).value
+        if h:
+            hdr[str(h).strip().lower()] = c
+    def cell(r, *names, default=""):
+        for n in names:
+            c = hdr.get(n)
+            if c:
+                v = ws.cell(r, c).value
+                if v is not None and str(v).strip() != "":
+                    return str(v).strip()
+        return default
+    def flag(r, *names):
+        """A template flag column: 1/true/yes means set."""
+        return cell(r, *names).lower() in ("1", "true", "yes", "y", "x")
+
+    missing_cols = [n for n in ("editorid", "race", "gender") if n not in hdr]
+    if missing_cols:
+        print(f"ERROR: NPC List is missing column(s): {missing_cols}", file=sys.stderr)
+        return 2
+
     npcs = []
     npc_race_missing = set()
     for r in range(2, ws.max_row + 1):
-        eid = ws.cell(r, 2).value
+        eid = cell(r, "editorid", "npc editorid")
         if not eid:
             continue
-        race = str(ws.cell(r, 4).value).strip() if ws.cell(r, 4).value else ""
+        race = cell(r, "race", "npc race")
         rtype = race_map.get(race)
         if race and race not in race_map:
             npc_race_missing.add(race)
-        vanilla_hair = str(ws.cell(r, 6).value).strip() if ws.cell(r, 6).value else ""
+        vanilla_hair = cell(r, "hairstyle", "vanilla hair id", "vanillahair")
         default_style = resolve_default(vanilla_hair)
-        npcs.append({
-            "formid": str(ws.cell(r, 1).value).strip() if ws.cell(r, 1).value else "",
-            "editorid": str(eid).strip(),
-            "name": str(ws.cell(r, 3).value).strip() if ws.cell(r, 3).value else "",
+        rec = {
+            "formid": cell(r, "formid"),
+            "editorid": eid,
+            "name": cell(r, "name", "npc name"),
             "race": race,
             "raceType": rtype,
-            "gender": str(ws.cell(r, 5).value).strip() if ws.cell(r, 5).value else "",
+            "gender": cell(r, "gender", "npc gender"),
             "vanillaHair": vanilla_hair,
             "defaultPreviewKey": default_style["previewKey"] if default_style else None,
             "defaultHairstyleName": default_style["name"] if default_style else None,
             "defaultSpell": default_style["spell"] if default_style else None,
-        })
+        }
+        # Template data. A wig on a template is inherited by anything that takes
+        # its spell list, which stops the child's own wig from taking over.
+        template = cell(r, "template")
+        if template:
+            rec["template"] = template
+            if flag(r, "templateusespelllist"): rec["templateUseSpellList"] = 1
+            if flag(r, "templateusetraits"):    rec["templateUseTraits"] = 1
+        if flag(r, "istemplate"):      rec["isTemplate"] = 1
+        if flag(r, "templatenodistr"): rec["templateNoDistr"] = 1
+        npcs.append(rec)
 
     # ---- Previews: build key -> {race: {gender: file}} ----
     previews = json.loads(Path(args.previews).read_text(encoding="utf-8"))
@@ -700,6 +734,11 @@ def run_export(xlsx, previews, outdir, report):
     lines.append(f"NPCs exported          : {len(npcs)}")
     lines.append(f"Hairstyles exported    : {len(hairstyles)}")
     lines.append(f"Races in map           : {len(race_map)}")
+    n_tmpl = sum(1 for n in npcs if n.get("isTemplate"))
+    n_bad = sum(1 for n in npcs if n.get("templateNoDistr"))
+    n_child = sum(1 for n in npcs if n.get("template"))
+    lines.append(f"Template records       : {n_tmpl}  ({n_bad} unsuitable for distribution)")
+    lines.append(f"NPCs using a template  : {n_child}")
     lines.append(f"Preview images         : {len(previews['images'])}  ({len(pv_keys)} unique keys)")
     lines.append("")
     lines.append(f"Hairstyles with NO preview image ({len(no_preview)}) -> tool shows a placeholder:")
