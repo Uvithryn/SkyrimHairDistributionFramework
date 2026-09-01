@@ -14374,6 +14374,248 @@
   },
   {
     "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Dove",
+    "spell": "Uvi_Wig_Spell_Evg_Dove",
+    "previewKey": "ModularSMPHair_Dove",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Dove"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Eventually",
+    "spell": "Uvi_Wig_Spell_Evg_Eventually",
+    "previewKey": "ModularSMPHair_Eventually",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Eventually"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Intensity",
+    "spell": "Uvi_Wig_Spell_Evg_Intensity",
+    "previewKey": "ModularSMPHair_Intensity",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Intensity"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Oracle",
+    "spell": "Uvi_Wig_Spell_Evg_Oracle",
+    "previewKey": "ModularSMPHair_Oracle",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Oracle"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Rogueish",
+    "spell": "Uvi_Wig_Spell_Evg_Rogueish",
+    "previewKey": "ModularSMPHair_Rogueish",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Rogueish"
+  },
+  {
+    "mod": "Modular SMP Hair",
+    "name": "Modular SMP Hair - Scryer",
+    "spell": "Uvi_Wig_Spell_Evg_Scryer",
+    "previewKey": "ModularSMPHair_Scryer",
+    "validRaceTypes": [
+      "Elf",
+      "Human",
+      "Khajiit",
+      "Orc"
+    ],
+    "validGenders": [
+      "Female",
+      "Male"
+    ],
+    "validGendersByRace": {
+      "Elf": [
+        "Male",
+        "Female"
+      ],
+      "Human": [
+        "Male",
+        "Female"
+      ],
+      "Orc": [
+        "Male",
+        "Female"
+      ],
+      "Khajiit": [
+        "Male",
+        "Female"
+      ]
+    },
+    "requirements": [
+      "Mod_SMP_Hair",
+      "Mod_SMP_Wig"
+    ],
+    "condRequirements": {},
+    "editorIDs": [],
+    "pack": "Modular SMP Hair",
+    "displayName": "Modular SMP Hair - Scryer"
+  },
+  {
+    "mod": "Modular SMP Hair",
     "name": "Modular SMP Hair - A",
     "spell": "Uvi_Wig_Spell_Evg_A",
     "previewKey": "ModularSMPHair_A",
@@ -16429,43 +16671,6 @@
   },
   {
     "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Dove",
-    "spell": "Uvi_Wig_Spell_Evg_Dove",
-    "previewKey": "ModularSMPHair_Dove",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Dove"
-  },
-  {
-    "mod": "Modular SMP Hair",
     "name": "Modular SMP Hair - E",
     "spell": "Uvi_Wig_Spell_Evg_E",
     "previewKey": "ModularSMPHair_E",
@@ -16949,48 +17154,6 @@
     "editorIDs": [],
     "pack": "Modular SMP Hair",
     "displayName": "Modular SMP Hair - EM2"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Eventually",
-    "spell": "Uvi_Wig_Spell_Evg_Eventually",
-    "previewKey": "ModularSMPHair_Eventually",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Eventually"
   },
   {
     "mod": "Modular SMP Hair",
@@ -18938,48 +19101,6 @@
   },
   {
     "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Intensity",
-    "spell": "Uvi_Wig_Spell_Evg_Intensity",
-    "previewKey": "ModularSMPHair_Intensity",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Intensity"
-  },
-  {
-    "mod": "Modular SMP Hair",
     "name": "Modular SMP Hair - J",
     "spell": "Uvi_Wig_Spell_Evg_J",
     "previewKey": "ModularSMPHair_J",
@@ -20509,127 +20630,6 @@
     "editorIDs": [],
     "pack": "Modular SMP Hair",
     "displayName": "Modular SMP Hair - MM2"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Oracle",
-    "spell": "Uvi_Wig_Spell_Evg_Oracle",
-    "previewKey": "ModularSMPHair_Oracle",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Oracle"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Rogueish",
-    "spell": "Uvi_Wig_Spell_Evg_Rogueish",
-    "previewKey": "ModularSMPHair_Rogueish",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Rogueish"
-  },
-  {
-    "mod": "Modular SMP Hair",
-    "name": "Modular SMP Hair - Scryer",
-    "spell": "Uvi_Wig_Spell_Evg_Scryer",
-    "previewKey": "ModularSMPHair_Scryer",
-    "validRaceTypes": [
-      "Elf",
-      "Human",
-      "Khajiit",
-      "Orc"
-    ],
-    "validGenders": [
-      "Female",
-      "Male"
-    ],
-    "validGendersByRace": {
-      "Elf": [
-        "Male",
-        "Female"
-      ],
-      "Human": [
-        "Male",
-        "Female"
-      ],
-      "Orc": [
-        "Male",
-        "Female"
-      ],
-      "Khajiit": [
-        "Male",
-        "Female"
-      ]
-    },
-    "requirements": [
-      "Mod_SMP_Hair",
-      "Mod_SMP_Wig"
-    ],
-    "condRequirements": {},
-    "editorIDs": [],
-    "pack": "Modular SMP Hair",
-    "displayName": "Modular SMP Hair - Scryer"
   },
   {
     "mod": "Xing HDT-SMP Wigs",

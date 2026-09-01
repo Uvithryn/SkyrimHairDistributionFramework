@@ -402,6 +402,55 @@ def split_categories(cell):
     return vmap, bad
 
 
+def split_semi(cell) -> list:
+    """Semicolon- (or comma-) separated EditorID list from one cell."""
+    if not cell:
+        return []
+    out = []
+    for part in str(cell).replace(",", ";").split(";"):
+        p = part.strip()
+        if p and p not in out:
+            out.append(p)
+    return out
+
+
+def derive_descendants(npcs):
+    """Work out, for every template, which descendants must be excluded from its
+    wig and which share its face.
+
+    A descendant keeps the root's face only if EVERY link in the chain has Use
+    Traits. The first record on each branch where that breaks is the one to
+    exclude -- excluding it also excludes everything below it, so deeper nodes
+    don't need listing.
+    """
+    by_eid = {n["editorid"]: n for n in npcs}
+    kids = defaultdict(list)
+    for n in npcs:
+        if n.get("template"):
+            kids[n["template"]].append(n["editorid"])
+
+    for n in npcs:
+        exclude, sharing = [], []
+        stack = [(k, True) for k in kids.get(n["editorid"], [])]
+        seen = set()
+        while stack:
+            eid, chain_intact = stack.pop()
+            if eid in seen:            # guard against a cyclic template chain
+                continue
+            seen.add(eid)
+            child = by_eid.get(eid)
+            if chain_intact and child and child.get("templateUseTraits"):
+                sharing.append(eid)
+                stack.extend((gk, True) for gk in kids.get(eid, []))
+            else:
+                exclude.append(eid)    # its own descendants follow it
+        if exclude:
+            n["excludeDescendants"] = sorted(exclude)
+        if sharing:
+            n["faceSharingDescendants"] = sorted(sharing)
+    return by_eid
+
+
 def build_valid_map(races: list, genders: list, categories: dict) -> dict:
     """Per-race gender validity.
 
@@ -671,16 +720,34 @@ def run_export(xlsx, previews, outdir, report):
             "defaultHairstyleName": default_style["name"] if default_style else None,
             "defaultSpell": default_style["spell"] if default_style else None,
         }
-        # Template data. A wig on a template is inherited by anything that takes
-        # its spell list, which stops the child's own wig from taking over.
+        # Template data. SPID hands a template's spells to every descendant, so a
+        # wig on a template needs explicit exclusions for the ones that don't
+        # share its face. Use Traits is what decides that.
         template = cell(r, "template")
         if template:
             rec["template"] = template
-            if flag(r, "templateusespelllist"): rec["templateUseSpellList"] = 1
-            if flag(r, "templateusetraits"):    rec["templateUseTraits"] = 1
-        if flag(r, "istemplate"):      rec["isTemplate"] = 1
-        if flag(r, "templatenodistr"): rec["templateNoDistr"] = 1
+            if flag(r, "templateusetraits"): rec["templateUseTraits"] = 1
+        # The sheet's own lists are kept only to check the derivation below.
+        rec["_sheetExclude"] = split_semi(cell(r, "excludedescendants"))
+        rec["_sheetSharing"] = split_semi(cell(r, "facesharingdescendants"))
         npcs.append(rec)
+
+    # Guard against the same record appearing twice with different template data.
+    seen_npc, dupes, dupe_conflicts = {}, [], []
+    unique = []
+    for n in npcs:
+        prev = seen_npc.get(n["editorid"])
+        if prev is None:
+            seen_npc[n["editorid"]] = n
+            unique.append(n)
+            continue
+        dupes.append(n["editorid"])
+        if any(prev.get(k) != n.get(k) for k in
+               ("template", "templateUseTraits", "_sheetExclude", "_sheetSharing",
+                "race", "gender", "vanillaHair")):
+            dupe_conflicts.append(n["editorid"])
+    npcs = unique
+    derive_descendants(npcs)
 
     # ---- Previews: build key -> {race: {gender: file}} ----
     previews = json.loads(Path(args.previews).read_text(encoding="utf-8"))
@@ -703,6 +770,10 @@ def run_export(xlsx, previews, outdir, report):
     # ---- Write JSON ----
     (outdir / "races.json").write_text(json.dumps(race_list, indent=2, ensure_ascii=True), encoding="utf-8")
     (outdir / "hairstyles.json").write_text(json.dumps(hairstyles, indent=2, ensure_ascii=True), encoding="utf-8")
+    # Keep the sheet's own lists for the check further down, then drop them so
+    # they never reach the output.
+    sheet_lists = {n["editorid"]: (n.pop("_sheetExclude", []), n.pop("_sheetSharing", []))
+                   for n in npcs}
     (outdir / "npcs.json").write_text(json.dumps(npcs, indent=2, ensure_ascii=True), encoding="utf-8")
     requirements, req_problems = read_requirements(wb)
     req_ids = {r["id"] for r in requirements}
@@ -734,11 +805,18 @@ def run_export(xlsx, previews, outdir, report):
     lines.append(f"NPCs exported          : {len(npcs)}")
     lines.append(f"Hairstyles exported    : {len(hairstyles)}")
     lines.append(f"Races in map           : {len(race_map)}")
-    n_tmpl = sum(1 for n in npcs if n.get("isTemplate"))
-    n_bad = sum(1 for n in npcs if n.get("templateNoDistr"))
+    n_tmpl = sum(1 for n in npcs if n.get("excludeDescendants") or n.get("faceSharingDescendants"))
     n_child = sum(1 for n in npcs if n.get("template"))
-    lines.append(f"Template records       : {n_tmpl}  ({n_bad} unsuitable for distribution)")
+    n_excl = sum(len(n.get("excludeDescendants", [])) for n in npcs)
+    n_share = sum(len(n.get("faceSharingDescendants", [])) for n in npcs)
+    biggest = max((len(n.get("excludeDescendants", [])) for n in npcs), default=0)
+    lines.append(f"Template records       : {n_tmpl}")
     lines.append(f"NPCs using a template  : {n_child}")
+    lines.append(f"Duplicate NPC rows dropped: {len(dupes)}"
+                 + (f"  ({len(dupe_conflicts)} disagreed with the first copy: "
+                    f"{sorted(set(dupe_conflicts))[:5]})" if dupe_conflicts else ""))
+    lines.append(f"Exclusions to write    : {n_excl}  (largest single list: {biggest})")
+    lines.append(f"Face-sharing links     : {n_share}")
     lines.append(f"Preview images         : {len(previews['images'])}  ({len(pv_keys)} unique keys)")
     lines.append("")
     lines.append(f"Hairstyles with NO preview image ({len(no_preview)}) -> tool shows a placeholder:")
@@ -791,6 +869,33 @@ def run_export(xlsx, previews, outdir, report):
     for rec in race_list:
         if rec["group"] not in groups_seen:
             groups_seen.append(rec["group"])
+    # The spreadsheet carries its own descendant lists; the tool uses the derived
+    # ones, but disagreement means the xEdit script and this script see the tree
+    # differently -- worth knowing, because CSV imports rely on those columns.
+    miss_ex, extra_ex, miss_sh, extra_sh, bad_rows = 0, 0, 0, 0, []
+    for n in npcs:
+        sh_ex, sh_sh = sheet_lists.get(n["editorid"], ([], []))
+        d_ex, s_ex = set(n.get("excludeDescendants", [])), set(sh_ex)
+        d_sh, s_sh = set(n.get("faceSharingDescendants", [])), set(sh_sh)
+        if d_ex != s_ex or d_sh != s_sh:
+            bad_rows.append((n["editorid"], sorted(d_ex - s_ex), sorted(s_ex - d_ex),
+                             sorted(d_sh - s_sh), sorted(s_sh - d_sh)))
+        miss_ex += len(d_ex - s_ex); extra_ex += len(s_ex - d_ex)
+        miss_sh += len(d_sh - s_sh); extra_sh += len(s_sh - d_sh)
+    lines.append(f"Rows where the sheet's descendant lists disagree with the derived ones "
+                 f"({len(bad_rows)}):")
+    lines.append(f"   exclusions   : {miss_ex} missing from the sheet, {extra_ex} extra")
+    lines.append(f"   face-sharing : {miss_sh} missing from the sheet, {extra_sh} extra")
+    for eid, mex, xex, msh, xsh in bad_rows[:25]:
+        bits = []
+        if mex: bits.append(f"exclude missing {mex[:5]}")
+        if xex: bits.append(f"exclude extra {xex[:5]}")
+        if msh: bits.append(f"sharing missing {msh[:5]}")
+        if xsh: bits.append(f"sharing extra {xsh[:5]}")
+        lines.append(f"   {eid}: " + "; ".join(bits))
+    if len(bad_rows) > 25:
+        lines.append(f"   ... and {len(bad_rows) - 25} more")
+    lines.append("")
     lines.append(f"Race groups (dropdown order): {groups_seen}")
     lines.append(f"Duplicate race EditorIDs ({len(dupe_races)}): {sorted(set(dupe_races))}")
     no_name = [r["editorid"] for r in race_list if r["name"] == r["editorid"]]
