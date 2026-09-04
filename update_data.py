@@ -448,6 +448,11 @@ def derive_descendants(npcs):
             n["excludeDescendants"] = sorted(exclude)
         if sharing:
             n["faceSharingDescendants"] = sorted(sharing)
+            # Face-sharers that are PC-level-mult can't receive from a line
+            # carrying -L, so they need a line of their own.
+            lev = sorted(d for d in sharing if by_eid.get(d, {}).get("leveled"))
+            if lev:
+                n["leveledFaceSharing"] = lev
     return by_eid
 
 
@@ -727,9 +732,16 @@ def run_export(xlsx, previews, outdir, report):
         if template:
             rec["template"] = template
             if flag(r, "templateusetraits"): rec["templateUseTraits"] = 1
+        # "Is PC Level Mult" -- SPID's L trait. Decides whether a line can carry
+        # -L without cutting off its own recipients.
+        if flag(r, "leveled"): rec["leveled"] = 1
+        # Reachable from a leveled list, so its hairstyle can leak to random
+        # spawns; those lines get race exclusions as a safety net.
+        if flag(r, "referencedbylvln"): rec["referencedByLVLN"] = 1
         # The sheet's own lists are kept only to check the derivation below.
         rec["_sheetExclude"] = split_semi(cell(r, "excludedescendants"))
         rec["_sheetSharing"] = split_semi(cell(r, "facesharingdescendants"))
+        rec["_sheetLeveledSharing"] = split_semi(cell(r, "leveledfacesharingdescendants"))
         npcs.append(rec)
 
     # Guard against the same record appearing twice with different template data.
@@ -772,8 +784,8 @@ def run_export(xlsx, previews, outdir, report):
     (outdir / "hairstyles.json").write_text(json.dumps(hairstyles, indent=2, ensure_ascii=True), encoding="utf-8")
     # Keep the sheet's own lists for the check further down, then drop them so
     # they never reach the output.
-    sheet_lists = {n["editorid"]: (n.pop("_sheetExclude", []), n.pop("_sheetSharing", []))
-                   for n in npcs}
+    sheet_lists = {n["editorid"]: (n.pop("_sheetExclude", []), n.pop("_sheetSharing", []),
+                                   n.pop("_sheetLeveledSharing", [])) for n in npcs}
     (outdir / "npcs.json").write_text(json.dumps(npcs, indent=2, ensure_ascii=True), encoding="utf-8")
     requirements, req_problems = read_requirements(wb)
     req_ids = {r["id"] for r in requirements}
@@ -817,6 +829,12 @@ def run_export(xlsx, previews, outdir, report):
                     f"{sorted(set(dupe_conflicts))[:5]})" if dupe_conflicts else ""))
     lines.append(f"Exclusions to write    : {n_excl}  (largest single list: {biggest})")
     lines.append(f"Face-sharing links     : {n_share}")
+    n_lev = sum(1 for n in npcs if n.get("leveled"))
+    n_ref = sum(1 for n in npcs if n.get("referencedByLVLN"))
+    n_lfs = sum(len(n.get("leveledFaceSharing", [])) for n in npcs)
+    lines.append(f"PC-level-mult NPCs     : {n_lev}  (no -L on their own lines)")
+    lines.append(f"Reachable from a leveled list: {n_ref}  (these lines get race exclusions)")
+    lines.append(f"Leveled face-sharers   : {n_lfs}  (each needs an extra line without -L)")
     lines.append(f"Preview images         : {len(previews['images'])}  ({len(pv_keys)} unique keys)")
     lines.append("")
     lines.append(f"Hairstyles with NO preview image ({len(no_preview)}) -> tool shows a placeholder:")
@@ -872,11 +890,14 @@ def run_export(xlsx, previews, outdir, report):
     # The spreadsheet carries its own descendant lists; the tool uses the derived
     # ones, but disagreement means the xEdit script and this script see the tree
     # differently -- worth knowing, because CSV imports rely on those columns.
-    miss_ex, extra_ex, miss_sh, extra_sh, bad_rows = 0, 0, 0, 0, []
+    miss_ex, extra_ex, miss_sh, extra_sh, bad_rows, lev_bad = 0, 0, 0, 0, [], []
     for n in npcs:
-        sh_ex, sh_sh = sheet_lists.get(n["editorid"], ([], []))
+        sh_ex, sh_sh, sh_lv = sheet_lists.get(n["editorid"], ([], [], []))
         d_ex, s_ex = set(n.get("excludeDescendants", [])), set(sh_ex)
         d_sh, s_sh = set(n.get("faceSharingDescendants", [])), set(sh_sh)
+        d_lv, s_lv = set(n.get("leveledFaceSharing", [])), set(sh_lv)
+        if d_lv != s_lv:
+            lev_bad.append((n["editorid"], sorted(d_lv - s_lv), sorted(s_lv - d_lv)))
         if d_ex != s_ex or d_sh != s_sh:
             bad_rows.append((n["editorid"], sorted(d_ex - s_ex), sorted(s_ex - d_ex),
                              sorted(d_sh - s_sh), sorted(s_sh - d_sh)))
@@ -886,6 +907,7 @@ def run_export(xlsx, previews, outdir, report):
                  f"({len(bad_rows)}):")
     lines.append(f"   exclusions   : {miss_ex} missing from the sheet, {extra_ex} extra")
     lines.append(f"   face-sharing : {miss_sh} missing from the sheet, {extra_sh} extra")
+    lines.append(f"   leveled face-sharing lists disagreeing: {len(lev_bad)} {lev_bad[:3]}")
     for eid, mex, xex, msh, xsh in bad_rows[:25]:
         bits = []
         if mex: bits.append(f"exclude missing {mex[:5]}")
