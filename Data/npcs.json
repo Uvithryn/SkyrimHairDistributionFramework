@@ -2990,7 +2990,8 @@
     "vanillaHair": "HairMaleNord09",
     "defaultPreviewKey": "Vanilla_ShortLoose",
     "defaultHairstyleName": "Vanilla - Short Loose",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLoose"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLoose",
+    "leveled": 1
   },
   {
     "formid": "000D0570",
@@ -3056,6 +3057,7 @@
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
     "template": "CWSoldierImperial",
+    "leveled": 1,
     "excludeDescendants": [
       "CWFieldCOImperialEastmarch",
       "CWFieldCOImperialFalkreath",
@@ -3079,7 +3081,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "0008455E",
@@ -3092,7 +3095,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "000844B1",
@@ -3105,7 +3109,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "000844B2",
@@ -3118,7 +3123,8 @@
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "00084539",
@@ -3131,7 +3137,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "000844D0",
@@ -3144,7 +3151,8 @@
     "defaultPreviewKey": "Vanilla_BaldingShort3",
     "defaultHairstyleName": "Vanilla - Balding Short 3",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort3",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "0008454F",
@@ -3157,7 +3165,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakShort",
     "defaultHairstyleName": "Vanilla - Widow's Peak Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakShort",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "000844D1",
@@ -3170,7 +3179,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "0008453A",
@@ -3183,7 +3193,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "CWFieldCOImperial"
+    "template": "CWFieldCOImperial",
+    "leveled": 1
   },
   {
     "formid": "000205C8",
@@ -3197,6 +3208,7 @@
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
     "template": "CWSoldierSons",
+    "leveled": 1,
     "excludeDescendants": [
       "CWFieldCOSonsEastmarch",
       "CWFieldCOSonsFalkreath",
@@ -3220,7 +3232,8 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "0008455F",
@@ -3233,7 +3246,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackLongSideBraid",
     "defaultHairstyleName": "Vanilla - Slicked Back Long Side Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackLongSideBraid",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "00084550",
@@ -3246,7 +3260,8 @@
     "defaultPreviewKey": "Vanilla_PulledBackLongBraid",
     "defaultHairstyleName": "Vanilla - Pulled Back Long Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PulledBackLongBraid",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "00084552",
@@ -3259,7 +3274,8 @@
     "defaultPreviewKey": "Vanilla_BaldingShort1",
     "defaultHairstyleName": "Vanilla - Balding Short 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort1",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "00084553",
@@ -3272,7 +3288,8 @@
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "00084556",
@@ -3285,7 +3302,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "0008455B",
@@ -3298,7 +3316,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "0008455D",
@@ -3311,7 +3330,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "00084568",
@@ -3324,7 +3344,8 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsShort",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
-    "template": "CWFieldCOSons"
+    "template": "CWFieldCOSons",
+    "leveled": 1
   },
   {
     "formid": "000770B2",
@@ -3337,7 +3358,8 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsShort",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
-    "template": "CWSoldierImperialNotGuard"
+    "template": "CWSoldierImperialNotGuard",
+    "leveled": 1
   },
   {
     "formid": "000770B6",
@@ -3350,7 +3372,8 @@
     "defaultPreviewKey": "Vanilla_StraightBehindLeftEar",
     "defaultHairstyleName": "Vanilla - Straight Behind Left Ear",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
-    "template": "CWSoldierSonsNotGuard"
+    "template": "CWSoldierSonsNotGuard",
+    "leveled": 1
   },
   {
     "formid": "000770BA",
@@ -3363,7 +3386,8 @@
     "defaultPreviewKey": "Vanilla_BaldingPonytailLong",
     "defaultHairstyleName": "Vanilla - Balding Ponytail Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingPonytailLong",
-    "template": "CWSoldierImperialNotGuard"
+    "template": "CWSoldierImperialNotGuard",
+    "leveled": 1
   },
   {
     "formid": "000770BB",
@@ -3376,7 +3400,8 @@
     "defaultPreviewKey": "Vanilla_BaldingShort3",
     "defaultHairstyleName": "Vanilla - Balding Short 3",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort3",
-    "template": "CWSoldierSonsNotGuard"
+    "template": "CWSoldierSonsNotGuard",
+    "leveled": 1
   },
   {
     "formid": "000510C2",
@@ -3401,7 +3426,8 @@
     "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
-    "template": "LvlBanditBossOrcM"
+    "template": "LvlBanditBossOrcM",
+    "leveled": 1
   },
   {
     "formid": "0001675D",
@@ -3413,7 +3439,8 @@
     "vanillaHair": "HairMaleNord01",
     "defaultPreviewKey": "Vanilla_StraightLong",
     "defaultHairstyleName": "Vanilla - Straight Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
+    "leveled": 1
   },
   {
     "formid": "0010D4B2",
@@ -3425,7 +3452,8 @@
     "vanillaHair": "HairMaleNord07",
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
+    "leveled": 1
   },
   {
     "formid": "0010D4B3",
@@ -3437,7 +3465,8 @@
     "vanillaHair": "HairMaleNord12",
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
+    "leveled": 1
   },
   {
     "formid": "0010D4B4",
@@ -3449,7 +3478,8 @@
     "vanillaHair": "HairMaleNord14",
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
+    "leveled": 1
   },
   {
     "formid": "0010D4B5",
@@ -3461,7 +3491,8 @@
     "vanillaHair": "HairMaleNord15",
     "defaultPreviewKey": "Vanilla_StraightBehindLeftEar",
     "defaultHairstyleName": "Vanilla - Straight Behind Left Ear",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
+    "leveled": 1
   },
   {
     "formid": "0001675C",
@@ -3473,7 +3504,8 @@
     "vanillaHair": "HairMaleNord13",
     "defaultPreviewKey": "Vanilla_PulledBackLongBraid",
     "defaultHairstyleName": "Vanilla - Pulled Back Long Braid",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PulledBackLongBraid"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PulledBackLongBraid",
+    "leveled": 1
   },
   {
     "formid": "0010D4B6",
@@ -3485,7 +3517,8 @@
     "vanillaHair": "HairMaleElder5",
     "defaultPreviewKey": "Vanilla_BaldingShort5",
     "defaultHairstyleName": "Vanilla - Balding Short 5",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort5"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort5",
+    "leveled": 1
   },
   {
     "formid": "0010D4B7",
@@ -3497,7 +3530,8 @@
     "vanillaHair": "HairMaleNord01",
     "defaultPreviewKey": "Vanilla_StraightLong",
     "defaultHairstyleName": "Vanilla - Straight Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
+    "leveled": 1
   },
   {
     "formid": "0010D4B8",
@@ -3509,7 +3543,8 @@
     "vanillaHair": "HairMaleNord07",
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
+    "leveled": 1
   },
   {
     "formid": "0010D4B9",
@@ -3521,7 +3556,8 @@
     "vanillaHair": "HairMaleNord04",
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
+    "leveled": 1
   },
   {
     "formid": "00045BDF",
@@ -3828,7 +3864,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "LvlForswornBoss"
+    "template": "LvlForswornBoss",
+    "leveled": 1
   },
   {
     "formid": "0004D8D1",
@@ -3841,7 +3878,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "0004D8D3",
@@ -3854,7 +3892,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "0004D8D4",
@@ -3867,7 +3906,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "0004D8D5",
@@ -3880,7 +3920,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditWizard"
+    "template": "LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "0004D8D2",
@@ -3893,7 +3934,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditMelee2H"
+    "template": "LvlBanditMelee2H",
+    "leveled": 1
   },
   {
     "formid": "0001C4E4",
@@ -3917,7 +3959,8 @@
     "vanillaHair": "HairMaleNord19",
     "defaultPreviewKey": "Vanilla_BaldingLong",
     "defaultHairstyleName": "Vanilla - Balding Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingLong",
+    "leveled": 1
   },
   {
     "formid": "0002D514",
@@ -3943,6 +3986,7 @@
     "defaultHairstyleName": "Vanilla - Bald",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap",
     "template": "DA05_LvlHuntersOfHircine",
+    "leveled": 1,
     "excludeDescendants": [
       "DA05Hunter05_02Missile_Tsrasuna",
       "DA05Hunter11_04Melee_Ahjisi"
@@ -3960,6 +4004,7 @@
     "defaultHairstyleName": "Vanilla - Mohawk Mullet",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkMullet",
     "template": "DA05_LvlHuntersOfHircine",
+    "leveled": 1,
     "excludeDescendants": [
       "DA05Hunter01_JKier",
       "DA05Hunter04_Rakheran"
@@ -3977,6 +4022,7 @@
     "defaultHairstyleName": "Vanilla - French Braids Ponytail",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsPonytail",
     "template": "DA05_LvlHuntersOfHircine",
+    "leveled": 1,
     "excludeDescendants": [
       "DA05Hunter03_Eriana",
       "DA05Hunter13_04Melee_Heratar"
@@ -3994,6 +4040,7 @@
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up",
     "template": "DA05_LvlHuntersOfHircine",
+    "leveled": 1,
     "excludeDescendants": [
       "DA05Hunter02_Rissing",
       "DA05Hunter08_03Melee_Torkild",
@@ -4012,7 +4059,11 @@
     "defaultHairstyleName": "Vanilla - Bald",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap",
     "template": "DA05_LvlHuntersOfHircine",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DA05Hunter06_02Melee_Mazgak"
+    ],
+    "leveledFaceSharing": [
       "DA05Hunter06_02Melee_Mazgak"
     ]
   },
@@ -4028,7 +4079,11 @@
     "defaultHairstyleName": "Vanilla - Ronin Undercut Ponytail Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninUndercutPonytailLong",
     "template": "DA05_LvlHuntersOfHircine",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DA05Hunter10_03Missile_Yar"
+    ],
+    "leveledFaceSharing": [
       "DA05Hunter10_03Missile_Yar"
     ]
   },
@@ -4068,7 +4123,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "DA05_LvlHuntersOfHircine_NordM"
+    "template": "DA05_LvlHuntersOfHircine_NordM",
+    "leveled": 1
   },
   {
     "formid": "0002ABC4",
@@ -4081,7 +4137,8 @@
     "defaultPreviewKey": "Vanilla_DreadlockMohawk",
     "defaultHairstyleName": "Vanilla - Dreadlock Mohawk",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_DreadlockMohawk",
-    "template": "DA05_LvlHuntersOfHircine_NordF"
+    "template": "DA05_LvlHuntersOfHircine_NordF",
+    "leveled": 1
   },
   {
     "formid": "0002ABC2",
@@ -4094,7 +4151,8 @@
     "defaultPreviewKey": "Vanilla_MohawkLong",
     "defaultHairstyleName": "Vanilla - Mohawk Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkLong",
-    "template": "DA05_LvlHuntersOfHircine_KhajiitM"
+    "template": "DA05_LvlHuntersOfHircine_KhajiitM",
+    "leveled": 1
   },
   {
     "formid": "000CE081",
@@ -4107,7 +4165,8 @@
     "defaultPreviewKey": "Vanilla_MohawkMessyLongBraid",
     "defaultHairstyleName": "Vanilla - Mohawk Messy Long Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkMessyLongBraid",
-    "template": "DA05_LvlHuntersOfHircine_KhajiitF"
+    "template": "DA05_LvlHuntersOfHircine_KhajiitF",
+    "leveled": 1
   },
   {
     "formid": "000CE082",
@@ -4121,7 +4180,8 @@
     "defaultHairstyleName": "Vanilla - Bald",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap",
     "template": "DA05_LvlHuntersOfHircine_OrcF",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000CE084",
@@ -4134,7 +4194,8 @@
     "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up",
-    "template": "DA05_LvlHuntersOfHircine_NordM"
+    "template": "DA05_LvlHuntersOfHircine_NordM",
+    "leveled": 1
   },
   {
     "formid": "000CE085",
@@ -4162,7 +4223,8 @@
     "defaultHairstyleName": "Vanilla - Ronin Undercut Ponytail Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninUndercutPonytailLong",
     "template": "DA05_LvlHuntersOfHircine_OrcM",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000CE086",
@@ -4175,7 +4237,8 @@
     "defaultPreviewKey": "Vanilla_MohawkMessySideBraids",
     "defaultHairstyleName": "Vanilla - Mohawk Messy Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkMessySideBraids",
-    "template": "DA05_LvlHuntersOfHircine_KhajiitF"
+    "template": "DA05_LvlHuntersOfHircine_KhajiitF",
+    "leveled": 1
   },
   {
     "formid": "000CE088",
@@ -4188,7 +4251,8 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsShort",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
-    "template": "DA05_LvlHuntersOfHircine_NordM"
+    "template": "DA05_LvlHuntersOfHircine_NordM",
+    "leveled": 1
   },
   {
     "formid": "000CE089",
@@ -4201,7 +4265,8 @@
     "defaultPreviewKey": "Vanilla_MohawkFrenchBraids",
     "defaultHairstyleName": "Vanilla - Mohawk French Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
-    "template": "DA05_LvlHuntersOfHircine_NordF"
+    "template": "DA05_LvlHuntersOfHircine_NordF",
+    "leveled": 1
   },
   {
     "formid": "000CE09D",
@@ -4282,7 +4347,8 @@
     "vanillaHair": "HairMaleOrc15",
     "defaultPreviewKey": "Vanilla_UndercutPonytailShort",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailShort",
+    "leveled": 1
   },
   {
     "formid": "000252AA",
@@ -4342,7 +4408,8 @@
     "vanillaHair": "HairFemaleElf01",
     "defaultPreviewKey": "Vanilla_StraightLong",
     "defaultHairstyleName": "Vanilla - Straight Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
+    "leveled": 1
   },
   {
     "formid": "0009BB47",
@@ -4354,7 +4421,8 @@
     "vanillaHair": "HairMaleDarkElf02",
     "defaultPreviewKey": "Vanilla_WidowsPeakMedium",
     "defaultHairstyleName": "Vanilla - Widow's Peak Medium",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakMedium"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakMedium",
+    "leveled": 1
   },
   {
     "formid": "0008797F",
@@ -4378,7 +4446,8 @@
     "vanillaHair": "HairMaleImperial1",
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
+    "leveled": 1
   },
   {
     "formid": "00064A42",
@@ -6132,7 +6201,11 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DA13LvlAfflictedMelee1HWERefugee"
+    ],
+    "leveledFaceSharing": [
       "DA13LvlAfflictedMelee1HWERefugee"
     ]
   },
@@ -6148,7 +6221,8 @@
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
     "template": "DA13LvlAfflictedMelee1HEvenTonedM",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "0008443D",
@@ -6160,7 +6234,8 @@
     "vanillaHair": "HairMaleImperial1",
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
+    "leveled": 1
   },
   {
     "formid": "00084446",
@@ -6172,7 +6247,8 @@
     "vanillaHair": "HairMaleImperial1",
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
+    "leveled": 1
   },
   {
     "formid": "00084448",
@@ -6184,7 +6260,8 @@
     "vanillaHair": "HairFemaleNord19",
     "defaultPreviewKey": "Vanilla_FrenchBraidsHigh",
     "defaultHairstyleName": "Vanilla - French Braids High",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsHigh"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsHigh",
+    "leveled": 1
   },
   {
     "formid": "00064ADC",
@@ -6196,7 +6273,8 @@
     "vanillaHair": "HairFemaleNord20",
     "defaultPreviewKey": "Vanilla_StraightBehindEars",
     "defaultHairstyleName": "Vanilla - Straight Behind Ears",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindEars"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindEars",
+    "leveled": 1
   },
   {
     "formid": "00064ADD",
@@ -6208,7 +6286,8 @@
     "vanillaHair": "HairMaleElder1",
     "defaultPreviewKey": "Vanilla_BaldingShort1",
     "defaultHairstyleName": "Vanilla - Balding Short 1",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort1"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort1",
+    "leveled": 1
   },
   {
     "formid": "00045F78",
@@ -6323,7 +6402,8 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsLong",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsLong",
-    "template": "DA16LvlVaerminaDevoteeAmbush"
+    "template": "DA16LvlVaerminaDevoteeAmbush",
+    "leveled": 1
   },
   {
     "formid": "000E36D9",
@@ -6336,7 +6416,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "DA16LvlVaerminaDevoteeAmbush"
+    "template": "DA16LvlVaerminaDevoteeAmbush",
+    "leveled": 1
   },
   {
     "formid": "000E36D8",
@@ -6349,7 +6430,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "DA16LvlVaerminaDevoteeAmbush"
+    "template": "DA16LvlVaerminaDevoteeAmbush",
+    "leveled": 1
   },
   {
     "formid": "000B91A3",
@@ -6362,7 +6444,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "LvlWarlockShock"
+    "template": "LvlWarlockShock",
+    "leveled": 1
   },
   {
     "formid": "000E16D4",
@@ -6375,7 +6458,8 @@
     "defaultPreviewKey": "Vanilla_StraightLongBraid",
     "defaultHairstyleName": "Vanilla - Straight Long Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid",
-    "template": "DA16LvlVaerminaDevoteeDream"
+    "template": "DA16LvlVaerminaDevoteeDream",
+    "leveled": 1
   },
   {
     "formid": "000E16D2",
@@ -6388,7 +6472,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "DA16LvlVaerminaDevoteeDream"
+    "template": "DA16LvlVaerminaDevoteeDream",
+    "leveled": 1
   },
   {
     "formid": "000E16D3",
@@ -6401,7 +6486,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "DA16LvlVaerminaDevoteeDream"
+    "template": "DA16LvlVaerminaDevoteeDream",
+    "leveled": 1
   },
   {
     "formid": "0001434B",
@@ -7367,7 +7453,8 @@
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
     "template": "DLC01SoulCairnSoulDefault",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "0200A906",
@@ -7381,7 +7468,11 @@
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
     "template": "LvlBanditMeleeNordM",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DLC01SoulCairnKeeperSoul"
+    ],
+    "leveledFaceSharing": [
       "DLC01SoulCairnKeeperSoul"
     ]
   },
@@ -7396,7 +7487,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditMissileNordF"
+    "template": "LvlBanditMissileNordF",
+    "leveled": 1
   },
   {
     "formid": "02015DF3",
@@ -7409,7 +7501,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMeleeNordM"
+    "template": "LvlBanditMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "02002B0D",
@@ -7422,7 +7515,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "LvlBanditMeleeNordM"
+    "template": "LvlBanditMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "0201A4FC",
@@ -7435,7 +7529,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditMissileNordM"
+    "template": "LvlBanditMissileNordM",
+    "leveled": 1
   },
   {
     "formid": "0201A4FD",
@@ -7448,7 +7543,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMissileNordM"
+    "template": "LvlBanditMissileNordM",
+    "leveled": 1
   },
   {
     "formid": "0201A4F8",
@@ -7461,7 +7557,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlWarlockNecromancerFemaleHighElf"
+    "template": "LvlWarlockNecromancerFemaleHighElf",
+    "leveled": 1
   },
   {
     "formid": "0201A504",
@@ -7474,7 +7571,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "LvlWarlockNecromancerFemaleHighElf"
+    "template": "LvlWarlockNecromancerFemaleHighElf",
+    "leveled": 1
   },
   {
     "formid": "0201A505",
@@ -7487,7 +7585,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlWarlockNecromancerFemaleHighElf"
+    "template": "LvlWarlockNecromancerFemaleHighElf",
+    "leveled": 1
   },
   {
     "formid": "0201A4F7",
@@ -7500,7 +7599,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "LvlWarlockNecromancerMaleDarkElf"
+    "template": "LvlWarlockNecromancerMaleDarkElf",
+    "leveled": 1
   },
   {
     "formid": "0201A4F9",
@@ -7513,7 +7613,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlWarlockNecromancerMaleDarkElf"
+    "template": "LvlWarlockNecromancerMaleDarkElf",
+    "leveled": 1
   },
   {
     "formid": "0201A503",
@@ -7526,7 +7627,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlWarlockNecromancerMaleDarkElf"
+    "template": "LvlWarlockNecromancerMaleDarkElf",
+    "leveled": 1
   },
   {
     "formid": "020150B1",
@@ -7539,7 +7641,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditMeleeNordF"
+    "template": "LvlBanditMeleeNordF",
+    "leveled": 1
   },
   {
     "formid": "0201A4FA",
@@ -7552,7 +7655,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditMeleeNordF"
+    "template": "LvlBanditMeleeNordF",
+    "leveled": 1
   },
   {
     "formid": "02004759",
@@ -7565,7 +7669,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMeleeNordM"
+    "template": "LvlBanditMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "0201A4FE",
@@ -7578,7 +7683,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMeleeNordM"
+    "template": "LvlBanditMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "020150B5",
@@ -7591,7 +7697,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditMissileNordF"
+    "template": "LvlBanditMissileNordF",
+    "leveled": 1
   },
   {
     "formid": "020150B4",
@@ -7604,7 +7711,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMissileNordM"
+    "template": "LvlBanditMissileNordM",
+    "leveled": 1
   },
   {
     "formid": "020071F1",
@@ -7629,7 +7737,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "LvlWarlockNecromancerFemaleHighElf"
+    "template": "LvlWarlockNecromancerFemaleHighElf",
+    "leveled": 1
   },
   {
     "formid": "020150B2",
@@ -7642,7 +7751,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "LvlWarlockNecromancerMaleDarkElf"
+    "template": "LvlWarlockNecromancerMaleDarkElf",
+    "leveled": 1
   },
   {
     "formid": "020150B6",
@@ -7655,7 +7765,8 @@
     "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
-    "template": "LvlBanditMeleeOrcM"
+    "template": "LvlBanditMeleeOrcM",
+    "leveled": 1
   },
   {
     "formid": "0201A4FF",
@@ -7668,7 +7779,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditMissileNordF"
+    "template": "LvlBanditMissileNordF",
+    "leveled": 1
   },
   {
     "formid": "0201A502",
@@ -7681,7 +7793,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMeleeNordM"
+    "template": "LvlBanditMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "02012452",
@@ -7706,7 +7819,8 @@
     "defaultPreviewKey": "Vanilla_TopTiedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Top Tied Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_TopTiedBackSideBraids",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "0201993C",
@@ -7718,7 +7832,8 @@
     "vanillaHair": "HairMaleImperial1",
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
+    "leveled": 1
   },
   {
     "formid": "02003512",
@@ -7731,7 +7846,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "DLC1LvlDawnguardMelee1H"
+    "template": "DLC1LvlDawnguardMelee1H",
+    "leveled": 1
   },
   {
     "formid": "0201993D",
@@ -7743,7 +7859,8 @@
     "vanillaHair": "HairFemaleRedguard01",
     "defaultPreviewKey": "Vanilla_LooseBun",
     "defaultHairstyleName": "Vanilla - Loose Bun",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_LooseBun"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_LooseBun",
+    "leveled": 1
   },
   {
     "formid": "0201993E",
@@ -7755,7 +7872,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "02014BFB",
@@ -7768,7 +7886,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "LvlWarlockFire"
+    "template": "LvlWarlockFire",
+    "leveled": 1
   },
   {
     "formid": "02014BFC",
@@ -7793,7 +7912,8 @@
     "defaultPreviewKey": "Vanilla_StraightBehindLeftEar",
     "defaultHairstyleName": "Vanilla - Straight Behind Left Ear",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
-    "template": "LvlBanditMissile"
+    "template": "LvlBanditMissile",
+    "leveled": 1
   },
   {
     "formid": "02014BFE",
@@ -7806,7 +7926,8 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
-    "template": "LvlBanditMelee2H"
+    "template": "LvlBanditMelee2H",
+    "leveled": 1
   },
   {
     "formid": "0200336E",
@@ -8108,7 +8229,8 @@
     "defaultPreviewKey": "Vanilla_SpaceBunsLoose",
     "defaultHairstyleName": "Vanilla - Space Buns Loose",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SpaceBunsLoose",
-    "template": "DLC1dunRedwaterDenVampireThrallMissileEvenTonedF"
+    "template": "DLC1dunRedwaterDenVampireThrallMissileEvenTonedF",
+    "leveled": 1
   },
   {
     "formid": "02008D27",
@@ -8122,6 +8244,7 @@
     "defaultHairstyleName": "Vanilla - Space Buns Loose",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SpaceBunsLoose",
     "template": "LvlVampireThrallMissileEvenTonedF",
+    "leveled": 1,
     "excludeDescendants": [
       "DLC1dunRedwaterDenVampireThrallDealer"
     ]
@@ -8150,7 +8273,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlVigilantOfStendarr"
+    "template": "LvlVigilantOfStendarr",
+    "leveled": 1
   },
   {
     "formid": "0201541D",
@@ -9159,7 +9283,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "020183A4",
@@ -9171,7 +9296,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "02003D05",
@@ -9322,7 +9448,8 @@
     "defaultPreviewKey": "Vanilla_StraightBehindLeftEar",
     "defaultHairstyleName": "Vanilla - Straight Behind Left Ear",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "02005E4C",
@@ -9335,7 +9462,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "02004208",
@@ -9348,7 +9476,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "LvlVampireBoss"
+    "template": "LvlVampireBoss",
+    "leveled": 1
   },
   {
     "formid": "02005E4D",
@@ -9361,7 +9490,8 @@
     "defaultPreviewKey": "Vanilla_BaldingShort4",
     "defaultHairstyleName": "Vanilla - Balding Short 4",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort4",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "02005E4E",
@@ -9374,7 +9504,8 @@
     "defaultPreviewKey": "Vanilla_TopTiedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Top Tied Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_TopTiedBackSideBraids",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "02003362",
@@ -9475,7 +9606,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "LvlWarlockConjurerBoss"
+    "template": "LvlWarlockConjurerBoss",
+    "leveled": 1
   },
   {
     "formid": "02003369",
@@ -9619,7 +9751,8 @@
     "vanillaHair": "NoHair",
     "defaultPreviewKey": "Vanilla_Bald",
     "defaultHairstyleName": "Vanilla - Bald",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap",
+    "leveled": 1
   },
   {
     "formid": "02015B49",
@@ -10070,7 +10203,8 @@
     "vanillaHair": "HairFemaleRedguard01",
     "defaultPreviewKey": "Vanilla_LooseBun",
     "defaultHairstyleName": "Vanilla - Loose Bun",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_LooseBun"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_LooseBun",
+    "leveled": 1
   },
   {
     "formid": "0201428F",
@@ -10082,7 +10216,8 @@
     "vanillaHair": "HairMaleImperial1",
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
+    "leveled": 1
   },
   {
     "formid": "02014286",
@@ -10094,7 +10229,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "0402B236",
@@ -10386,7 +10522,8 @@
     "vanillaHair": "HairFemaleNord07",
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
+    "leveled": 1
   },
   {
     "formid": "04038001",
@@ -10411,7 +10548,8 @@
     "vanillaHair": "HairMaleRedguard1",
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
+    "leveled": 1
   },
   {
     "formid": "04038002",
@@ -10436,7 +10574,8 @@
     "vanillaHair": "HairFemaleNord18",
     "defaultPreviewKey": "Vanilla_StraightLongScraggly",
     "defaultHairstyleName": "Vanilla - Straight Long Scraggly",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongScraggly"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongScraggly",
+    "leveled": 1
   },
   {
     "formid": "04038003",
@@ -10461,7 +10600,8 @@
     "vanillaHair": "HairMaleNord14",
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
+    "leveled": 1
   },
   {
     "formid": "04038004",
@@ -10486,7 +10626,8 @@
     "vanillaHair": "HairFemaleNord12",
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
+    "leveled": 1
   },
   {
     "formid": "04038005",
@@ -10511,7 +10652,8 @@
     "vanillaHair": "HairMaleNord11",
     "defaultPreviewKey": "Vanilla_PonytailBangsShort",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
+    "leveled": 1
   },
   {
     "formid": "04038006",
@@ -10536,7 +10678,8 @@
     "vanillaHair": "HairFemaleNord11",
     "defaultPreviewKey": "Vanilla_PonytailBangsLong",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsLong",
+    "leveled": 1
   },
   {
     "formid": "04038007",
@@ -10561,7 +10704,8 @@
     "vanillaHair": "HairMaleNord12",
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
+    "leveled": 1
   },
   {
     "formid": "04038008",
@@ -10586,7 +10730,8 @@
     "vanillaHair": "HairFemaleNord02",
     "defaultPreviewKey": "Vanilla_StraightLongBraid",
     "defaultHairstyleName": "Vanilla - Straight Long Braid",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid",
+    "leveled": 1
   },
   {
     "formid": "04038009",
@@ -10611,7 +10756,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "0403800A",
@@ -10636,7 +10782,8 @@
     "vanillaHair": "HairFemaleNord14",
     "defaultPreviewKey": "Vanilla_FrenchBraidsPonytail",
     "defaultHairstyleName": "Vanilla - French Braids Ponytail",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsPonytail"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsPonytail",
+    "leveled": 1
   },
   {
     "formid": "0403800B",
@@ -10662,7 +10809,8 @@
     "defaultPreviewKey": "Vanilla_StraightLong",
     "defaultHairstyleName": "Vanilla - Straight Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
-    "template": "LvlBanditWizard"
+    "template": "LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "0403800C",
@@ -10688,7 +10836,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditGhostMissileMale"
+    "template": "LvlBanditGhostMissileMale",
+    "leveled": 1
   },
   {
     "formid": "040325FE",
@@ -10701,7 +10850,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "DLC2LvlBanditBoss"
+    "template": "DLC2LvlBanditBoss",
+    "leveled": 1
   },
   {
     "formid": "0402400A",
@@ -10714,7 +10864,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "LvlBanditBossMelee2HNordM"
+    "template": "LvlBanditBossMelee2HNordM",
+    "leveled": 1
   },
   {
     "formid": "0402400B",
@@ -10727,7 +10878,8 @@
     "defaultPreviewKey": "Vanilla_SpaceBunsTight",
     "defaultHairstyleName": "Vanilla - Space Buns Tight",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SpaceBunsTight",
-    "template": "DLC2LvlBanditMissile"
+    "template": "DLC2LvlBanditMissile",
+    "leveled": 1
   },
   {
     "formid": "04032600",
@@ -10740,7 +10892,8 @@
     "defaultPreviewKey": "Vanilla_MohawkShort",
     "defaultHairstyleName": "Vanilla - Mohawk Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkShort",
-    "template": "DLC2LvlBanditMissile"
+    "template": "DLC2LvlBanditMissile",
+    "leveled": 1
   },
   {
     "formid": "04039721",
@@ -10753,7 +10906,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "DLC2dunHaknirShoal_LvlBanditWizard"
+    "template": "DLC2dunHaknirShoal_LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "04037FE5",
@@ -10766,7 +10920,8 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsShort",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
-    "template": "LvlBanditGhostWizardMale"
+    "template": "LvlBanditGhostWizardMale",
+    "leveled": 1
   },
   {
     "formid": "040264B9",
@@ -10993,7 +11148,8 @@
     "vanillaHair": "HairMaleRedguard2",
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
+    "leveled": 1
   },
   {
     "formid": "04028974",
@@ -11005,7 +11161,8 @@
     "vanillaHair": "HairMaleDarkElf07",
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
+    "leveled": 1
   },
   {
     "formid": "0403537E",
@@ -14297,7 +14454,8 @@
     "vanillaHair": "HairMaleElf09",
     "defaultPreviewKey": "Vanilla_BaldingLong",
     "defaultHairstyleName": "Vanilla - Balding Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingLong",
+    "leveled": 1
   },
   {
     "formid": "0403571F",
@@ -14323,7 +14481,8 @@
     "vanillaHair": "HairFemaleDarkElf06",
     "defaultPreviewKey": "Vanilla_MohawkShort",
     "defaultHairstyleName": "Vanilla - Mohawk Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkShort",
+    "leveled": 1
   },
   {
     "formid": "0401A518",
@@ -14489,7 +14648,8 @@
     "defaultPreviewKey": "Vanilla_StraightLong",
     "defaultHairstyleName": "Vanilla - Straight Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
-    "template": "LvlBanditMelee2H"
+    "template": "LvlBanditMelee2H",
+    "leveled": 1
   },
   {
     "formid": "0402547D",
@@ -15271,7 +15431,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "04038968",
@@ -15320,7 +15481,8 @@
     "vanillaHair": "HairMaleDarkElf01",
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
+    "leveled": 1
   },
   {
     "formid": "04025887",
@@ -15332,7 +15494,8 @@
     "vanillaHair": "HairMaleDarkElf01",
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
+    "leveled": 1
   },
   {
     "formid": "04018FCA",
@@ -15945,7 +16108,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakWindswept",
     "defaultHairstyleName": "Vanilla - Widow's Peak Windswept",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakWindswept",
-    "template": "LvlBanditWizard"
+    "template": "LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "04027A15",
@@ -15957,7 +16121,8 @@
     "vanillaHair": "HairMaleNord04",
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
+    "leveled": 1
   },
   {
     "formid": "0403D21F",
@@ -16009,7 +16174,8 @@
     "defaultPreviewKey": "Vanilla_FrenchBraidsHigh",
     "defaultHairstyleName": "Vanilla - French Braids High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsHigh",
-    "template": "DLC2LvlBanditMissile"
+    "template": "DLC2LvlBanditMissile",
+    "leveled": 1
   },
   {
     "formid": "04039723",
@@ -16022,7 +16188,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "DLC2dunHaknirShoal_LvlBanditWizard"
+    "template": "DLC2dunHaknirShoal_LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "00058FB7",
@@ -16238,7 +16405,8 @@
     "defaultPreviewKey": "Vanilla_MohawkMessyRingedBraids",
     "defaultHairstyleName": "Vanilla - Mohawk Messy Ringed Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkMessyRingedBraids",
-    "template": "LvlBanditMeleeBerserker"
+    "template": "LvlBanditMeleeBerserker",
+    "leveled": 1
   },
   {
     "formid": "0003B0E6",
@@ -16378,7 +16546,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "LvlAlikrMelee1H"
+    "template": "LvlAlikrMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000C3B25",
@@ -16405,7 +16574,8 @@
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "0005B830",
@@ -16418,7 +16588,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlVampireBoss"
+    "template": "LvlVampireBoss",
+    "leveled": 1
   },
   {
     "formid": "0009F851",
@@ -16533,7 +16704,8 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "MS07LvlBlackbloodMeleeBerserkerCommonerM",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000F6934",
@@ -16547,7 +16719,8 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "MS07LvlBlackbloodMissileNordM",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000D7D8E",
@@ -17007,7 +17180,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000D823E",
@@ -17020,7 +17194,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakWindswept",
     "defaultHairstyleName": "Vanilla - Widow's Peak Windswept",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakWindswept",
-    "template": "LvlBanditMeleeBerserker"
+    "template": "LvlBanditMeleeBerserker",
+    "leveled": 1
   },
   {
     "formid": "000D55D3",
@@ -17033,7 +17208,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakWindswept",
     "defaultHairstyleName": "Vanilla - Widow's Peak Windswept",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakWindswept",
-    "template": "LvlBanditMeleeNordM"
+    "template": "LvlBanditMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "00090C87",
@@ -17046,7 +17222,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditMeleeAnyAggro1024"
+    "template": "LvlBanditMeleeAnyAggro1024",
+    "leveled": 1
   },
   {
     "formid": "0003DC4A",
@@ -17132,7 +17309,8 @@
     "vanillaHair": "HairFemaleDarkElf01",
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
+    "leveled": 1
   },
   {
     "formid": "0004F4DA",
@@ -17174,7 +17352,8 @@
     "defaultPreviewKey": "Vanilla_FrenchBraidsPonytail",
     "defaultHairstyleName": "Vanilla - French Braids Ponytail",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsPonytail",
-    "template": "LvlForswornBossShaman"
+    "template": "LvlForswornBossShaman",
+    "leveled": 1
   },
   {
     "formid": "000942CC",
@@ -17187,7 +17366,8 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
-    "template": "LvlForswornMeleeBerserker"
+    "template": "LvlForswornMeleeBerserker",
+    "leveled": 1
   },
   {
     "formid": "000D5451",
@@ -17200,7 +17380,8 @@
     "defaultPreviewKey": "Vanilla_SidecutLong",
     "defaultHairstyleName": "Vanilla - Sidecut Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutLong",
-    "template": "LvlForswornMissile"
+    "template": "LvlForswornMissile",
+    "leveled": 1
   },
   {
     "formid": "000A4CB5",
@@ -17226,7 +17407,8 @@
     "vanillaHair": "HairMaleDarkElf04",
     "defaultPreviewKey": "Vanilla_SidecutShort",
     "defaultHairstyleName": "Vanilla - Sidecut Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort",
+    "leveled": 1
   },
   {
     "formid": "0005B0E7",
@@ -17238,7 +17420,8 @@
     "vanillaHair": "HairMaleOrc01",
     "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
+    "leveled": 1
   },
   {
     "formid": "00015D2B",
@@ -17280,7 +17463,8 @@
     "defaultHairstyleName": "Vanilla - Sidecut Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort",
     "template": "LvlWarlockElementalAmbushCondescendingF",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "0010C687",
@@ -17363,7 +17547,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakMedium",
     "defaultHairstyleName": "Vanilla - Widow's Peak Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakMedium",
-    "template": "LvlWarlockElementalAmbush"
+    "template": "LvlWarlockElementalAmbush",
+    "leveled": 1
   },
   {
     "formid": "000CA346",
@@ -17476,6 +17661,7 @@
     "defaultHairstyleName": "Vanilla - Mohawk French Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
     "template": "LvlDraugrMelee1HMale",
+    "leveled": 1,
     "excludeDescendants": [
       "dunForelhostLvlGhostMelee1HFemale",
       "dunForelhostLvlGhostTankFemale",
@@ -17487,6 +17673,8 @@
       "dunForelhostLvlGhostWizardMale"
     ],
     "leveledFaceSharing": [
+      "dunForelhostLvlGhostMelee1HMale",
+      "dunForelhostLvlGhostTankMale",
       "dunForelhostLvlGhostWizardMale"
     ]
   },
@@ -17501,7 +17689,8 @@
     "defaultPreviewKey": "Vanilla_MohawkFrenchBraids",
     "defaultHairstyleName": "Vanilla - Mohawk French Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
-    "template": "dunForelhostLvlGhostBase"
+    "template": "dunForelhostLvlGhostBase",
+    "leveled": 1
   },
   {
     "formid": "0007A2B1",
@@ -17515,7 +17704,8 @@
     "defaultHairstyleName": "Vanilla - Mohawk French Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
     "template": "dunForelhostLvlGhostBase",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000CD644",
@@ -17528,7 +17718,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackLongSideBraid",
     "defaultHairstyleName": "Vanilla - Slicked Back Long Side Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackLongSideBraid",
-    "template": "dunForelhostLvlGhostTankMale"
+    "template": "dunForelhostLvlGhostTankMale",
+    "leveled": 1
   },
   {
     "formid": "000CD643",
@@ -17543,6 +17734,7 @@
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkFrenchBraids",
     "template": "dunForelhostLvlGhostBase",
     "templateUseTraits": 1,
+    "leveled": 1,
     "excludeDescendants": [
       "dunForelhostLvlGhostTankFemale"
     ]
@@ -17665,7 +17857,8 @@
     "vanillaHair": "HairFemaleNord04",
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
+    "leveled": 1
   },
   {
     "formid": "00104750",
@@ -17691,7 +17884,8 @@
     "vanillaHair": "NoHair",
     "defaultPreviewKey": "Vanilla_Bald",
     "defaultHairstyleName": "Vanilla - Bald",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap",
+    "leveled": 1
   },
   {
     "formid": "0009D761",
@@ -17733,7 +17927,11 @@
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "LvlBanditGhostMelee1HMale",
     "templateUseTraits": 1,
+    "leveled": 1,
     "faceSharingDescendants": [
+      "dunHalldirs_LvlBanditGhostMelee1HAmbush"
+    ],
+    "leveledFaceSharing": [
       "dunHalldirs_LvlBanditGhostMelee1HAmbush"
     ]
   },
@@ -17749,7 +17947,8 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "dunHalldirs_LvlBanditGhostMelee1H",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000B289F",
@@ -17764,7 +17963,11 @@
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
     "template": "LvlBanditGhostMeleeBerserkerMale",
     "templateUseTraits": 1,
+    "leveled": 1,
     "faceSharingDescendants": [
+      "dunHalldirs_LvlBanditGhostMeleeBerserkerAmbush"
+    ],
+    "leveledFaceSharing": [
       "dunHalldirs_LvlBanditGhostMeleeBerserkerAmbush"
     ]
   },
@@ -17780,7 +17983,8 @@
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
     "template": "dunHalldirs_LvlBanditGhostMeleeBerserker",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000B289C",
@@ -17795,7 +17999,11 @@
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
     "template": "LvlBanditGhostMeleeTankMale",
     "templateUseTraits": 1,
+    "leveled": 1,
     "faceSharingDescendants": [
+      "dunHalldirs_LvlBanditGhostMeleeTankAmbush"
+    ],
+    "leveledFaceSharing": [
       "dunHalldirs_LvlBanditGhostMeleeTankAmbush"
     ]
   },
@@ -17811,7 +18019,8 @@
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
     "template": "dunHalldirs_LvlBanditGhostMeleeTank",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000B289D",
@@ -17826,7 +18035,12 @@
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
     "template": "LvlBanditGhostMissileMale",
     "templateUseTraits": 1,
+    "leveled": 1,
     "faceSharingDescendants": [
+      "dunHalldirs_LvlBanditGhostMissileAmbush",
+      "dunHalldirs_LvlBanditGhostMissileAmbushHoldPos256"
+    ],
+    "leveledFaceSharing": [
       "dunHalldirs_LvlBanditGhostMissileAmbush",
       "dunHalldirs_LvlBanditGhostMissileAmbushHoldPos256"
     ]
@@ -17843,7 +18057,8 @@
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
     "template": "dunHalldirs_LvlBanditGhostMissile",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "00065C07",
@@ -17857,7 +18072,8 @@
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
     "template": "dunHalldirs_LvlBanditGhostMissile",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "00083B16",
@@ -17984,7 +18200,8 @@
     "defaultPreviewKey": "Vanilla_DreadlockPonytail",
     "defaultHairstyleName": "Vanilla - Dreadlock Ponytail",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_DreadlockPonytail",
-    "template": "dunKatariahLvlPenitusOculatusMelee1HAmbush"
+    "template": "dunKatariahLvlPenitusOculatusMelee1HAmbush",
+    "leveled": 1
   },
   {
     "formid": "000E77E2",
@@ -18081,7 +18298,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "LvlBanditWizard"
+    "template": "LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "000F82BA",
@@ -18094,7 +18312,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditWizard"
+    "template": "LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "000D80B4",
@@ -18119,7 +18338,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "00034C8C",
@@ -18132,7 +18352,8 @@
     "defaultPreviewKey": "Vanilla_MohawkLong",
     "defaultHairstyleName": "Vanilla - Mohawk Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkLong",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "00034C8D",
@@ -18145,7 +18366,8 @@
     "defaultPreviewKey": "Vanilla_ShortLoose",
     "defaultHairstyleName": "Vanilla - Short Loose",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLoose",
-    "template": "LvlBanditMissile"
+    "template": "LvlBanditMissile",
+    "leveled": 1
   },
   {
     "formid": "0004003B",
@@ -18157,7 +18379,8 @@
     "vanillaHair": "HairMaleRedguard1",
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
+    "leveled": 1
   },
   {
     "formid": "000B3B95",
@@ -18169,7 +18392,8 @@
     "vanillaHair": "HairMaleImperial1",
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
+    "leveled": 1
   },
   {
     "formid": "000E76CA",
@@ -18247,7 +18471,8 @@
     "defaultPreviewKey": "Vanilla_Bald",
     "defaultHairstyleName": "Vanilla - Bald",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldCap",
-    "template": "LvlVampireBoss"
+    "template": "LvlVampireBoss",
+    "leveled": 1
   },
   {
     "formid": "000B114F",
@@ -18606,7 +18831,8 @@
     "defaultPreviewKey": "Vanilla_PonytailBraidLooped",
     "defaultHairstyleName": "Vanilla - Ponytail Braid Looped",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBraidLooped",
-    "template": "LvlWarlockConjurerFemaleCondescending"
+    "template": "LvlWarlockConjurerFemaleCondescending",
+    "leveled": 1
   },
   {
     "formid": "0005198C",
@@ -18632,7 +18858,8 @@
     "vanillaHair": "HairMaleNord17",
     "defaultPreviewKey": "Vanilla_MohawkLong",
     "defaultHairstyleName": "Vanilla - Mohawk Long",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkLong"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkLong",
+    "leveled": 1
   },
   {
     "formid": "000A88C5",
@@ -18758,7 +18985,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Slicked Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackSideBraids",
-    "template": "DunValthumeGhostValdar"
+    "template": "DunValthumeGhostValdar",
+    "leveled": 1
   },
   {
     "formid": "000EF4E7",
@@ -18783,7 +19011,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailMedium",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailMedium",
-    "template": "LvlWarlockNecromancerMaleDarkElf"
+    "template": "LvlWarlockNecromancerMaleDarkElf",
+    "leveled": 1
   },
   {
     "formid": "0003A745",
@@ -18796,7 +19025,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakShort",
     "defaultHairstyleName": "Vanilla - Widow's Peak Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakShort",
-    "template": "LvlWarlockNecromancer"
+    "template": "LvlWarlockNecromancer",
+    "leveled": 1
   },
   {
     "formid": "000F4FB8",
@@ -18860,6 +19090,7 @@
     "defaultHairstyleName": "Vanilla - French Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraids",
     "template": "LvlBanditBoss",
+    "leveled": 1,
     "excludeDescendants": [
       "dunSnowyPOIGhost"
     ]
@@ -18875,7 +19106,8 @@
     "defaultPreviewKey": "Vanilla_BaldingPonytailLong",
     "defaultHairstyleName": "Vanilla - Balding Ponytail Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingPonytailLong",
-    "template": "LvlBanditMeleeAny"
+    "template": "LvlBanditMeleeAny",
+    "leveled": 1
   },
   {
     "formid": "00041929",
@@ -18888,7 +19120,8 @@
     "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
-    "template": "LvlBanditMeleeAny"
+    "template": "LvlBanditMeleeAny",
+    "leveled": 1
   },
   {
     "formid": "0004192A",
@@ -18901,7 +19134,8 @@
     "defaultPreviewKey": "Vanilla_StraightLongBraid",
     "defaultHairstyleName": "Vanilla - Straight Long Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid",
-    "template": "LvlBanditMeleeAny"
+    "template": "LvlBanditMeleeAny",
+    "leveled": 1
   },
   {
     "formid": "0004192B",
@@ -18914,7 +19148,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackLongSideBraid",
     "defaultHairstyleName": "Vanilla - Slicked Back Long Side Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackLongSideBraid",
-    "template": "LvlBanditMeleeAny"
+    "template": "LvlBanditMeleeAny",
+    "leveled": 1
   },
   {
     "formid": "001019C6",
@@ -18926,7 +19161,8 @@
     "vanillaHair": "HairMaleNord10",
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1
   },
   {
     "formid": "0008AD96",
@@ -18964,7 +19200,8 @@
     "defaultPreviewKey": "Vanilla_BaldingShort4",
     "defaultHairstyleName": "Vanilla - Balding Short 4",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort4",
-    "template": "LvlBanditMeleeTank"
+    "template": "LvlBanditMeleeTank",
+    "leveled": 1
   },
   {
     "formid": "000E166B",
@@ -18992,7 +19229,8 @@
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
     "template": "LvlBanditGhostMelee1HFemale",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000AB102",
@@ -19006,7 +19244,8 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "LvlBanditGhostMelee1HMale",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000DE516",
@@ -19020,7 +19259,8 @@
     "defaultHairstyleName": "Vanilla - Straight Long Scraggly",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongScraggly",
     "template": "LvlBanditGhostMelee2HFemale",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000DE519",
@@ -19034,7 +19274,8 @@
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
     "template": "LvlBanditGhostMelee2HMale",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000DE518",
@@ -19048,7 +19289,8 @@
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsLong",
     "template": "LvlBanditGhostMissileFemale",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000AB104",
@@ -19062,7 +19304,8 @@
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
     "template": "LvlBanditGhostMissileMale",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "0001B079",
@@ -42103,7 +42346,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlGuardImperial"
+    "template": "LvlGuardImperial",
+    "leveled": 1
   },
   {
     "formid": "000EA154",
@@ -42116,7 +42360,8 @@
     "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up",
-    "template": "GuardRiftenImperialBase"
+    "template": "GuardRiftenImperialBase",
+    "leveled": 1
   },
   {
     "formid": "000EA155",
@@ -42129,7 +42374,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "GuardRiftenImperialBase"
+    "template": "GuardRiftenImperialBase",
+    "leveled": 1
   },
   {
     "formid": "000EA156",
@@ -42142,7 +42388,8 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
-    "template": "GuardRiftenImperialBase"
+    "template": "GuardRiftenImperialBase",
+    "leveled": 1
   },
   {
     "formid": "000E66F6",
@@ -42155,7 +42402,8 @@
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
-    "template": "GuardRiftenSonsBase"
+    "template": "GuardRiftenSonsBase",
+    "leveled": 1
   },
   {
     "formid": "000E66F8",
@@ -42168,7 +42416,8 @@
     "defaultPreviewKey": "Vanilla_ShortLoose",
     "defaultHairstyleName": "Vanilla - Short Loose",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLoose",
-    "template": "GuardRiftenSonsBase"
+    "template": "GuardRiftenSonsBase",
+    "leveled": 1
   },
   {
     "formid": "000E66F7",
@@ -42181,7 +42430,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "GuardRiftenSonsBase"
+    "template": "GuardRiftenSonsBase",
+    "leveled": 1
   },
   {
     "formid": "000274AC",
@@ -42194,7 +42444,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "GuardWhiterunImperialTemplate"
+    "template": "GuardWhiterunImperialTemplate",
+    "leveled": 1
   },
   {
     "formid": "000F684E",
@@ -42207,7 +42458,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "GuardSolitudeImperialBase"
+    "template": "GuardSolitudeImperialBase",
+    "leveled": 1
   },
   {
     "formid": "000B4C4F",
@@ -42220,7 +42472,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "GuardSolitudeImperialBase"
+    "template": "GuardSolitudeImperialBase",
+    "leveled": 1
   },
   {
     "formid": "000199F8",
@@ -42233,7 +42486,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "GuardSolitudeImperialWarroomNight"
+    "template": "GuardSolitudeImperialWarroomNight",
+    "leveled": 1
   },
   {
     "formid": "00108AA8",
@@ -42246,7 +42500,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "GuardSolitudeSonsBase"
+    "template": "GuardSolitudeSonsBase",
+    "leveled": 1
   },
   {
     "formid": "000D1985",
@@ -42259,7 +42514,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "GuardWhiterunImperialTemplate"
+    "template": "GuardWhiterunImperialTemplate",
+    "leveled": 1
   },
   {
     "formid": "000D8F09",
@@ -42272,7 +42528,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "GuardWhiterunImperialTemplate"
+    "template": "GuardWhiterunImperialTemplate",
+    "leveled": 1
   },
   {
     "formid": "000E0D77",
@@ -42285,7 +42542,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
-    "template": "GuardWhiterunSonsTemplate"
+    "template": "GuardWhiterunSonsTemplate",
+    "leveled": 1
   },
   {
     "formid": "0003EECF",
@@ -42298,7 +42556,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "LvlGuardSons"
+    "template": "LvlGuardSons",
+    "leveled": 1
   },
   {
     "formid": "0003EF2C",
@@ -42311,7 +42570,8 @@
     "defaultPreviewKey": "Vanilla_BaldingShort5",
     "defaultHairstyleName": "Vanilla - Balding Short 5",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort5",
-    "template": "GuardWindhelmSons"
+    "template": "GuardWindhelmSons",
+    "leveled": 1
   },
   {
     "formid": "00055A2B",
@@ -42324,7 +42584,8 @@
     "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up",
-    "template": "GuardWindhelmSons"
+    "template": "GuardWindhelmSons",
+    "leveled": 1
   },
   {
     "formid": "000C78CA",
@@ -44850,7 +45111,11 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DunYsgramorsTomb_LvlGhostMelee1HFemale"
+    ],
+    "leveledFaceSharing": [
       "DunYsgramorsTomb_LvlGhostMelee1HFemale"
     ]
   },
@@ -44865,7 +45130,13 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DunYsgramorsTomb_LvlGhostMelee1HMale",
+      "dunHalldirs_LvlBanditGhostMelee1H",
+      "dunHalldirs_LvlBanditGhostMelee1HAmbush"
+    ],
+    "leveledFaceSharing": [
       "DunYsgramorsTomb_LvlGhostMelee1HMale",
       "dunHalldirs_LvlBanditGhostMelee1H",
       "dunHalldirs_LvlBanditGhostMelee1HAmbush"
@@ -44882,7 +45153,11 @@
     "defaultPreviewKey": "Vanilla_StraightLongScraggly",
     "defaultHairstyleName": "Vanilla - Straight Long Scraggly",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongScraggly",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DunYsgramorsTomb_LvlGhostMelee2HFemale"
+    ],
+    "leveledFaceSharing": [
       "DunYsgramorsTomb_LvlGhostMelee2HFemale"
     ]
   },
@@ -44897,7 +45172,11 @@
     "defaultPreviewKey": "Vanilla_SlickedBackShort",
     "defaultHairstyleName": "Vanilla - Slicked Back Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackShort",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DunYsgramorsTomb_LvlGhostMelee2HMale"
+    ],
+    "leveledFaceSharing": [
       "DunYsgramorsTomb_LvlGhostMelee2HMale"
     ]
   },
@@ -44911,7 +45190,8 @@
     "vanillaHair": "HairFemaleNord12",
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
+    "leveled": 1
   },
   {
     "formid": "000B1F98",
@@ -44924,10 +45204,15 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsShort",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsShort",
+    "leveled": 1,
     "excludeDescendants": [
       "DLC2dunHaknir"
     ],
     "faceSharingDescendants": [
+      "dunHalldirs_LvlBanditGhostMeleeBerserker",
+      "dunHalldirs_LvlBanditGhostMeleeBerserkerAmbush"
+    ],
+    "leveledFaceSharing": [
       "dunHalldirs_LvlBanditGhostMeleeBerserker",
       "dunHalldirs_LvlBanditGhostMeleeBerserkerAmbush"
     ]
@@ -44942,7 +45227,8 @@
     "vanillaHair": "HairFemaleNord02",
     "defaultPreviewKey": "Vanilla_StraightLongBraid",
     "defaultHairstyleName": "Vanilla - Straight Long Braid",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid",
+    "leveled": 1
   },
   {
     "formid": "000B1F99",
@@ -44955,7 +45241,12 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "dunHalldirs_LvlBanditGhostMeleeTank",
+      "dunHalldirs_LvlBanditGhostMeleeTankAmbush"
+    ],
+    "leveledFaceSharing": [
       "dunHalldirs_LvlBanditGhostMeleeTank",
       "dunHalldirs_LvlBanditGhostMeleeTankAmbush"
     ]
@@ -44971,7 +45262,11 @@
     "defaultPreviewKey": "Vanilla_PonytailBangsLong",
     "defaultHairstyleName": "Vanilla - Ponytail Bangs Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailBangsLong",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DunYsgramorsTomb_LvlGhostMissileFemale"
+    ],
+    "leveledFaceSharing": [
       "DunYsgramorsTomb_LvlGhostMissileFemale"
     ]
   },
@@ -44986,10 +45281,17 @@
     "defaultPreviewKey": "Vanilla_PonytailLow",
     "defaultHairstyleName": "Vanilla - Ponytail Low",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailLow",
+    "leveled": 1,
     "excludeDescendants": [
       "DLC2dunHaknirGarukWindrime"
     ],
     "faceSharingDescendants": [
+      "DunYsgramorsTomb_LvlGhostMissileMale",
+      "dunHalldirs_LvlBanditGhostMissile",
+      "dunHalldirs_LvlBanditGhostMissileAmbush",
+      "dunHalldirs_LvlBanditGhostMissileAmbushHoldPos256"
+    ],
+    "leveledFaceSharing": [
       "DunYsgramorsTomb_LvlGhostMissileMale",
       "dunHalldirs_LvlBanditGhostMissile",
       "dunHalldirs_LvlBanditGhostMissileAmbush",
@@ -45006,7 +45308,8 @@
     "vanillaHair": "HairFemaleNord14",
     "defaultPreviewKey": "Vanilla_FrenchBraidsPonytail",
     "defaultHairstyleName": "Vanilla - French Braids Ponytail",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsPonytail"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsPonytail",
+    "leveled": 1
   },
   {
     "formid": "000B1F9B",
@@ -45020,6 +45323,7 @@
     "defaultHairstyleName": "Vanilla - Straight Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
     "template": "LvlBanditWizard",
+    "leveled": 1,
     "excludeDescendants": [
       "DLC2dunHaknirThalinEbonhand"
     ]
@@ -45035,7 +45339,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "GuardFalkreathImperial"
+    "template": "GuardFalkreathImperial",
+    "leveled": 1
   },
   {
     "formid": "000CA449",
@@ -45049,7 +45354,11 @@
     "defaultHairstyleName": "Vanilla - Sidecut Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort",
     "template": "LvlWarlockElementalAmbush",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "dunFellglow_LvlWarlockElementalAmbushCondescendingFHoldPosition"
+    ],
+    "leveledFaceSharing": [
       "dunFellglow_LvlWarlockElementalAmbushCondescendingFHoldPosition"
     ]
   },
@@ -45064,7 +45373,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "LvlWarlockNecromancer"
+    "template": "LvlWarlockNecromancer",
+    "leveled": 1
   },
   {
     "formid": "000713DD",
@@ -45077,6 +45387,7 @@
     "defaultPreviewKey": "Vanilla_SpaceBunsTight",
     "defaultHairstyleName": "Vanilla - Space Buns Tight",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SpaceBunsTight",
+    "leveled": 1,
     "excludeDescendants": [
       "DLC01SoulCairnSoulMageFemale",
       "DLC01SoulCairnSoulMageFemale02",
@@ -45095,6 +45406,7 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakMedium",
     "defaultHairstyleName": "Vanilla - Widow's Peak Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakMedium",
+    "leveled": 1,
     "excludeDescendants": [
       "DLC01SoulCairnSoulMageMale",
       "DLC01SoulCairnSoulMageMale02",
@@ -46508,7 +46820,8 @@
     "vanillaHair": "HairMaleDarkElf03",
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
+    "leveled": 1
   },
   {
     "formid": "00054507",
@@ -46520,7 +46833,8 @@
     "vanillaHair": "HairMaleDarkElf04",
     "defaultPreviewKey": "Vanilla_SidecutShort",
     "defaultHairstyleName": "Vanilla - Sidecut Short",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort",
+    "leveled": 1
   },
   {
     "formid": "00015F72",
@@ -46532,7 +46846,8 @@
     "vanillaHair": "HairMaleDarkElf03",
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
+    "leveled": 1
   },
   {
     "formid": "0006B3F2",
@@ -46544,7 +46859,8 @@
     "vanillaHair": "HairMaleDarkElf09",
     "defaultPreviewKey": "Vanilla_UndercutPonytailReceding",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail Receding",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailReceding"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailReceding",
+    "leveled": 1
   },
   {
     "formid": "000CDA00",
@@ -47108,6 +47424,7 @@
     "defaultHairstyleName": "Vanilla - Balding Short 3",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingShort3",
     "template": "LvlWarlockNecromancer",
+    "leveled": 1,
     "excludeDescendants": [
       "MS06NecromancerCultist2",
       "MS06NecromancerCultist3",
@@ -47125,7 +47442,8 @@
     "defaultPreviewKey": "Vanilla_FrenchBraidsHigh",
     "defaultHairstyleName": "Vanilla - French Braids High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraidsHigh",
-    "template": "MS06NecromancerCultist1"
+    "template": "MS06NecromancerCultist1",
+    "leveled": 1
   },
   {
     "formid": "00096559",
@@ -47138,7 +47456,8 @@
     "defaultPreviewKey": "Vanilla_StraightLong",
     "defaultHairstyleName": "Vanilla - Straight Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLong",
-    "template": "MS06NecromancerCultist1"
+    "template": "MS06NecromancerCultist1",
+    "leveled": 1
   },
   {
     "formid": "0009655B",
@@ -47151,7 +47470,8 @@
     "defaultPreviewKey": "Vanilla_StraightLongScraggly",
     "defaultHairstyleName": "Vanilla - Straight Long Scraggly",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongScraggly",
-    "template": "MS06NecromancerCultist1"
+    "template": "MS06NecromancerCultist1",
+    "leveled": 1
   },
   {
     "formid": "000284F2",
@@ -47177,7 +47497,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "MS06VampireGeneral"
+    "template": "MS06VampireGeneral",
+    "leveled": 1
   },
   {
     "formid": "000284F9",
@@ -47203,7 +47524,12 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "LvlBanditMeleeBerserker",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "MS07LvlBlackbloodMeleeBerserkerCommonerMAmbush",
+      "dunBrokenOarHargar"
+    ],
+    "leveledFaceSharing": [
       "MS07LvlBlackbloodMeleeBerserkerCommonerMAmbush",
       "dunBrokenOarHargar"
     ]
@@ -47220,7 +47546,8 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "MS07LvlBlackbloodMeleeBerserkerCommonerM",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000DC8DB",
@@ -47234,6 +47561,7 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "LvlBanditMeleeTank",
+    "leveled": 1,
     "faceSharingDescendants": [
       "MS07LvlBlackbloodMeleeTankEvenTonedMAmbush"
     ]
@@ -47264,7 +47592,11 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "LvlBanditMissile",
+    "leveled": 1,
     "faceSharingDescendants": [
+      "DunBrokenOarLvlBanditMissileHoldPos256LinkRef"
+    ],
+    "leveledFaceSharing": [
       "DunBrokenOarLvlBanditMissileHoldPos256LinkRef"
     ]
   },
@@ -47280,10 +47612,14 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "LvlBanditWizard",
+    "leveled": 1,
     "excludeDescendants": [
       "MS07LvlBlackbloodWizardNordM"
     ],
     "faceSharingDescendants": [
+      "MS07LvlBlackbloodWizardCondescendingMAmbush"
+    ],
+    "leveledFaceSharing": [
       "MS07LvlBlackbloodWizardCondescendingMAmbush"
     ]
   },
@@ -47299,7 +47635,8 @@
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
     "template": "MS07LvlBlackbloodWizardCondescendingM",
-    "templateUseTraits": 1
+    "templateUseTraits": 1,
+    "leveled": 1
   },
   {
     "formid": "000DC8D8",
@@ -47312,7 +47649,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "MS07LvlBlackbloodWizardCondescendingM"
+    "template": "MS07LvlBlackbloodWizardCondescendingM",
+    "leveled": 1
   },
   {
     "formid": "00058B3F",
@@ -47454,7 +47792,8 @@
     "defaultPreviewKey": "Vanilla_SidecutShort",
     "defaultHairstyleName": "Vanilla - Sidecut Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort",
-    "template": "LvlThalmorMelee1H"
+    "template": "LvlThalmorMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000C440A",
@@ -47480,7 +47819,8 @@
     "defaultPreviewKey": "Vanilla_CornRows",
     "defaultHairstyleName": "Vanilla - Corn Rows",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_CornRows",
-    "template": "LvlWarlockShockBossAmbush"
+    "template": "LvlWarlockShockBossAmbush",
+    "leveled": 1
   },
   {
     "formid": "00052268",
@@ -47593,7 +47933,8 @@
     "defaultPreviewKey": "Vanilla_TopTiedBackSideBraids",
     "defaultHairstyleName": "Vanilla - Top Tied Back Side Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_TopTiedBackSideBraids",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "0001406B",
@@ -48660,7 +49001,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000133B0",
@@ -49751,7 +50093,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakShort",
     "defaultHairstyleName": "Vanilla - Widow's Peak Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakShort",
-    "template": "LvlBanditBoss"
+    "template": "LvlBanditBoss",
+    "leveled": 1
   },
   {
     "formid": "0001C19F",
@@ -50973,7 +51316,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "GuardSolitudeImperialBase"
+    "template": "GuardSolitudeImperialBase",
+    "leveled": 1
   },
   {
     "formid": "001007FB",
@@ -50986,7 +51330,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "GuardSolitudeSonsBase"
+    "template": "GuardSolitudeSonsBase",
+    "leveled": 1
   },
   {
     "formid": "000132A0",
@@ -53011,7 +53356,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakWindswept",
     "defaultHairstyleName": "Vanilla - Widow's Peak Windswept",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakWindswept",
-    "template": "LvlWarlockNecroBossMaleCondescending"
+    "template": "LvlWarlockNecroBossMaleCondescending",
+    "leveled": 1
   },
   {
     "formid": "00029DAF",
@@ -53867,7 +54213,8 @@
     "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
-    "template": "LvlBanditBoss"
+    "template": "LvlBanditBoss",
+    "leveled": 1
   },
   {
     "formid": "0009F7F1",
@@ -53880,7 +54227,8 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
-    "template": "LvlBanditWizard"
+    "template": "LvlBanditWizard",
+    "leveled": 1
   },
   {
     "formid": "0009F7F2",
@@ -53893,7 +54241,8 @@
     "defaultPreviewKey": "Vanilla_MohawkShort",
     "defaultHairstyleName": "Vanilla - Mohawk Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_MohawkShort",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "00062105",
@@ -53906,7 +54255,8 @@
     "defaultPreviewKey": "Vanilla_ShortLoose",
     "defaultHairstyleName": "Vanilla - Short Loose",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLoose",
-    "template": "LvlBanditMeleeAny"
+    "template": "LvlBanditMeleeAny",
+    "leveled": 1
   },
   {
     "formid": "00062128",
@@ -53918,7 +54268,8 @@
     "vanillaHair": "HairMaleOrc01",
     "defaultPreviewKey": "Vanilla_RoninPonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ronin Ponytail Half-up",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_RoninPonytailHalf-up",
+    "leveled": 1
   },
   {
     "formid": "0006218C",
@@ -53931,7 +54282,8 @@
     "defaultPreviewKey": "Vanilla_SlickedBackLongSideBraid",
     "defaultHairstyleName": "Vanilla - Slicked Back Long Side Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SlickedBackLongSideBraid",
-    "template": "LvlBanditMissile"
+    "template": "LvlBanditMissile",
+    "leveled": 1
   },
   {
     "formid": "000753CB",
@@ -55095,7 +55447,8 @@
     "defaultPreviewKey": "Vanilla_WidowsPeakLong",
     "defaultHairstyleName": "Vanilla - Widow's Peak Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_WidowsPeakLong",
-    "template": "LvlBanditAmbushMelee1H"
+    "template": "LvlBanditAmbushMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000B8148",
@@ -55322,7 +55675,8 @@
     "defaultPreviewKey": "Vanilla_PonytailHalf_up",
     "defaultHairstyleName": "Vanilla - Ponytail Half-up",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_PonytailHalf-up",
-    "template": "LvlBanditAmbushMeleeNordM"
+    "template": "LvlBanditAmbushMeleeNordM",
+    "leveled": 1
   },
   {
     "formid": "000B125F",
@@ -55349,7 +55703,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlWarlockElemental"
+    "template": "LvlWarlockElemental",
+    "leveled": 1
   },
   {
     "formid": "000B85BE",
@@ -55362,7 +55717,8 @@
     "defaultPreviewKey": "Vanilla_StraightLongBraid",
     "defaultHairstyleName": "Vanilla - Straight Long Braid",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightLongBraid",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000BED8A",
@@ -55375,7 +55731,8 @@
     "defaultPreviewKey": "Vanilla_SidecutShort",
     "defaultHairstyleName": "Vanilla - Sidecut Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_SidecutShort",
-    "template": "LvlWarlockElemental"
+    "template": "LvlWarlockElemental",
+    "leveled": 1
   },
   {
     "formid": "000B5D5A",
@@ -55388,7 +55745,8 @@
     "defaultPreviewKey": "Vanilla_FrenchBraids",
     "defaultHairstyleName": "Vanilla - French Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_FrenchBraids",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000BBCD2",
@@ -55401,7 +55759,8 @@
     "defaultPreviewKey": "Vanilla_StraightMedium",
     "defaultHairstyleName": "Vanilla - Straight Medium",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightMedium",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000B9285",
@@ -55442,7 +55801,8 @@
     "defaultPreviewKey": "Vanilla_BaldingLong",
     "defaultHairstyleName": "Vanilla - Balding Long",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_BaldingLong",
-    "template": "LvlBanditMelee1H"
+    "template": "LvlBanditMelee1H",
+    "leveled": 1
   },
   {
     "formid": "000B94A3",
@@ -55518,7 +55878,8 @@
     "defaultPreviewKey": "Vanilla_Shaved1",
     "defaultHairstyleName": "Vanilla - Shaved 1",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved1",
-    "template": "LvlVampire"
+    "template": "LvlVampire",
+    "leveled": 1
   },
   {
     "formid": "000B816E",
@@ -55531,7 +55892,8 @@
     "defaultPreviewKey": "Vanilla_Short",
     "defaultHairstyleName": "Vanilla - Short",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_Short",
-    "template": "WIThief"
+    "template": "WIThief",
+    "leveled": 1
   },
   {
     "formid": "00102D63",
@@ -55606,7 +55968,8 @@
     "vanillaHair": "HairMaleRedguard2",
     "defaultPreviewKey": "Vanilla_Shaved2",
     "defaultHairstyleName": "Vanilla - Shaved 2",
-    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2"
+    "defaultSpell": "Uvi_Wig_Spell_VHRU_Shaved2",
+    "leveled": 1
   },
   {
     "formid": "00103512",
@@ -55699,7 +56062,8 @@
     "defaultPreviewKey": "Vanilla_ShortLooseBraids",
     "defaultHairstyleName": "Vanilla - Short Loose Braids",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_ShortLooseBraids",
-    "template": "LvlBanditMeleeCommonerM"
+    "template": "LvlBanditMeleeCommonerM",
+    "leveled": 1
   },
   {
     "formid": "000D74F8",
@@ -55942,6 +56306,7 @@
     "defaultHairstyleName": "Vanilla - Straight Behind Left Ear",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_StraightBehindLeftEar",
     "template": "LvlBanditMelee1H",
+    "leveled": 1,
     "excludeDescendants": [
       "WERJThief"
     ]
@@ -56245,7 +56610,8 @@
     "defaultPreviewKey": "Vanilla_UndercutPonytailHigh",
     "defaultHairstyleName": "Vanilla - Undercut Ponytail High",
     "defaultSpell": "Uvi_Wig_Spell_VHRU_UndercutPonytailHigh",
-    "template": "LvlBanditWizardNordM"
+    "template": "LvlBanditWizardNordM",
+    "leveled": 1
   },
   {
     "formid": "0003BC26",
