@@ -2307,7 +2307,21 @@ function buildBrowser(body, bstate, opts){
   scroller.onscroll=()=>{ bstate.scrollTop=scroller.scrollTop; };
   applySize();
   draw();
-  requestAnimationFrame(()=>{ scroller.scrollTop=bstate.scrollTop||0; });   // restore prior scroll
+  /* Open on the hairstyle the NPC already has, rather than at the top. Card
+     heights come from a fixed aspect-ratio, so this is accurate before the
+     images finish loading. */
+  function scrollToSelected(){
+    if(!pick || pick.selected==null) return false;
+    const card = grid.querySelector(`.bcard[data-hid="${pick.selected}"]`);
+    if(!card) return false;                       // not in the current filter
+    const cr = card.getBoundingClientRect(), sr = scroller.getBoundingClientRect();
+    const target = scroller.scrollTop + (cr.top - sr.top) - Math.max(0, (sr.height - cr.height)/2);
+    scroller.scrollTop = Math.max(0, target);     // never past the top
+    return true;
+  }
+  requestAnimationFrame(()=>{
+    if(!scrollToSelected()) scroller.scrollTop = bstate.scrollTop||0;   // else restore prior scroll
+  });
 }
 function openBrowserDrawer(){
   $("#browserBackdrop").hidden=false;
