@@ -299,6 +299,8 @@ main{flex:1;padding:18px 22px 120px}   /* no inner scroller: one page scrollbar 
 .drawer .bar{display:flex;align-items:center;gap:12px;padding:10px 22px;cursor:pointer;height:46px}
 .drawer .bar .title{font-weight:600;display:flex;gap:8px;align-items:center}
 .drawer .bar .chev{color:var(--muted);transition:transform .18s}
+.drawer-hint{font-size:11.5px;color:var(--faint)}
+.drawer .bar:hover .drawer-hint{color:var(--steel)}
 .drawer.collapsed .bar .chev{transform:rotate(180deg)}
 .drawer .body{padding:0 22px 18px;display:flex;flex-direction:column;gap:10px}
 .drawer .actions{display:flex;gap:8px;flex-wrap:wrap}
@@ -400,6 +402,7 @@ body.browser-only>#browserBackdrop{display:none!important}
   <div class="group">
     <button class="btn ghost" id="newBtn">New project</button>
     <button class="btn ghost" id="saveBtn">Save project</button>
+    <button class="btn ghost" id="saveAsBtn" hidden>Save as…</button>
     <button class="btn ghost" id="loadBtn" title="Click to choose a saved project, or drop one here">Load project</button>
     <input type="file" id="projFile" accept=".json,application/json" hidden>
   </div>
@@ -446,15 +449,18 @@ body.browser-only>#browserBackdrop{display:none!important}
 
 <div class="drawer collapsed" id="drawer">
   <div class="bar" id="drawerBar">
-    <span class="title">Distribution output <span class="pill" id="outCount">0 lines</span></span>
+    <span class="title">SPID file output
+      <span class="pill" id="outCount">0 lines</span>
+      <span class="pill" id="statPill" hidden></span>
+    </span>
     <div class="spacer" style="flex:1"></div>
+    <span class="drawer-hint" id="drawerHint">Click to view the file</span>
     <span class="chev">▲</span>
+    <button class="btn" id="downloadBtn">Download _DISTR.ini</button>
   </div>
   <div class="body">
     <div class="actions">
       <button class="btn primary" id="copyBtn">Copy to clipboard</button>
-      <button class="btn" id="downloadBtn">Download _DISTR.ini</button>
-      <span class="pill" id="statPill"></span>
     </div>
     <textarea id="output" spellcheck="false" readonly></textarea>
   </div>
@@ -599,7 +605,7 @@ body.browser-only>#browserBackdrop{display:none!important}
     <h4>4 · Saving your work</h4>
     <ul>
       <li>Give your project a <b>name</b> at the top of the page first &mdash; it's used to name both your save file and your <span class="mono">_DISTR.ini</span>, which keeps your file from clashing with other authors'.</li>
-      <li><b>Save project</b> (<span class="mono">Ctrl+S</span>) downloads a <span class="mono">.json</span> file you own. <b>Load project</b> is <span class="mono">Ctrl+O</span> and <b>New project</b> is <span class="mono">Alt+N</span>. You can upload that file again later with the <b>Load project</b> button to pick up where you left off. This file is your real backup.</li>
+      <li><b>Save project</b> (<span class="mono">Ctrl+S</span>) downloads a <span class="mono">.json</span> file you own. <b>Load project</b> is <span class="mono">Ctrl+O</span> and <b>New project</b> is <span class="mono">Alt+N</span>. Once a project has been saved somewhere, <b>Save as…</b> (<span class="mono">Ctrl+Shift+S</span>) writes a copy elsewhere and keeps working from that copy. You can upload that file again later with the <b>Load project</b> button to pick up where you left off. This file is your real backup.</li>
       <li>The tool also <b>auto-saves in this browser</b> after every change, so you won't lose work if you accidentally close the tab. The auto-save lives in browser storage and can be wiped by clearing browsing data, so download a save file for anything you want to keep.</li>
       <li><b>New project</b> clears everything and starts fresh.</li>
     </ul>
@@ -2073,8 +2079,10 @@ function buildOutput(){
   const text = lines.join("\n").replace(/\n+$/,"\n");
   $("#output").value = text;
   $("#outCount").textContent = active+" assignment"+(active===1?"":"s");
-  $("#statPill").textContent = commented?`${commented} commented (unsupported)`:"";
-  $("#statPill").className = "pill "+(commented?"off":"on");
+  const sp=$("#statPill");
+  sp.textContent = commented ? `${commented} commented (unsupported)` : "";
+  sp.className = "pill off";
+  sp.hidden = !commented;          // an empty pill just looks like a stray button
 }
 
 /* ---------- CSV import ---------- */
@@ -2156,8 +2164,21 @@ function importCSV(text){
 
 /* ---------- project name ---------- */
 function safeName(s){ return String(s||"").replace(/[\\/:*?"<>|]+/g,"").replace(/\s+/g," ").trim(); }
+/* "Save as…" only appears once we know where the project lives. */
+function updateSaveAs(){
+  const btn=$("#saveAsBtn");
+  if(btn) btn.hidden = !fileHandles.project;
+}
+/* Renaming a project makes it a different project, so it must stop writing over
+   the file the old name was saved to. */
+function forgetProjectFile(){
+  delete fileHandles.project; delete fileHandles.distr;
+  updateSaveAs();
+}
 function setProjectName(v){
-  state.projectName = v || "";
+  const next = v || "";
+  if(next !== state.projectName && fileHandles.project) forgetProjectFile();
+  state.projectName = next;
   const el=$("#projectName"); if(el && el.value!==state.projectName) el.value=state.projectName;
   autosave();
 }
@@ -2171,8 +2192,9 @@ function requireProjectName(action){
 }
 
 /* ---------- project save / load ---------- */
-function saveProject(){
+function saveProject(saveAs){
   requireProjectName(()=>{
+    if(saveAs) delete fileHandles.project;   // always ask, then keep the new file
     // Nothing derived and no settings snapshot: the project is just the NPCs,
     // the wig spell chosen for each, and which mods are filtered out. Everything
     // else is looked up in the current data when the file is loaded.
@@ -2180,13 +2202,22 @@ function saveProject(){
       hiddenPacks:[...state.hiddenPacks],
       rows: state.rows.filter(r=>r.npc).map(r=>savedRow(r))};
     const fn = "HDF-Save-"+safeName(state.projectName)+".json";
-    download(JSON.stringify(proj,null,2), fn, "application/json") &&
-      toast("Saved "+fn+" ("+proj.rows.length+" NPCs)");
+    saveText(JSON.stringify(proj,null,2), fn, "application/json", "project")
+      .then(written=>{ if(written) toast("Saved "+written+" ("+proj.rows.length+" NPCs)");
+                       updateSaveAs(); });
   });
 }
-function loadProject(obj){
+function loadProject(obj, handle){
   if(!obj || !Array.isArray(obj.rows)){ toast("Not a valid project file"); return; }
-  if(obj.projectName!=null) setProjectName(obj.projectName);
+  // A different project must never write over the last one's file. Opening via
+  // the file picker hands us a handle, so saving goes back to the file you
+  // opened; any other route just asks again on the next save.
+  forgetProjectFile();
+  if(obj.projectName!=null) setProjectName(obj.projectName);   // before adopting, so
+  if(handle){                                                  // the rename rule can't
+    fileHandles.project = {name:handle.name, handle};          // discard the new handle
+    updateSaveAs();
+  }
   if(Array.isArray(obj.hiddenPacks)){
     state.hiddenPacks = new Set(obj.hiddenPacks);
     state.validCache.clear();
@@ -2195,6 +2226,7 @@ function loadProject(obj){
   render(); toast("Project loaded ("+state.rows.length+" rows)");
 }
 function newProject(){
+  forgetProjectFile();
   state.rows=[];
   setProjectName("");
   try{ localStorage.removeItem("wigdist:autosave"); }catch(e){}
@@ -2234,6 +2266,39 @@ function restoreAutosave(){
 
 /* ---------- misc ---------- */
 function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+/* Chrome always adds " (1)" rather than overwriting, and a page can't change
+   that. The File System Access API can: the first save asks where to put the
+   file, and every save after that writes straight over it. Handles are kept per
+   kind of file and only for this session. Browsers without it (Firefox) fall
+   back to the ordinary download. */
+const fileHandles = {};
+async function saveText(text, name, type, key){
+  if(window.showSaveFilePicker){
+    try{
+      let entry = fileHandles[key];
+      if(!entry || entry.name !== name){       // first save, or the name changed
+        const handle = await window.showSaveFilePicker({
+          suggestedName: name,
+          types: [{description: name.endsWith(".json") ? "Project file" : "SPID file",
+                   accept: {[type]: [name.slice(name.lastIndexOf("."))]}}],
+        });
+        entry = fileHandles[key] = {name, handle};
+      } else {
+        let perm = await entry.handle.queryPermission({mode:"readwrite"});
+        if(perm !== "granted") perm = await entry.handle.requestPermission({mode:"readwrite"});
+        if(perm !== "granted"){ delete fileHandles[key]; return saveText(text, name, type, key); }
+      }
+      const w = await entry.handle.createWritable();
+      await w.write(text);
+      await w.close();
+      return entry.handle.name || name;
+    }catch(e){
+      if(e && e.name === "AbortError") return null;      // the user cancelled
+      // anything else: fall through to the ordinary download
+    }
+  }
+  return download(text, name, type) ? name : null;
+}
 function download(text, name, type){
   try{
     const b=new Blob([text],{type}); const u=URL.createObjectURL(b);
@@ -2381,13 +2446,28 @@ function readCSVFile(f){
   rd.onerror=()=>toast("Couldn't read "+f.name);
   rd.readAsText(f);
 }
-function readProjectFile(f){
+function readProjectFile(f, handle){
   if(!f) return;
   const rd=new FileReader();
-  rd.onload=()=>{ try{ loadProject(JSON.parse(rd.result)); }
+  rd.onload=()=>{ try{ loadProject(JSON.parse(rd.result), handle); }
                   catch(x){ toast("Couldn't read "+f.name+" — is it a saved project?"); } };
   rd.onerror=()=>toast("Couldn't read "+f.name);
   rd.readAsText(f);
+}
+/* Opening through the file picker gives a writable handle, so Ctrl+S afterwards
+   saves back over the file you opened instead of asking again. */
+async function openProjectFile(){
+  if(!window.showOpenFilePicker){ $("#projFile").click(); return; }
+  try{
+    const [handle] = await window.showOpenFilePicker({
+      types:[{description:"Project file", accept:{"application/json":[".json"]}}],
+      multiple:false,
+    });
+    readProjectFile(await handle.getFile(), handle);
+  }catch(e){
+    if(e && e.name==="AbortError") return;         // cancelled
+    $("#projFile").click();                        // anything else: the old way
+  }
 }
 /* Let a button accept a dropped file as well as a click. */
 function makeFileDropTarget(btn, exts, handler){
@@ -2436,7 +2516,7 @@ function initUI(){
   $("#addBtn").onclick=()=>{ const n=Math.max(1,Math.min(200,parseInt($("#addCount").value)||1)); addRows(n,null); };
   $("#previewSize").value = state.previewSize;
   $("#previewSize").onchange=()=>{ state.previewSize=$("#previewSize").value; render(); };
-  $("#projectName").addEventListener("input", ()=>{ state.projectName=$("#projectName").value; autosave(); });
+  $("#projectName").addEventListener("input", ()=>{ setProjectName($("#projectName").value); });
   const nameDlg=$("#nameproj");
   $("#npNameCancel").onclick=()=>{ pendingAction=null; nameDlg.close(); };
   $("#npNameOk").onclick=()=>{
@@ -2447,14 +2527,16 @@ function initUI(){
   };
   $("#importBtn").onclick=()=>$("#csvFile").click();
   $("#csvFile").onchange=e=>{ readCSVFile(e.target.files[0]); e.target.value=""; };
-  $("#saveBtn").onclick=saveProject;
+  $("#saveBtn").onclick=()=>saveProject(false);
+  $("#saveAsBtn").onclick=()=>saveProject(true);
+  updateSaveAs();
   makeFileDropTarget($("#importBtn"), [".csv"], readCSVFile);
   makeFileDropTarget($("#loadBtn"), [".json"], f=>confirmReplace(()=>readProjectFile(f)));
   // Dropping a file anywhere else shouldn't make the browser navigate to it.
   ["dragover","drop"].forEach(t=>document.addEventListener(t, e=>{
     if(dragUid==null && e.dataTransfer && [...(e.dataTransfer.types||[])].includes("Files")) e.preventDefault();
   }));
-  $("#loadBtn").onclick=()=>confirmReplace(()=>$("#projFile").click());
+  $("#loadBtn").onclick=()=>confirmReplace(openProjectFile);
   const np=$("#newproj");
   $("#newBtn").onclick=()=>np.showModal();
   const help=$("#help");
@@ -2492,9 +2574,14 @@ function initUI(){
     catch(x){ $("#output").select(); document.execCommand("copy"); toast("Copied"); } };
   $("#downloadBtn").onclick=()=>requireProjectName(()=>{
     const fn="HDF-"+safeName(state.projectName)+"_DISTR.ini";
-    download($("#output").value||"", fn, "text/plain") && toast("Downloaded "+fn);
+    saveText($("#output").value||"", fn, "text/plain", "distr")
+      .then(written=>{ if(written) toast("Saved "+written); });
   });
-  $("#drawerBar").onclick=()=>$("#drawer").classList.toggle("collapsed");
+  $("#drawerBar").onclick=()=>{
+    const collapsed = $("#drawer").classList.toggle("collapsed");
+    $("#drawerHint").textContent = collapsed ? "Click to view the file" : "Click to hide the file";
+  };
+  $("#downloadBtn").addEventListener("click", e=>e.stopPropagation());
   $("#browserBtn").onclick=openBrowserDrawer;
   $("#browserClose").onclick=closeBrowserDrawer;
   $("#browserBackdrop").onclick=closeBrowserDrawer;
@@ -2505,9 +2592,15 @@ function initUI(){
      won't hand it to a page, so Alt+N does New project as well. */
   const fileKeys = {
     s: () => saveProject(),
-    o: () => confirmReplace(()=>$("#projFile").click()),
+    o: () => confirmReplace(openProjectFile),
     n: () => $("#newproj").showModal(),
   };
+  document.addEventListener("keydown", e=>{         // Ctrl+Shift+S = Save as…
+    if(!(e.ctrlKey||e.metaKey) || !e.shiftKey || e.altKey) return;
+    if((e.key||"").toLowerCase()!=="s") return;
+    e.preventDefault();
+    saveProject(true);
+  });
   document.addEventListener("keydown", e=>{
     if(!(e.ctrlKey||e.metaKey) || e.shiftKey) return;
     const k = (e.key||"").toLowerCase();
