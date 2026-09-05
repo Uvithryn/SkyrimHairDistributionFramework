@@ -4007,7 +4007,8 @@
     ],
     "condRequirements": {},
     "editorIDs": [
-      "HairMaleDarkElf03"
+      "HairMaleDarkElf03",
+      "HairMaleSnowElf03"
     ],
     "pack": "Vanilla",
     "displayName": "Vanilla - Undercut Ponytail High"
@@ -4197,6 +4198,7 @@
     "condRequirements": {},
     "editorIDs": [
       "HairMaleDarkElf01",
+      "HairMaleSnowElf01",
       "HairFemaleDarkElf01"
     ],
     "pack": "Vanilla",
@@ -4230,7 +4232,8 @@
     ],
     "condRequirements": {},
     "editorIDs": [
-      "HairMaleDarkElf02"
+      "HairMaleDarkElf02",
+      "HairMaleSnowElf02"
     ],
     "pack": "Vanilla",
     "displayName": "Vanilla - Widow's Peak Medium"
@@ -4314,7 +4317,8 @@
     ],
     "condRequirements": {},
     "editorIDs": [
-      "HairMaleDarkElf06"
+      "HairMaleDarkElf06",
+      "HairMaleSnowElf06"
     ],
     "pack": "Vanilla",
     "displayName": "Vanilla - Widow's Peak Windswept"
